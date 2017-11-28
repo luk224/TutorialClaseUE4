@@ -1,0 +1,1116 @@
+﻿Log file open, 11/28/17 09:45:23
+LogInit:Display: Running engine for game: Project1
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(117888304) SRandInit(117888304).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.095290
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.11.28-08.45.23:663][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.28-08.45.23:663][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.28-08.45.23:712][  0]LogInit: Computer: MSI-ANDRES
+[2017.11.28-08.45.23:712][  0]LogInit: User: lukin
+[2017.11.28-08.45.23:712][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.11.28-08.45.23:712][  0]LogInit: High frequency timer resolution =2.630631 MHz
+[2017.11.28-08.45.23:713][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.11.28-08.45.23:713][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.28-08.45.23:713][  0]LogMemory: Process Physical Memory: 276.01 MB used, 276.01 MB peak
+[2017.11.28-08.45.23:713][  0]LogMemory: Process Virtual Memory: 260.89 MB used, 260.89 MB peak
+[2017.11.28-08.45.23:713][  0]LogMemory: Physical Memory: 5884.39 MB used,  10414.48 MB free, 16298.87 MB total
+[2017.11.28-08.45.23:713][  0]LogMemory: Virtual Memory: 677.18 MB used,  10414.48 MB free, 134217728.00 MB total
+[2017.11.28-08.45.23:800][  0]LogInit: Overriding language with editor language configuration option (en).
+[2017.11.28-08.45.23:800][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2017.11.28-08.45.24:746][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.28-08.45.24:788][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970M' (Feature Level 11_0)
+[2017.11.28-08.45.24:788][  0]LogD3D11RHI:       3040/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.11.28-08.45.24:793][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 5600' (Feature Level 11_0)
+[2017.11.28-08.45.24:793][  0]LogD3D11RHI:       128/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.11.28-08.45.24:796][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.28-08.45.24:796][  0]LogD3D11RHI:       0/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.28-08.45.24:796][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.28-08.45.24:802][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.28-08.45.24:802][  0]LogD3D11RHI:     GPU DeviceId: 0x13d8 (for the marketing name, search the web for "GPU Device Id")
+[2017.11.28-08.45.24:802][  0]LogWindows: EnumDisplayDevices:
+[2017.11.28-08.45.24:802][  0]LogWindows:    0. 'Intel(R) HD Graphics 5600' (P:1 D:1)
+[2017.11.28-08.45.24:802][  0]LogWindows:    1. 'Intel(R) HD Graphics 5600' (P:0 D:0)
+[2017.11.28-08.45.24:802][  0]LogWindows:    2. 'Intel(R) HD Graphics 5600' (P:0 D:0)
+[2017.11.28-08.45.24:802][  0]LogWindows:    3. 'Intel(R) HD Graphics 5600' (P:0 D:0)
+[2017.11.28-08.45.24:802][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.11.28-08.45.24:802][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970M
+[2017.11.28-08.45.24:802][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.11.28-08.45.24:802][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.11.28-08.45.24:802][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.11.28-08.45.24:824][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.28-08.45.24:837][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.11.28-08.45.24:839][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Intermediate/Shaders/WorkingDirectory/13632/).
+[2017.11.28-08.45.24:839][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/lukin/AppData/Local/Temp/UnrealShaderWorkingDir/F37C927E4E42506298F11BA138AB4730/'.
+[2017.11.28-08.45.24:839][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.11.28-08.45.25:976][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.28-08.45.26:036][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.11.28-08.45.26:102][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.28-08.45.26:163][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.11.28-08.45.26:234][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.11.28-08.45.26:320][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.28-08.45.26:382][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.28-08.45.26:441][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.28-08.45.26:486][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.11.28-08.45.26:539][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.11.28-08.45.26:599][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.28-08.45.26:656][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.28-08.45.26:712][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.28-08.45.26:766][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.28-08.45.26:823][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.28-08.45.26:938][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.28-08.45.26:938][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.28-08.45.26:984][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.11.28-08.45.27:089][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.11.28-08.45.27:122][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.11.28-08.45.27:179][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.28-08.45.27:236][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.28-08.45.27:293][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.28-08.45.27:349][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.11.28-08.45.27:349][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.11.28-08.45.27:919][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.11.28-08.45.28:005][  0]LogDerivedDataCache: Loaded boot cache 0.09s 90MB C:/Users/lukin/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.11.28-08.45.28:005][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/lukin/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.11.28-08.45.28:005][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.28-08.45.28:005][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.28-08.45.28:005][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.28-08.45.28:005][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.28-08.45.28:022][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.28-08.45.28:035][  0]LogDerivedDataCache: Using Local data cache path C:/Users/lukin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.28-08.45.28:045][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.28-08.45.28:046][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.28-08.45.28:046][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.28-08.45.28:046][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.28-08.45.28:368][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.28-08.45.28:438][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.11.28-08.45.28:601][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.28-08.45.28:652][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.28-08.45.28:708][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.28-08.45.28:708][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.11.28-08.45.28:708][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.11.28-08.45.29:345][  0]LogNetVersion: Project1 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3220768879)
+[2017.11.28-08.45.29:411][  0]LogAssetRegistry: FAssetRegistry took 0.0257 seconds to start up
+[2017.11.28-08.45.29:495][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.048242 seconds
+[2017.11.28-08.45.29:500][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.11.28-08.45.29:500][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.11.28-08.45.29:500][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.28-08.45.29:571][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.28-08.45.31:971][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.28-08.45.32:013][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.28-08.45.32:545][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.28-08.45.32:973][  0]SourceControl: Info Source control is disabled
+[2017.11.28-08.45.33:014][  0]SourceControl: Info Source control is disabled
+[2017.11.28-08.45.33:066][  0]SourceControl: Info Source control is disabled
+[2017.11.28-08.45.33:115][  0]SourceControl: Info Source control is disabled
+[2017.11.28-08.45.33:877][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.28-08.45.34:503][  0]LogEngine: Initializing Engine...
+[2017.11.28-08.45.34:504][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.11.28-08.45.34:681][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.28-08.45.34:681][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.28-08.45.34:808][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.28-08.45.34:814][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.28-08.45.34:883][  0]LogInit: FAudioDevice initialized.
+[2017.11.28-08.45.34:926][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/lukin/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.11.28-08.45.34:935][  0]LogInit: Texture streaming: Enabled
+[2017.11.28-08.45.35:028][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.28-08.45.35:259][  0]LogInit: Transaction tracking system initialized
+[2017.11.28-08.45.35:566][  0]BlueprintLog: New page: Editor Load
+[2017.11.28-08.45.36:491][  0]LocalizationService: Info Localization service is disabled
+[2017.11.28-08.45.37:172][  0]LogConsoleResponse:Display: 
+[2017.11.28-08.45.37:375][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.28-08.45.37:375][  0]LogCook:Display: Mobile HDR setting 1
+[2017.11.28-08.45.38:379][  0]LogFileCache: Scanning file cache for directory 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/' took 0.02s
+[2017.11.28-08.45.38:425][  0]SourceControl: Info Source control is disabled
+[2017.11.28-08.45.38:425][  0]Cmd: MAP LOAD FILE="D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.28-08.45.38:425][  0]LightingResults: New page: Lighting Build
+[2017.11.28-08.45.38:466][  0]MapCheck: New page: Map Check
+[2017.11.28-08.45.38:466][  0]LightingResults: New page: Lighting Build
+[2017.11.28-08.45.41:565][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.28-08.45.41:762][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.28-08.45.41:839][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.28-08.45.41:899][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 59.458ms to complete.
+[2017.11.28-08.45.41:899][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 3.474
+[2017.11.28-08.45.42:603][  0]LogCollectionManager: Loaded 0 collections in 0.002838 seconds
+[2017.11.28-08.45.42:801][  0]LogFileCache: Scanning file cache for directory 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/Collections/' took 0.01s
+[2017.11.28-08.45.42:801][  0]LogFileCache: Scanning file cache for directory 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/Developers/lukin/Collections/' took 0.01s
+[2017.11.28-08.45.42:801][  0]LogFileCache: Scanning file cache for directory 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/Collections/' took 0.01s
+[2017.11.28-08.45.42:801][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.11.28-08.45.42:812][  0]LogContentBrowser: Native class hierarchy populated in 0.0094 seconds. Added 2329 classes and 491 folders.
+[2017.11.28-08.45.42:891][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.11.28-08.45.44:258][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.11.28-08.45.44:335][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.11.28-08.45.44:559][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.11.28-08.45.44:641][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.11.28-08.45.44:738][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.11.28-08.45.44:738][  0]LogLoad: (Engine Initialization) Total time: 23.23 seconds
+[2017.11.28-08.45.44:738][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.33 seconds
+[2017.11.28-08.45.44:738][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.11.28-08.45.44:738][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.11.28-08.45.45:077][  0]LogOcInput: OculusInput pre-init called
+[2017.11.28-08.45.45:077][  0]LogHMD: Starting GearVRController plugin
+[2017.11.28-08.45.45:119][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.11.28-08.45.45:123][  0]LogSlate: Took 0.000688 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.28-08.45.45:130][  0]LogSlate: Took 0.000592 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.28-08.45.45:190][  0]LogSlate: Took 0.033024 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.28-08.45.45:644][  0]LogSlate: Took 0.015480 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.28-08.45.45:684][  1]LogRenderer: Reallocating scene render targets to support 520x356 NumSamples 1 (Frame:1).
+[2017.11.28-08.45.46:033][  2]LogAssetRegistry: Asset discovery search completed in 16.6432 seconds
+[2017.11.28-08.45.46:035][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.11.28-08.45.46:035][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000036 seconds (updated 0 objects)
+[2017.11.28-08.46.12:191][ 79]LogRenderer: Reallocating scene render targets to support 780x560 NumSamples 1 (Frame:3).
+[2017.11.28-08.47.51:703][934]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.28-08.47.51:736][934]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\lukin\Desktop\expen.FBX)
+[2017.11.28-08.47.51:847][934]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.11.28-08.47.51:847][934]LogFbx: ItemName: Model, ItemCount : 4
+[2017.11.28-08.47.51:847][934]LogFbx: ItemName: Geometry, ItemCount : 4
+[2017.11.28-08.47.51:862][934]LogFbx: Loading FBX Scene from C:\Users\lukin\Desktop\expen.FBX
+[2017.11.28-08.47.51:893][934]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.28-08.47.56:982][934]LogFbx: Loading FBX Scene from C:\Users\lukin\Desktop\expen.FBX
+[2017.11.28-08.47.56:988][934]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.28-08.47.57:069][934]LogStaticMesh: Building static mesh expen_Box001...
+[2017.11.28-08.47.57:118][934]LogStaticMesh: Built static mesh [0.06s] /Game/MyAssets/expen_Box001.expen_Box001
+[2017.11.28-08.47.57:175][934]LogStaticMesh:Warning: expen_Box001 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.11.28-08.47.57:179][934]LogFbx:Warning: Triangulating static mesh Plane001
+[2017.11.28-08.47.57:213][934]LogStaticMesh: Building static mesh expen_Plane001...
+[2017.11.28-08.47.57:214][934]LogStaticMesh: Built static mesh [0.00s] /Game/MyAssets/expen_Plane001.expen_Plane001
+[2017.11.28-08.47.57:215][934]LogStaticMesh:Warning: expen_Plane001 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.11.28-08.47.57:216][934]LogFbx:Warning: Triangulating static mesh Plane002
+[2017.11.28-08.47.57:220][934]LogStaticMesh: Building static mesh expen_Plane002...
+[2017.11.28-08.47.57:221][934]LogStaticMesh: Built static mesh [0.00s] /Game/MyAssets/expen_Plane002.expen_Plane002
+[2017.11.28-08.47.57:253][934]LogStaticMesh: Building static mesh expen_Tube001...
+[2017.11.28-08.47.57:254][934]LogStaticMesh: Built static mesh [0.00s] /Game/MyAssets/expen_Tube001.expen_Tube001
+[2017.11.28-08.47.57:283][934]FBXImport:Warning: Warning expen_Box001 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.11.28-08.47.57:283][934]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.11.28-08.47.57:283][934]FBXImport:Warning: Warning expen_Plane001 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.11.28-08.47.57:283][934]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.11.28-08.48.07:965][394]LogActorFactory: Actor Factory created expen_Box001
+[2017.11.28-08.48.07:992][394]LogActorFactory: Actor Factory created expen_Plane001
+[2017.11.28-08.48.07:993][394]LogActorFactory: Actor Factory created expen_Plane002
+[2017.11.28-08.48.07:994][394]LogActorFactory: Actor Factory created expen_Tube001
+[2017.11.28-08.48.11:146][578]LogActorFactory: Actor Factory created expen_Box001
+[2017.11.28-08.48.11:267][578]LogActorFactory: Actor Factory created expen_Plane001
+[2017.11.28-08.48.11:284][578]LogActorFactory: Actor Factory created expen_Plane002
+[2017.11.28-08.48.11:301][578]LogActorFactory: Actor Factory created expen_Tube001
+[2017.11.28-08.48.38:146][138]LogMaterial: Missing cached shader map for material solido, compiling. 
+[2017.11.28-08.48.38:436][138]LogMaterial: Missing cached shader map for material solido, compiling. 
+[2017.11.28-08.48.38:509][138]LogSlate: Took 0.024477 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.11.28-08.48.40:888][239]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.11.28-08.48.40:889][239]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.28-08.48.40:889][239]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.28-08.48.46:039][533]LogMaterial: Missing cached shader map for material solido, compiling. 
+[2017.11.28-08.48.46:050][533]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.11.28-08.48.46:072][533]LogMaterial: Missing cached shader map for material solido, compiling. 
+[2017.11.28-08.48.46:129][533]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.11.28-08.48.47:497][581]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.11.28-08.48.47:497][581]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.28-08.48.47:497][581]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.28-08.48.50:908][785]LogMaterial: Missing cached shader map for material solido, compiling. 
+[2017.11.28-08.48.50:966][785]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.11.28-08.48.51:788][826]LogMaterial: Missing cached shader map for material solido, compiling. 
+[2017.11.28-08.48.51:817][826]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.11.28-08.48.52:818][871]LogMaterial: Missing cached shader map for material solido, compiling. 
+[2017.11.28-08.48.52:837][871]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.11.28-08.48.54:250][932]MaterialEditorStats: Info Base pass shader: 79 instructions
+[2017.11.28-08.48.54:250][932]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.28-08.48.54:250][932]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.28-08.49.01:841][381]LogMaterial: Missing cached shader map for material solido, compiling. 
+[2017.11.28-08.49.01:853][381]LogMaterial: Missing cached shader map for material solido, compiling. 
+[2017.11.28-08.49.03:036][435]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2017.11.28-08.49.03:036][435]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.28-08.49.03:036][435]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.28-08.49.06:570][640]LogMaterial: Missing cached shader map for material solido, compiling. 
+[2017.11.28-08.49.07:710][695]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2017.11.28-08.49.07:710][695]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.28-08.49.07:710][695]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.28-08.49.09:679][813]LogMaterial: Missing cached shader map for material solido, compiling. 
+[2017.11.28-08.49.11:089][885]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2017.11.28-08.49.11:089][885]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.28-08.49.11:089][885]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.28-08.49.11:913][931]LogMaterial: Missing cached shader map for material solido, compiling. 
+[2017.11.28-08.49.13:033][985]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2017.11.28-08.49.13:033][985]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.28-08.49.13:033][985]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.28-08.49.14:518][ 74]LogMaterialEditor: Saving and Compiling material solido
+[2017.11.28-08.49.15:100][ 74]LogMaterial: Missing cached shader map for material solido, compiling. 
+[2017.11.28-08.49.15:202][ 74]LogMaterial: Missing cached shader map for material solido, compiling. 
+[2017.11.28-08.49.15:236][ 74]LogMaterial: Missing cached shader map for material solido, compiling. 
+[2017.11.28-08.49.15:293][ 74]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy solido, compiling. 
+[2017.11.28-08.49.15:940][ 74]TextureStreamingBuild:Display: Compiling optional shaders took 0.663 seconds.
+[2017.11.28-08.49.17:411][ 74]LogSlate: Took 0.000162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.28-08.49.17:509][ 74]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyAssets/solido" FILE="D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MyAssets/solido.uasset" SILENT=true
+[2017.11.28-08.49.17:587][ 74]LogSavePackage: Save=67.31ms
+[2017.11.28-08.49.17:587][ 74]LogSavePackage: Moving 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/solido06BC849442D20354F1232594C7DC2604.tmp' to 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MyAssets/solido.uasset'
+[2017.11.28-08.49.17:591][ 74]LogSavePackage:Display: Finished SavePackage D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MyAssets/solido.uasset
+[2017.11.28-08.49.17:600][ 74]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2017.11.28-08.49.17:601][ 74]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.28-08.49.17:601][ 74]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.11.28-08.49.22:111][333]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. 
+[2017.11.28-08.49.22:217][333]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
+[2017.11.28-08.49.22:398][333]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
+[2017.11.28-08.49.22:469][333]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_26, compiling. 
+[2017.11.28-08.49.22:478][333]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_27, compiling. 
+[2017.11.28-08.49.22:485][333]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_28, compiling. 
+[2017.11.28-08.49.22:500][333]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_6, compiling. 
+[2017.11.28-08.49.22:508][333]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_29, compiling. 
+[2017.11.28-08.49.27:235][548]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.28-08.49.34:818][992]MapCheck: New page: Map Check
+[2017.11.28-08.49.34:892][992]LightingResults: New page: Lighting Build - Nov 28, 2017, 10:49:34 AM
+[2017.11.28-08.49.35:109][992]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.11.28-08.49.35:187][992]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.11.28-08.49.35:279][992]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.11.28-08.49.37:471][992]LogSwarmInterface:Error: [TryOpenConnection] Waiting for the agent to start up ...
+[2017.11.28-08.49.37:484][992]LogSwarmInterface:Error: System.Net.Sockets.SocketException (0x80004005): No connection could be made because the target machine actively refused it 127.0.0.1:8008
+
+Server stack trace: 
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   at System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.AsyncProcessRequest(IClientChannelSinkStack sinkStack, IMessage msg, ITransportHeaders headers, Stream stream)
+   at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.AsyncProcessMessage(IMessage msg, IMessageSink replySink)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at NSwarm.IAgentInterfaceWrapper.MethodDelegate.EndInvoke(Hashtable& OutParameters, IAsyncResult result)
+   at NSwarm.FSwarmInterface.TryOpenConnection(FConnectionCallback CallbackFunc, IntPtr CallbackData, ELogFlags LoggingFlags)
+[2017.11.28-08.49.42:587][992]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.11.28-08.49.42:587][992]LogSwarmInterface: [TryOpenConnection] Local Process ID is 13632
+[2017.11.28-08.50.01:073][992]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.11.28-08.50.01:073][992]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.11.28-08.50.01:073][992]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.11.28-08.50.01:073][992]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.11.28-08.50.01:073][992]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.11.28-08.50.01:638][992]LogEditorBuildUtils: Build time 0:26
+[2017.11.28-08.50.01:817][993]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Chair, compiling. 
+[2017.11.28-08.50.01:827][993]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Chair, compiling. 
+[2017.11.28-08.50.01:874][994]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer solido, compiling. 
+[2017.11.28-08.50.01:883][994]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer solido, compiling. 
+[2017.11.28-08.50.08:734][254]LightingResults:Warning: Warning expen_Box001 Object has overlapping UVs.
+[2017.11.28-08.50.08:734][254]LightingResults: Info expen_Box001 Lightmap UV are overlapping by 5.5%. Please adjust content - Enable Error Coloring to visualize.
+[2017.11.28-08.50.11:772][404]Job is a success!
+[2017.11.28-08.50.12:075][405]LogMaterial:Warning: Material /Game/MyAssets/solido.solido needed to have new flag set bUsedWithStaticLighting !
+[2017.11.28-08.50.12:077][405]LogMaterial: Missing cached shader map for material solido, compiling. 
+[2017.11.28-08.50.12:915][405]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2017.11.28-08.50.12:915][405]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2017.11.28-08.50.12:915][405]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2017.11.28-08.50.12:915][405]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 512X512)
+[2017.11.28-08.50.12:915][405]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 512X512)
+[2017.11.28-08.50.12:915][405]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT, 512X256)
+[2017.11.28-08.50.12:915][405]LogTexture:Display: Building textures: SkyOcclusion1_3 (AutoDXT, 64X32)
+[2017.11.28-08.50.12:915][405]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 64X64)
+[2017.11.28-08.50.12:915][405]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1, 64X64)
+[2017.11.28-08.50.13:115][405]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
+[2017.11.28-08.50.13:352][405]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8, 1024X1024)
+[2017.11.28-08.50.13:549][405]Lightmass on MSI-ANDRES: 9.04 sec total, 279 ms importing, 33 ms setup, 1.46 sec photons, 7.23 sec processing, 0 ms extra exporting [17/17 mappings]. Threads: 50.4 sec total, 20.0 sec processing.
+[2017.11.28-08.50.13:597][405]LogStaticLightingSystem: Illumination: 38.6 sec (808 ms encoding lightmaps, 431 ms encoding shadowmaps)
+[2017.11.28-08.50.13:597][405]LogStaticLightingSystem: Lightmap texture memory:  3.3 MB (3.3 MB streaming, 0.0 MB non-streaming), 6 textures
+[2017.11.28-08.50.13:597][405]LogStaticLightingSystem: Shadowmap texture memory: 1.3 MB (1.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.11.28-08.50.14:060][405]DumpUnbuiltLightIteractions
+[2017.11.28-08.50.14:060][405]Lights with unbuilt interactions: 0
+[2017.11.28-08.50.14:060][405]
+[2017.11.28-08.50.14:060][405]Primitives with unbuilt interactions: 0
+[2017.11.28-08.50.14:071][406]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.11.28-08.50.14:071][406]MapCheck: New page: ThirdPersonExampleMap - Nov 28, 2017, 10:50:14 AM
+[2017.11.28-08.50.14:236][406]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 165.271ms to complete.
+[2017.11.28-08.50.16:309][523]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.28-08.50.16:480][523]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.28-08.50.16:489][523]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.28-08.50.16:511][523]PIE: New page: PIE session: ThirdPersonExampleMap (Nov 28, 2017, 10:50:16 AM)
+[2017.11.28-08.50.16:524][523]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.11.28-08.50.16:594][523]LogPlayLevel: PIE: StaticDuplicateObject took: (0.070255s)
+[2017.11.28-08.50.16:595][523]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.28-08.50.16:596][523]LogPlayLevel: PIE: World Init took: (0.001800s)
+[2017.11.28-08.50.16:607][523]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.083822s)
+[2017.11.28-08.50.16:634][523]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.28-08.50.16:665][523]LogInit: FAudioDevice initialized.
+[2017.11.28-08.50.16:742][523]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.28-08.50.16:833][523]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.11.28-09.50.16
+[2017.11.28-08.50.16:876][523]LogWorld: Bringing up level for play took: 0.042042
+[2017.11.28-08.50.17:051][523]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2017.11.28-08.50.17:095][523]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.273
+[2017.11.28-08.50.17:095][523]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.28-08.50.27:047][ 95]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.28-08.50.27:155][ 95]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.28-08.50.30:075][265]LogRenderer: Reallocating scene render targets to support 784x560 NumSamples 1 (Frame:10061).
+[2017.11.28-08.50.30:130][266]LogRenderer: Reallocating scene render targets to support 816x560 NumSamples 1 (Frame:10063).
+[2017.11.28-08.50.30:175][267]LogRenderer: Reallocating scene render targets to support 888x560 NumSamples 1 (Frame:10065).
+[2017.11.28-08.50.30:250][268]LogRenderer: Reallocating scene render targets to support 944x560 NumSamples 1 (Frame:10067).
+[2017.11.28-08.50.30:303][269]LogRenderer: Reallocating scene render targets to support 1028x560 NumSamples 1 (Frame:10069).
+[2017.11.28-08.50.30:364][270]LogRenderer: Reallocating scene render targets to support 1104x560 NumSamples 1 (Frame:10071).
+[2017.11.28-08.50.30:419][271]LogRenderer: Reallocating scene render targets to support 1200x560 NumSamples 1 (Frame:10073).
+[2017.11.28-08.50.30:468][272]LogRenderer: Reallocating scene render targets to support 1248x560 NumSamples 1 (Frame:10075).
+[2017.11.28-08.50.30:516][273]LogRenderer: Reallocating scene render targets to support 1280x560 NumSamples 1 (Frame:10077).
+[2017.11.28-08.50.30:563][274]LogRenderer: Reallocating scene render targets to support 1312x560 NumSamples 1 (Frame:10079).
+[2017.11.28-08.50.30:611][275]LogRenderer: Reallocating scene render targets to support 1360x560 NumSamples 1 (Frame:10081).
+[2017.11.28-08.50.30:658][276]LogRenderer: Reallocating scene render targets to support 1372x560 NumSamples 1 (Frame:10083).
+[2017.11.28-08.50.33:175][423]LogRenderer: Reallocating scene render targets to support 1372x588 NumSamples 1 (Frame:10233).
+[2017.11.28-08.50.33:224][424]LogRenderer: Reallocating scene render targets to support 1372x636 NumSamples 1 (Frame:10235).
+[2017.11.28-08.50.33:270][425]LogRenderer: Reallocating scene render targets to support 1372x680 NumSamples 1 (Frame:10237).
+[2017.11.28-08.50.33:317][426]LogRenderer: Reallocating scene render targets to support 1372x712 NumSamples 1 (Frame:10239).
+[2017.11.28-08.50.33:367][427]LogRenderer: Reallocating scene render targets to support 1372x744 NumSamples 1 (Frame:10241).
+[2017.11.28-08.50.33:412][428]LogRenderer: Reallocating scene render targets to support 1372x772 NumSamples 1 (Frame:10243).
+[2017.11.28-08.50.33:459][429]LogRenderer: Reallocating scene render targets to support 1372x796 NumSamples 1 (Frame:10245).
+[2017.11.28-08.50.33:507][430]LogRenderer: Reallocating scene render targets to support 1372x816 NumSamples 1 (Frame:10247).
+[2017.11.28-08.50.44:223][ 47]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (expen_Plane002)
+[2017.11.28-08.50.49:365][335]LogMaterial: Missing cached shader map for material solido_2, compiling. 
+[2017.11.28-08.50.50:375][374]LogMaterial: Missing cached shader map for material solido_2, compiling. 
+[2017.11.28-08.50.50:496][374]LogMaterial: Missing cached shader map for material solido_2, compiling. 
+[2017.11.28-08.50.50:541][374]LogMaterial: Missing cached shader map for material solido_2, compiling. 
+[2017.11.28-08.50.50:596][374]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.11.28-08.50.53:452][487]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2017.11.28-08.50.53:452][487]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.28-08.50.53:452][487]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.11.28-08.50.54:078][524]LogMaterial: Missing cached shader map for material solido_2, compiling. 
+[2017.11.28-08.50.54:098][524]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.11.28-08.50.55:528][583]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2017.11.28-08.50.55:528][583]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.28-08.50.55:528][583]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.11.28-08.50.56:816][660]LogMaterial: Missing cached shader map for material solido_2, compiling. 
+[2017.11.28-08.50.56:832][660]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.11.28-08.50.58:267][722]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2017.11.28-08.50.58:267][722]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.28-08.50.58:267][722]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.11.28-08.51.00:317][845]LogMaterialEditor: Saving and Compiling material solido_2
+[2017.11.28-08.51.00:928][845]LogMaterial: Missing cached shader map for material solido_2, compiling. 
+[2017.11.28-08.51.00:982][845]LogMaterial: Missing cached shader map for material solido_2, compiling. 
+[2017.11.28-08.51.01:030][845]LogMaterial: Missing cached shader map for material solido_2, compiling. 
+[2017.11.28-08.51.01:088][845]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy solido_2, compiling. 
+[2017.11.28-08.51.01:844][845]TextureStreamingBuild:Display: Compiling optional shaders took 0.768 seconds.
+[2017.11.28-08.51.04:029][845]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyAssets/solido_2" FILE="D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MyAssets/solido_2.uasset" SILENT=true
+[2017.11.28-08.51.04:045][845]LogSavePackage: Save=14.28ms
+[2017.11.28-08.51.04:045][845]LogSavePackage: Moving 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/solido_2F4F6DDA04F5BA9656424A697AF0654AB.tmp' to 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MyAssets/solido_2.uasset'
+[2017.11.28-08.51.04:047][845]LogSavePackage:Display: Finished SavePackage D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MyAssets/solido_2.uasset
+[2017.11.28-08.51.10:292][214]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.28-08.51.10:307][214]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.28-08.51.10:307][214]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.28-08.51.10:307][214]PIE: New page: PIE session: ThirdPersonExampleMap (Nov 28, 2017, 10:51:10 AM)
+[2017.11.28-08.51.10:308][214]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.11.28-08.51.10:322][214]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013938s)
+[2017.11.28-08.51.10:322][214]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.28-08.51.10:323][214]LogPlayLevel: PIE: World Init took: (0.001039s)
+[2017.11.28-08.51.10:323][214]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.015209s)
+[2017.11.28-08.51.10:345][214]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.28-08.51.10:372][214]LogInit: FAudioDevice initialized.
+[2017.11.28-08.51.10:405][214]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.28-08.51.10:409][214]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.11.28-09.51.10
+[2017.11.28-08.51.10:410][214]LogWorld: Bringing up level for play took: 0.003712
+[2017.11.28-08.51.10:411][214]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.59
+[2017.11.28-08.51.10:412][214]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.28-08.51.11:681][286]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.28-08.51.11:734][286]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.28-08.51.15:772][507]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (expen_Box001)
+[2017.11.28-08.51.17:984][633]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (expen_Plane001)
+[2017.11.28-08.51.18:807][680]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (expen_Box001)
+[2017.11.28-08.51.19:647][728]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (expen_Plane002)
+[2017.11.28-08.51.20:570][781]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (expen_Tube001)
+[2017.11.28-08.51.23:300][941]Cmd: TRANSACTION UNDO
+[2017.11.28-08.51.23:300][941]LogEditorTransaction: Undo Move Actors
+[2017.11.28-08.51.23:313][941]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.expen_Box001_5.StaticMeshComponent0) Component already registered.
+[2017.11.28-08.51.23:342][941]LogSlate: Took 0.000208 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.28-08.51.28:039][218]Cmd: SELECT NONE
+[2017.11.28-08.51.29:093][276]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2017.11.28-08.51.31:377][399]MapCheck: New page: Map Check
+[2017.11.28-08.51.31:401][399]LightingResults: New page: Lighting Build - Nov 28, 2017, 10:51:31 AM
+[2017.11.28-08.51.31:410][399]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.11.28-08.51.31:412][399]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.11.28-08.51.31:412][399]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.11.28-08.51.31:413][399]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.11.28-08.51.31:413][399]LogSwarmInterface: [TryOpenConnection] Local Process ID is 13632
+[2017.11.28-08.51.44:958][399]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.11.28-08.51.44:958][399]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.11.28-08.51.44:958][399]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.11.28-08.51.44:958][399]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.11.28-08.51.44:958][399]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.11.28-08.51.45:073][399]LogEditorBuildUtils: Build time 0:13
+[2017.11.28-08.51.45:150][399]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer solido, compiling. 
+[2017.11.28-08.51.45:167][399]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer solido, compiling. 
+[2017.11.28-08.51.45:198][400]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer solido_2, compiling. 
+[2017.11.28-08.51.45:207][400]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer solido_2, compiling. 
+[2017.11.28-08.51.51:626][669]LightingResults:Warning: Warning expen_Box001 Object has overlapping UVs.
+[2017.11.28-08.51.51:626][669]LightingResults: Info expen_Box001 Lightmap UV are overlapping by 5.5%. Please adjust content - Enable Error Coloring to visualize.
+[2017.11.28-08.51.54:029][786]Job is a success!
+[2017.11.28-08.51.54:728][787]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2017.11.28-08.51.54:728][787]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2017.11.28-08.51.54:728][787]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT, 512X256)
+[2017.11.28-08.51.54:728][787]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 512X512)
+[2017.11.28-08.51.54:728][787]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 512X512)
+[2017.11.28-08.51.54:728][787]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2017.11.28-08.51.54:728][787]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT, 64X32)
+[2017.11.28-08.51.54:728][787]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
+[2017.11.28-08.51.54:728][787]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
+[2017.11.28-08.51.54:928][787]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (G8, 32X32)
+[2017.11.28-08.51.55:002][787]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (G8, 1024X1024)
+[2017.11.28-08.51.55:023][787]Lightmass on MSI-ANDRES: 8.22 sec total, 147 ms importing, 26 ms setup, 1.49 sec photons, 6.52 sec processing, 0 ms extra exporting [17/17 mappings]. Threads: 45.4 sec total, 23.7 sec processing.
+[2017.11.28-08.51.55:031][787]LogStaticLightingSystem: Illumination: 23.6 sec (580 ms encoding lightmaps, 270 ms encoding shadowmaps)
+[2017.11.28-08.51.55:031][787]LogStaticLightingSystem: Lightmap texture memory:  3.3 MB (3.3 MB streaming, 0.0 MB non-streaming), 6 textures
+[2017.11.28-08.51.55:031][787]LogStaticLightingSystem: Shadowmap texture memory: 1.3 MB (1.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.11.28-08.51.55:966][787]DumpUnbuiltLightIteractions
+[2017.11.28-08.51.55:966][787]Lights with unbuilt interactions: 0
+[2017.11.28-08.51.55:966][787]
+[2017.11.28-08.51.55:966][787]Primitives with unbuilt interactions: 0
+[2017.11.28-08.51.55:980][788]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.11.28-08.51.55:981][788]MapCheck: New page: ThirdPersonExampleMap - Nov 28, 2017, 10:51:55 AM
+[2017.11.28-08.51.56:167][788]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 186.699ms to complete.
+[2017.11.28-08.52.25:720][516]LogRenderer: Reallocating scene render targets to support 1372x824 NumSamples 1 (Frame:15485).
+[2017.11.28-08.52.28:057][646]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall7)
+[2017.11.28-08.52.28:610][672]Cmd: SELECT NONE
+[2017.11.28-08.55.24:688][368]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (expen_Box001)
+[2017.11.28-08.56.05:061][378]LogSavePackage: Save=248.66ms
+[2017.11.28-08.56.05:061][378]LogSavePackage: Moving 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/ThirdPersonExampleMap_Auto1A4808D08494150135D505BB8AF883597.tmp' to 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2017.11.28-08.56.05:062][378]LogSavePackage:Display: Finished SavePackage D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap
+[2017.11.28-08.56.05:083][378]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.391
+[2017.11.28-08.56.05:083][378]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.391
+[2017.11.28-08.56.05:086][378]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData] ([1] browsable assets)...
+[2017.11.28-08.56.05:086][378]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData]
+[2017.11.28-08.56.05:155][378]LogSavePackage: Save=23.92ms
+[2017.11.28-08.56.05:155][378]LogSavePackage: Moving 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/ThirdPersonExampleMap_BuiltData_Auto1EEEA9FB646CC6678230D9386F2E0AFD3.tmp' to 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData_Auto1.uasset'
+[2017.11.28-08.56.05:156][378]LogSavePackage:Display: Finished SavePackage D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData_Auto1.uasset
+[2017.11.28-08.56.05:156][378]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyAssets/expen_Box001] ([1] browsable assets)...
+[2017.11.28-08.56.05:171][378]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/MyAssets/expen_Box001.expen_Box001]
+[2017.11.28-08.56.05:171][378]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyAssets/expen_Box001]
+[2017.11.28-08.56.05:190][378]LogSavePackage: Save=17.05ms
+[2017.11.28-08.56.05:190][378]LogSavePackage: Moving 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/expen_Box001_Auto1501C3CE94FF1ECEA8D0BAC87E7277E70.tmp' to 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/Autosaves/Game/MyAssets/expen_Box001_Auto1.uasset'
+[2017.11.28-08.56.05:191][378]LogSavePackage:Display: Finished SavePackage D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/Autosaves/Game/MyAssets/expen_Box001_Auto1.uasset
+[2017.11.28-08.56.05:192][378]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyAssets/expen_Plane001] ([1] browsable assets)...
+[2017.11.28-08.56.05:207][378]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/MyAssets/expen_Plane001.expen_Plane001]
+[2017.11.28-08.56.05:207][378]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyAssets/expen_Plane001]
+[2017.11.28-08.56.05:224][378]LogSavePackage: Save=15.43ms
+[2017.11.28-08.56.05:224][378]LogSavePackage: Moving 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/expen_Plane001_Auto1C71A150544588F653070FC952F7BB2F7.tmp' to 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/Autosaves/Game/MyAssets/expen_Plane001_Auto1.uasset'
+[2017.11.28-08.56.05:225][378]LogSavePackage:Display: Finished SavePackage D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/Autosaves/Game/MyAssets/expen_Plane001_Auto1.uasset
+[2017.11.28-08.56.05:225][378]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyAssets/expen_Plane002] ([1] browsable assets)...
+[2017.11.28-08.56.05:241][378]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/MyAssets/expen_Plane002.expen_Plane002]
+[2017.11.28-08.56.05:241][378]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyAssets/expen_Plane002]
+[2017.11.28-08.56.05:260][378]LogSavePackage: Save=16.89ms
+[2017.11.28-08.56.05:260][378]LogSavePackage: Moving 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/expen_Plane002_Auto12BA2857548BE69687977DDB53D449B2A.tmp' to 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/Autosaves/Game/MyAssets/expen_Plane002_Auto1.uasset'
+[2017.11.28-08.56.05:261][378]LogSavePackage:Display: Finished SavePackage D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/Autosaves/Game/MyAssets/expen_Plane002_Auto1.uasset
+[2017.11.28-08.56.05:262][378]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyAssets/expen_Tube001] ([1] browsable assets)...
+[2017.11.28-08.56.05:278][378]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/MyAssets/expen_Tube001.expen_Tube001]
+[2017.11.28-08.56.05:278][378]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyAssets/expen_Tube001]
+[2017.11.28-08.56.05:297][378]LogSavePackage: Save=16.99ms
+[2017.11.28-08.56.05:297][378]LogSavePackage: Moving 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/expen_Tube001_Auto120BA93F04E2C71F31E2A77B3CE5A376A.tmp' to 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/Autosaves/Game/MyAssets/expen_Tube001_Auto1.uasset'
+[2017.11.28-08.56.05:298][378]LogSavePackage:Display: Finished SavePackage D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/Autosaves/Game/MyAssets/expen_Tube001_Auto1.uasset
+[2017.11.28-08.56.05:298][378]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MyAssets/solido] ([1] browsable assets)...
+[2017.11.28-08.56.05:298][378]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyAssets/solido]
+[2017.11.28-08.56.05:298][378]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyAssets/solido" FILE="D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/Autosaves/Game/MyAssets/solido_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.11.28-08.56.05:319][378]LogSavePackage: Save=10.28ms
+[2017.11.28-08.56.05:319][378]LogSavePackage: Moving 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/solido_Auto1553662BF4450515615ED668FE6095FBE.tmp' to 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/Autosaves/Game/MyAssets/solido_Auto1.uasset'
+[2017.11.28-08.56.05:320][378]LogSavePackage:Display: Finished SavePackage D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/Autosaves/Game/MyAssets/solido_Auto1.uasset
+[2017.11.28-08.56.05:320][378]LogFileHelpers: Auto-saving content packages took 0.235
+[2017.11.28-09.36.24:876][519]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.28-09.36.25:672][607]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.28-09.36.26:763][733]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.28-09.36.27:303][794]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.28-09.36.56:391][688]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\lukin\Desktop\expen.FBX)
+[2017.11.28-09.36.56:396][688]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.11.28-09.36.56:396][688]LogFbx: ItemName: Model, ItemCount : 4
+[2017.11.28-09.36.56:396][688]LogFbx: ItemName: Geometry, ItemCount : 4
+[2017.11.28-09.36.56:400][688]LogFbx: Loading FBX Scene from C:\Users\lukin\Desktop\expen.FBX
+[2017.11.28-09.36.56:407][688]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.28-09.36.57:453][688]LogFbx: Loading FBX Scene from C:\Users\lukin\Desktop\expen.FBX
+[2017.11.28-09.36.57:460][688]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.28-09.36.57:464][688]LogStaticMesh: Building static mesh expen_Box001...
+[2017.11.28-09.36.57:472][688]LogStaticMesh: Built static mesh [0.01s] /Game/MyAssets/expen_Box001.expen_Box001
+[2017.11.28-09.36.57:473][688]LogStaticMesh:Warning: expen_Box001 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.11.28-09.36.57:473][688]LogFbx:Warning: Triangulating static mesh Plane001
+[2017.11.28-09.36.57:478][688]LogStaticMesh: Building static mesh expen_Plane001...
+[2017.11.28-09.36.57:479][688]LogStaticMesh: Built static mesh [0.00s] /Game/MyAssets/expen_Plane001.expen_Plane001
+[2017.11.28-09.36.57:479][688]LogStaticMesh:Warning: expen_Plane001 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.11.28-09.36.57:480][688]LogFbx:Warning: Triangulating static mesh Plane002
+[2017.11.28-09.36.57:482][688]LogStaticMesh: Building static mesh expen_Plane002...
+[2017.11.28-09.36.57:483][688]LogStaticMesh: Built static mesh [0.00s] /Game/MyAssets/expen_Plane002.expen_Plane002
+[2017.11.28-09.36.57:485][688]LogStaticMesh: Building static mesh expen_Tube001...
+[2017.11.28-09.36.57:486][688]LogStaticMesh: Built static mesh [0.00s] /Game/MyAssets/expen_Tube001.expen_Tube001
+[2017.11.28-09.36.57:488][688]FBXImport:Warning: Warning expen_Box001 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.11.28-09.36.57:488][688]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.11.28-09.36.57:488][688]FBXImport:Warning: Warning expen_Plane001 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.11.28-09.36.57:488][688]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.11.28-09.37.02:233][ 93]LogActorFactory: Actor Factory created expen_Box001
+[2017.11.28-09.37.02:234][ 93]LogActorFactory: Actor Factory created expen_Plane001
+[2017.11.28-09.37.02:235][ 93]LogActorFactory: Actor Factory created expen_Plane002
+[2017.11.28-09.37.02:235][ 93]LogActorFactory: Actor Factory created expen_Tube001
+[2017.11.28-09.37.03:218][201]LogActorFactory: Actor Factory created expen_Box001
+[2017.11.28-09.37.03:236][201]LogActorFactory: Actor Factory created expen_Plane001
+[2017.11.28-09.37.03:252][201]LogActorFactory: Actor Factory created expen_Plane002
+[2017.11.28-09.37.03:268][201]LogActorFactory: Actor Factory created expen_Tube001
+[2017.11.28-09.37.17:303][789]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (expen_Plane3)
+[2017.11.28-09.37.18:502][928]Cmd: TRANSACTION UNDO
+[2017.11.28-09.37.18:502][928]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.28-09.37.22:329][322]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (expen_Plane3)
+[2017.11.28-09.37.27:914][939]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (expen_Tube2)
+[2017.11.28-09.37.33:867][617]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.28-09.37.34:665][707]Cmd: SELECT NONE
+[2017.11.28-09.37.45:818][ 25]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (expen_Plane3)
+[2017.11.28-09.37.47:938][273]LogEditorViewport: Clicking on Actor (context menu): PlayerStart (NetworkPlayerStart)
+[2017.11.28-09.37.48:878][372]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.28-09.37.54:793][ 52]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (expen_Box2)
+[2017.11.28-09.37.55:280][ 96]Cmd: SELECT NONE
+[2017.11.28-09.37.56:060][188]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (expen_Box2)
+[2017.11.28-09.38.44:724][ 57]LogSavePackage: Save=172.80ms
+[2017.11.28-09.38.44:725][ 57]LogSavePackage: Moving 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/ThirdPersonExampleMap_Auto24161B9A9471657BFB18F1FA21F81E1B6.tmp' to 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap'
+[2017.11.28-09.38.44:726][ 57]LogSavePackage:Display: Finished SavePackage D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap
+[2017.11.28-09.38.44:728][ 57]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.206
+[2017.11.28-09.38.44:728][ 57]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.206
+[2017.11.28-09.38.44:731][ 57]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyAssets/expen_Box001] ([1] browsable assets)...
+[2017.11.28-09.38.44:759][ 57]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/MyAssets/expen_Box001.expen_Box001]
+[2017.11.28-09.38.44:759][ 57]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyAssets/expen_Box001]
+[2017.11.28-09.38.44:811][ 57]LogSavePackage: Save=13.79ms
+[2017.11.28-09.38.44:811][ 57]LogSavePackage: Moving 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/expen_Box001_Auto23CDDBD58431AF6A328C6FBB3287BC28B.tmp' to 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/Autosaves/Game/MyAssets/expen_Box001_Auto2.uasset'
+[2017.11.28-09.38.44:812][ 57]LogSavePackage:Display: Finished SavePackage D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/Autosaves/Game/MyAssets/expen_Box001_Auto2.uasset
+[2017.11.28-09.38.44:812][ 57]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyAssets/expen_Plane001] ([1] browsable assets)...
+[2017.11.28-09.38.44:840][ 57]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/MyAssets/expen_Plane001.expen_Plane001]
+[2017.11.28-09.38.44:840][ 57]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyAssets/expen_Plane001]
+[2017.11.28-09.38.44:855][ 57]LogSavePackage: Save=12.98ms
+[2017.11.28-09.38.44:855][ 57]LogSavePackage: Moving 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/expen_Plane001_Auto2DF71B5664D5C877EF9835BA1A3D990D0.tmp' to 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/Autosaves/Game/MyAssets/expen_Plane001_Auto2.uasset'
+[2017.11.28-09.38.44:855][ 57]LogSavePackage:Display: Finished SavePackage D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/Autosaves/Game/MyAssets/expen_Plane001_Auto2.uasset
+[2017.11.28-09.38.44:855][ 57]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyAssets/expen_Plane002] ([1] browsable assets)...
+[2017.11.28-09.38.44:883][ 57]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/MyAssets/expen_Plane002.expen_Plane002]
+[2017.11.28-09.38.44:883][ 57]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyAssets/expen_Plane002]
+[2017.11.28-09.38.44:912][ 57]LogSavePackage: Save=27.94ms
+[2017.11.28-09.38.44:912][ 57]LogSavePackage: Moving 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/expen_Plane002_Auto22F7D8F384DDAE31C3E21DB9B2861AB60.tmp' to 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/Autosaves/Game/MyAssets/expen_Plane002_Auto2.uasset'
+[2017.11.28-09.38.44:913][ 57]LogSavePackage:Display: Finished SavePackage D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/Autosaves/Game/MyAssets/expen_Plane002_Auto2.uasset
+[2017.11.28-09.38.44:913][ 57]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyAssets/expen_Tube001] ([1] browsable assets)...
+[2017.11.28-09.38.44:940][ 57]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/MyAssets/expen_Tube001.expen_Tube001]
+[2017.11.28-09.38.44:940][ 57]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyAssets/expen_Tube001]
+[2017.11.28-09.38.44:955][ 57]LogSavePackage: Save=12.78ms
+[2017.11.28-09.38.44:955][ 57]LogSavePackage: Moving 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/expen_Tube001_Auto25AB3C09C44B9D5CA49027CB9C1DB7717.tmp' to 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/Autosaves/Game/MyAssets/expen_Tube001_Auto2.uasset'
+[2017.11.28-09.38.44:956][ 57]LogSavePackage:Display: Finished SavePackage D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/Autosaves/Game/MyAssets/expen_Tube001_Auto2.uasset
+[2017.11.28-09.38.44:956][ 57]LogFileHelpers: Auto-saving content packages took 0.225
+[2017.11.28-09.39.39:201][994]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\lukin\Desktop\expen.FBX)
+[2017.11.28-09.39.39:206][994]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.11.28-09.39.39:206][994]LogFbx: ItemName: Model, ItemCount : 4
+[2017.11.28-09.39.39:206][994]LogFbx: ItemName: Geometry, ItemCount : 4
+[2017.11.28-09.39.39:210][994]LogFbx: Loading FBX Scene from C:\Users\lukin\Desktop\expen.FBX
+[2017.11.28-09.39.39:218][994]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.28-09.39.40:419][994]LogFbx: Loading FBX Scene from C:\Users\lukin\Desktop\expen.FBX
+[2017.11.28-09.39.40:426][994]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.28-09.39.40:431][994]LogStaticMesh: Building static mesh expen_Box001...
+[2017.11.28-09.39.40:439][994]LogStaticMesh: Built static mesh [0.01s] /Game/MyAssets/expen_Box001.expen_Box001
+[2017.11.28-09.39.40:440][994]LogStaticMesh:Warning: expen_Box001 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.11.28-09.39.40:441][994]LogFbx:Warning: Triangulating static mesh Plane001
+[2017.11.28-09.39.40:446][994]LogStaticMesh: Building static mesh expen_Plane001...
+[2017.11.28-09.39.40:447][994]LogStaticMesh: Built static mesh [0.00s] /Game/MyAssets/expen_Plane001.expen_Plane001
+[2017.11.28-09.39.40:448][994]LogStaticMesh:Warning: expen_Plane001 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.11.28-09.39.40:448][994]LogFbx:Warning: Triangulating static mesh Plane002
+[2017.11.28-09.39.40:451][994]LogStaticMesh: Building static mesh expen_Plane002...
+[2017.11.28-09.39.40:451][994]LogStaticMesh: Built static mesh [0.00s] /Game/MyAssets/expen_Plane002.expen_Plane002
+[2017.11.28-09.39.40:453][994]LogStaticMesh: Building static mesh expen_Tube001...
+[2017.11.28-09.39.40:454][994]LogStaticMesh: Built static mesh [0.00s] /Game/MyAssets/expen_Tube001.expen_Tube001
+[2017.11.28-09.39.40:456][994]FBXImport:Warning: Warning expen_Box001 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.11.28-09.39.40:456][994]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.11.28-09.39.40:456][994]FBXImport:Warning: Warning expen_Plane001 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.11.28-09.39.40:456][994]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.11.28-09.39.41:914][143]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall7)
+[2017.11.28-09.39.45:852][473]LogActorFactory: Actor Factory created expen_Box001
+[2017.11.28-09.39.45:853][473]LogActorFactory: Actor Factory created expen_Plane001
+[2017.11.28-09.39.45:853][473]LogActorFactory: Actor Factory created expen_Plane002
+[2017.11.28-09.39.45:854][473]LogActorFactory: Actor Factory created expen_Tube001
+[2017.11.28-09.39.46:253][515]LogActorFactory: Actor Factory created expen_Box001
+[2017.11.28-09.39.46:270][515]LogActorFactory: Actor Factory created expen_Plane001
+[2017.11.28-09.39.46:287][515]LogActorFactory: Actor Factory created expen_Plane002
+[2017.11.28-09.39.46:304][515]LogActorFactory: Actor Factory created expen_Tube001
+[2017.11.28-09.40.20:116][340]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (expen_Box3)
+[2017.11.28-09.41.13:810][712]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\lukin\Desktop\expen.FBX)
+[2017.11.28-09.41.13:815][712]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.11.28-09.41.13:815][712]LogFbx: ItemName: Model, ItemCount : 1
+[2017.11.28-09.41.13:815][712]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.11.28-09.41.13:819][712]LogFbx: Loading FBX Scene from C:\Users\lukin\Desktop\expen.FBX
+[2017.11.28-09.41.13:825][712]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.28-09.41.15:014][712]LogFbx: Loading FBX Scene from C:\Users\lukin\Desktop\expen.FBX
+[2017.11.28-09.41.15:020][712]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.28-09.41.15:024][712]LogStaticMesh: Building static mesh expen...
+[2017.11.28-09.41.15:035][712]LogStaticMesh: Built static mesh [0.01s] /Game/MyAssets/expen.expen
+[2017.11.28-09.41.15:036][712]LogStaticMesh:Warning: expen has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.11.28-09.41.15:038][712]FBXImport:Warning: Warning expen has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.11.28-09.41.52:507][629]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\lukin\Desktop\expen.FBX)
+[2017.11.28-09.41.52:511][629]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.11.28-09.41.52:511][629]LogFbx: ItemName: Model, ItemCount : 4
+[2017.11.28-09.41.52:511][629]LogFbx: ItemName: Geometry, ItemCount : 4
+[2017.11.28-09.41.52:516][629]LogFbx: Loading FBX Scene from C:\Users\lukin\Desktop\expen.FBX
+[2017.11.28-09.41.52:524][629]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.28-09.41.54:247][629]LogFbx: Loading FBX Scene from C:\Users\lukin\Desktop\expen.FBX
+[2017.11.28-09.41.54:253][629]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.28-09.41.54:258][629]LogStaticMesh: Building static mesh expen_Box001...
+[2017.11.28-09.41.54:268][629]LogStaticMesh: Built static mesh [0.01s] /Game/MyAssets/expen_Box001.expen_Box001
+[2017.11.28-09.41.54:269][629]LogStaticMesh:Warning: expen_Box001 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.11.28-09.41.54:270][629]LogFbx:Warning: Triangulating static mesh Plane001
+[2017.11.28-09.41.54:275][629]LogStaticMesh: Building static mesh expen_Plane001...
+[2017.11.28-09.41.54:276][629]LogStaticMesh: Built static mesh [0.00s] /Game/MyAssets/expen_Plane001.expen_Plane001
+[2017.11.28-09.41.54:276][629]LogStaticMesh:Warning: expen_Plane001 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.11.28-09.41.54:277][629]LogFbx:Warning: Triangulating static mesh Plane002
+[2017.11.28-09.41.54:279][629]LogStaticMesh: Building static mesh expen_Plane002...
+[2017.11.28-09.41.54:280][629]LogStaticMesh: Built static mesh [0.00s] /Game/MyAssets/expen_Plane002.expen_Plane002
+[2017.11.28-09.41.54:282][629]LogStaticMesh: Building static mesh expen_Tube001...
+[2017.11.28-09.41.54:283][629]LogStaticMesh: Built static mesh [0.00s] /Game/MyAssets/expen_Tube001.expen_Tube001
+[2017.11.28-09.41.54:285][629]FBXImport:Warning: Warning expen_Box001 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.11.28-09.41.54:285][629]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.11.28-09.41.54:285][629]FBXImport:Warning: Warning expen_Plane001 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.11.28-09.41.54:285][629]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.11.28-09.42.03:680][663]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.28-09.42.03:680][663]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.28-09.42.03:680][663]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.28-09.42.03:680][663]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.28-09.42.03:680][663]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.28-09.42.03:680][663]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.28-09.42.03:680][663]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.28-09.42.03:680][663]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.28-09.42.03:680][663]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.28-09.42.03:680][663]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.28-09.42.03:680][663]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.28-09.42.03:681][663]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.28-09.42.03:690][663]LogEditorActor: Deleted 12 Actors (0.036 secs)
+[2017.11.28-09.42.12:420][504]LogActorFactory: Actor Factory created expen_Box001
+[2017.11.28-09.42.12:421][504]LogActorFactory: Actor Factory created expen_Plane001
+[2017.11.28-09.42.12:422][504]LogActorFactory: Actor Factory created expen_Plane002
+[2017.11.28-09.42.12:422][504]LogActorFactory: Actor Factory created expen_Tube001
+[2017.11.28-09.42.13:319][598]LogActorFactory: Actor Factory created expen_Box001
+[2017.11.28-09.42.13:337][598]LogActorFactory: Actor Factory created expen_Plane001
+[2017.11.28-09.42.13:356][598]LogActorFactory: Actor Factory created expen_Plane002
+[2017.11.28-09.42.13:374][598]LogActorFactory: Actor Factory created expen_Tube001
+[2017.11.28-09.43.30:905][ 84]Cmd: DELETE
+[2017.11.28-09.43.30:905][ 84]Cmd: ACTOR DELETE
+[2017.11.28-09.43.30:906][ 84]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.28-09.43.30:906][ 84]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.28-09.43.30:906][ 84]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.28-09.43.30:906][ 84]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.28-09.43.30:915][ 84]LogEditorActor: Deleted 4 Actors (0.010 secs)
+[2017.11.28-09.43.51:031][235]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\lukin\Desktop\expen.FBX)
+[2017.11.28-09.43.51:035][235]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.11.28-09.43.51:035][235]LogFbx: ItemName: Model, ItemCount : 4
+[2017.11.28-09.43.51:035][235]LogFbx: ItemName: Geometry, ItemCount : 4
+[2017.11.28-09.43.51:040][235]LogFbx: Loading FBX Scene from C:\Users\lukin\Desktop\expen.FBX
+[2017.11.28-09.43.51:048][235]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.28-09.43.52:248][235]LogFbx: Loading FBX Scene from C:\Users\lukin\Desktop\expen.FBX
+[2017.11.28-09.43.52:255][235]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.28-09.43.52:259][235]LogStaticMesh: Building static mesh expen_Box001...
+[2017.11.28-09.43.52:270][235]LogStaticMesh: Built static mesh [0.01s] /Game/MyAssets/expen_Box001.expen_Box001
+[2017.11.28-09.43.52:271][235]LogStaticMesh:Warning: expen_Box001 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.11.28-09.43.52:272][235]LogFbx:Warning: Triangulating static mesh Plane001
+[2017.11.28-09.43.52:277][235]LogStaticMesh: Building static mesh expen_Plane001...
+[2017.11.28-09.43.52:278][235]LogStaticMesh: Built static mesh [0.00s] /Game/MyAssets/expen_Plane001.expen_Plane001
+[2017.11.28-09.43.52:278][235]LogStaticMesh:Warning: expen_Plane001 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.11.28-09.43.52:279][235]LogFbx:Warning: Triangulating static mesh Plane002
+[2017.11.28-09.43.52:281][235]LogStaticMesh: Building static mesh expen_Plane002...
+[2017.11.28-09.43.52:281][235]LogStaticMesh: Built static mesh [0.00s] /Game/MyAssets/expen_Plane002.expen_Plane002
+[2017.11.28-09.43.52:283][235]LogStaticMesh: Building static mesh expen_Tube001...
+[2017.11.28-09.43.52:284][235]LogStaticMesh: Built static mesh [0.00s] /Game/MyAssets/expen_Tube001.expen_Tube001
+[2017.11.28-09.43.52:286][235]FBXImport:Warning: Warning expen_Box001 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.11.28-09.43.52:286][235]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.11.28-09.43.52:286][235]FBXImport:Warning: Warning expen_Plane001 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.11.28-09.43.52:286][235]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.11.28-09.43.56:484][619]LogActorFactory: Actor Factory created expen_Box001
+[2017.11.28-09.43.56:485][619]LogActorFactory: Actor Factory created expen_Plane001
+[2017.11.28-09.43.56:486][619]LogActorFactory: Actor Factory created expen_Plane002
+[2017.11.28-09.43.56:486][619]LogActorFactory: Actor Factory created expen_Tube001
+[2017.11.28-09.43.56:932][666]LogActorFactory: Actor Factory created expen_Box001
+[2017.11.28-09.43.56:949][666]LogActorFactory: Actor Factory created expen_Plane001
+[2017.11.28-09.43.56:967][666]LogActorFactory: Actor Factory created expen_Plane002
+[2017.11.28-09.43.56:984][666]LogActorFactory: Actor Factory created expen_Tube001
+[2017.11.28-09.44.20:510][300]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.28-09.44.20:528][300]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.28-09.44.20:528][300]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.28-09.44.20:528][300]PIE: New page: PIE session: ThirdPersonExampleMap (Nov 28, 2017, 11:44:20 AM)
+[2017.11.28-09.44.20:528][300]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.11.28-09.44.20:559][300]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031002s)
+[2017.11.28-09.44.20:560][300]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.28-09.44.20:561][300]LogPlayLevel: PIE: World Init took: (0.001440s)
+[2017.11.28-09.44.20:561][300]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.032821s)
+[2017.11.28-09.44.20:589][300]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.28-09.44.20:624][300]LogInit: FAudioDevice initialized.
+[2017.11.28-09.44.20:656][300]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.28-09.44.20:661][300]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.11.28-10.44.20
+[2017.11.28-09.44.20:662][300]LogWorld: Bringing up level for play took: 0.003530
+[2017.11.28-09.44.20:663][300]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.842
+[2017.11.28-09.44.20:663][300]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.28-09.44.21:611][409]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.28-09.44.21:663][409]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.28-09.44.23:575][603]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.28-09.44.23:592][603]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.28-09.44.23:592][603]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.28-09.44.23:592][603]PIE: New page: PIE session: ThirdPersonExampleMap (Nov 28, 2017, 11:44:23 AM)
+[2017.11.28-09.44.23:593][603]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.11.28-09.44.23:608][603]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015496s)
+[2017.11.28-09.44.23:609][603]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.28-09.44.23:609][603]LogPlayLevel: PIE: World Init took: (0.000995s)
+[2017.11.28-09.44.23:609][603]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.016726s)
+[2017.11.28-09.44.23:623][603]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.28-09.44.23:654][603]LogInit: FAudioDevice initialized.
+[2017.11.28-09.44.23:687][603]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.28-09.44.23:692][603]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.11.28-10.44.23
+[2017.11.28-09.44.23:692][603]LogWorld: Bringing up level for play took: 0.003387
+[2017.11.28-09.44.23:693][603]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.128
+[2017.11.28-09.44.23:694][603]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.28-09.44.34:006][830]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.28-09.44.34:063][830]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.28-09.44.43:142][847]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (expen_Box001)
+[2017.11.28-09.44.43:697][902]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (expen_Plane002)
+[2017.11.28-09.45.48:322][494]Cmd: SELECT NONE
+[2017.11.28-09.46.03:669][250]LogRenderer: Reallocating scene render targets to support 1372x868 NumSamples 1 (Frame:67153).
+[2017.11.28-09.46.03:720][251]LogRenderer: Reallocating scene render targets to support 1372x900 NumSamples 1 (Frame:67155).
+[2017.11.28-09.46.12:406][230]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (expen_Box001)
+[2017.11.28-09.46.12:984][281]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (expen_Box001)
+[2017.11.28-09.46.15:746][538]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (expen_Box001)
+[2017.11.28-09.46.16:554][599]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (expen_Box001)
+[2017.11.28-09.46.22:564][130]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (expen_Box001)
+[2017.11.28-09.46.22:932][162]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.11.28-09.47.17:373][426]Cmd: SELECT NONE
+[2017.11.28-09.47.19:578][623]LogSavePackage: Save=242.74ms
+[2017.11.28-09.47.19:578][623]LogSavePackage: Moving 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/ThirdPersonExampleMap46FEC9BF4D45E8F03A32839D8314DEB3.tmp' to 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.11.28-09.47.19:604][623]LogSavePackage:Display: Finished SavePackage D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.11.28-09.47.19:917][623]LogSavePackage: Save=266.28ms
+[2017.11.28-09.47.19:917][623]LogSavePackage: Moving 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/ThirdPersonExampleMap_BuiltData36169ADF4E1936EECE343CB6D855AE4C.tmp' to 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2017.11.28-09.47.19:925][623]LogSavePackage:Display: Finished SavePackage D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2017.11.28-09.47.22:316][699]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyAssets/expen_Box001" FILE="D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MyAssets/expen_Box001.uasset" SILENT=true
+[2017.11.28-09.47.22:375][699]LogSavePackage: Save=18.12ms
+[2017.11.28-09.47.22:375][699]LogSavePackage: Moving 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/expen_Box001181A94CE410B300347CD3DB4A7B54AA1.tmp' to 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MyAssets/expen_Box001.uasset'
+[2017.11.28-09.47.22:379][699]LogSavePackage:Display: Finished SavePackage D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MyAssets/expen_Box001.uasset
+[2017.11.28-09.47.22:433][699]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyAssets/expen_Plane001" FILE="D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MyAssets/expen_Plane001.uasset" SILENT=true
+[2017.11.28-09.47.22:454][699]LogSavePackage: Save=18.51ms
+[2017.11.28-09.47.22:454][699]LogSavePackage: Moving 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/expen_Plane001DF61F6C84DC232F71F1E3086442CA442.tmp' to 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MyAssets/expen_Plane001.uasset'
+[2017.11.28-09.47.22:456][699]LogSavePackage:Display: Finished SavePackage D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MyAssets/expen_Plane001.uasset
+[2017.11.28-09.47.22:492][699]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyAssets/expen_Plane002" FILE="D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MyAssets/expen_Plane002.uasset" SILENT=true
+[2017.11.28-09.47.22:513][699]LogSavePackage: Save=18.52ms
+[2017.11.28-09.47.22:513][699]LogSavePackage: Moving 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/expen_Plane0021E85D5F04C2B173B86FF309687A99C7A.tmp' to 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MyAssets/expen_Plane002.uasset'
+[2017.11.28-09.47.22:515][699]LogSavePackage:Display: Finished SavePackage D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MyAssets/expen_Plane002.uasset
+[2017.11.28-09.47.22:548][699]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyAssets/expen_Tube001" FILE="D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MyAssets/expen_Tube001.uasset" SILENT=true
+[2017.11.28-09.47.22:565][699]LogSavePackage: Save=14.77ms
+[2017.11.28-09.47.22:565][699]LogSavePackage: Moving 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/expen_Tube00146D3E3CC415AE113831355BD4DF4C4B8.tmp' to 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MyAssets/expen_Tube001.uasset'
+[2017.11.28-09.47.22:567][699]LogSavePackage:Display: Finished SavePackage D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MyAssets/expen_Tube001.uasset
+[2017.11.28-09.47.22:570][699]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyAssets/solido" FILE="D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MyAssets/solido.uasset" SILENT=true
+[2017.11.28-09.47.22:590][699]LogSavePackage: Save=9.92ms
+[2017.11.28-09.47.22:590][699]LogSavePackage: Moving 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/solidoFFC4DE3547B039FDD1C8F883240F26DA.tmp' to 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MyAssets/solido.uasset'
+[2017.11.28-09.47.22:596][699]LogSavePackage:Display: Finished SavePackage D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MyAssets/solido.uasset
+[2017.11.28-09.47.22:711][699]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.11.28-09.47.22:920][700]Cmd: QUIT_EDITOR
+[2017.11.28-09.47.23:122][700]LogExit: Preparing to exit.
+[2017.11.28-09.47.23:665][700]LogExit: Editor shut down
+[2017.11.28-09.47.23:671][700]LogExit: Transaction tracking system shut down
+[2017.11.28-09.47.23:746][700]LogObj: Freed 0b from 0 cluster array pools.
+[2017.11.28-09.47.23:747][700]LogExit: Object subsystem successfully closed.
+[2017.11.28-09.47.23:771][700]LogD3D11RHI: Shutdown
+[2017.11.28-09.47.23:771][700]LogD3D11RHI: CleanupD3DDevice
+[2017.11.28-09.47.23:958][700]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.11.28-09.47.23:975][700]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (532)
+[2017.11.28-09.47.23:975][700]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (530)
+[2017.11.28-09.47.23:975][700]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (528)
+[2017.11.28-09.47.23:975][700]LogModuleManager: Shutting down and abandoning module MaterialEditor (526)
+[2017.11.28-09.47.23:975][700]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.11.28-09.47.23:975][700]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.11.28-09.47.23:975][700]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.11.28-09.47.23:975][700]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.11.28-09.47.23:975][700]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.11.28-09.47.23:976][700]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.11.28-09.47.23:976][700]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.11.28-09.47.23:976][700]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.11.28-09.47.23:976][700]LogDirectoryWatcher: A directory notification for 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/Collections/' was aborted.
+[2017.11.28-09.47.23:976][700]LogDirectoryWatcher: A directory notification for 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/Developers/lukin/Collections/' was aborted.
+[2017.11.28-09.47.23:976][700]LogDirectoryWatcher: A directory notification for 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/Collections/' was aborted.
+[2017.11.28-09.47.23:976][700]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.11.28-09.47.23:976][700]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.11.28-09.47.23:976][700]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.11.28-09.47.23:976][700]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.11.28-09.47.23:976][700]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.11.28-09.47.23:976][700]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.11.28-09.47.23:976][700]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.11.28-09.47.23:976][700]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.11.28-09.47.23:976][700]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.11.28-09.47.23:976][700]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.11.28-09.47.23:976][700]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.11.28-09.47.23:976][700]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.11.28-09.47.23:976][700]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.11.28-09.47.23:976][700]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.11.28-09.47.23:977][700]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.11.28-09.47.23:977][700]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.11.28-09.47.23:977][700]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.11.28-09.47.23:977][700]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.11.28-09.47.23:977][700]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.11.28-09.47.23:977][700]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.11.28-09.47.23:977][700]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.11.28-09.47.23:977][700]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.11.28-09.47.23:977][700]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.11.28-09.47.23:977][700]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.11.28-09.47.23:977][700]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.11.28-09.47.23:977][700]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.11.28-09.47.23:977][700]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.11.28-09.47.23:977][700]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.11.28-09.47.23:977][700]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.11.28-09.47.23:977][700]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.11.28-09.47.23:977][700]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.11.28-09.47.23:977][700]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.11.28-09.47.23:977][700]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.11.28-09.47.23:977][700]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.11.28-09.47.23:977][700]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.11.28-09.47.23:977][700]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.11.28-09.47.23:977][700]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.11.28-09.47.23:977][700]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.11.28-09.47.24:493][700]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.11.28-09.47.24:493][700]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.11.28-09.47.24:493][700]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.11.28-09.47.24:493][700]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.11.28-09.47.24:493][700]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.11.28-09.47.24:493][700]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.11.28-09.47.24:493][700]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.11.28-09.47.24:493][700]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.11.28-09.47.24:493][700]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.11.28-09.47.24:493][700]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.11.28-09.47.24:493][700]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.11.28-09.47.24:493][700]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.11.28-09.47.24:493][700]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.11.28-09.47.24:493][700]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.11.28-09.47.24:493][700]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.11.28-09.47.24:493][700]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.11.28-09.47.24:493][700]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.11.28-09.47.24:494][700]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.11.28-09.47.24:494][700]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.11.28-09.47.24:494][700]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.11.28-09.47.24:494][700]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.11.28-09.47.24:494][700]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.11.28-09.47.24:494][700]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.11.28-09.47.24:494][700]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.11.28-09.47.24:546][700]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.11.28-09.47.24:546][700]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.11.28-09.47.24:546][700]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.11.28-09.47.24:546][700]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.11.28-09.47.24:546][700]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.11.28-09.47.24:546][700]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.11.28-09.47.24:546][700]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.11.28-09.47.24:546][700]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.11.28-09.47.24:546][700]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.11.28-09.47.24:546][700]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.11.28-09.47.24:547][700]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.11.28-09.47.24:547][700]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.11.28-09.47.24:547][700]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.11.28-09.47.24:547][700]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.11.28-09.47.24:547][700]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.11.28-09.47.24:548][700]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.11.28-09.47.24:548][700]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.11.28-09.47.24:548][700]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.11.28-09.47.24:548][700]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.11.28-09.47.24:548][700]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.11.28-09.47.24:548][700]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.11.28-09.47.24:548][700]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.11.28-09.47.24:548][700]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.11.28-09.47.24:548][700]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.11.28-09.47.24:548][700]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.11.28-09.47.24:548][700]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.11.28-09.47.24:548][700]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.11.28-09.47.24:548][700]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.11.28-09.47.24:548][700]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.11.28-09.47.24:548][700]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.11.28-09.47.24:755][700]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.11.28-09.47.24:755][700]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.11.28-09.47.24:755][700]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.11.28-09.47.24:755][700]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.11.28-09.47.24:755][700]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.11.28-09.47.24:755][700]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.11.28-09.47.24:755][700]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.11.28-09.47.24:755][700]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.11.28-09.47.24:755][700]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.11.28-09.47.24:755][700]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.11.28-09.47.24:755][700]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.11.28-09.47.24:755][700]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.11.28-09.47.24:755][700]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.11.28-09.47.24:755][700]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.11.28-09.47.24:755][700]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.11.28-09.47.24:755][700]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.11.28-09.47.24:755][700]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.11.28-09.47.24:755][700]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.11.28-09.47.24:755][700]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.11.28-09.47.24:755][700]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.11.28-09.47.24:755][700]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.11.28-09.47.24:755][700]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.11.28-09.47.24:755][700]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.11.28-09.47.24:755][700]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.11.28-09.47.24:755][700]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.11.28-09.47.24:755][700]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.11.28-09.47.24:756][700]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.11.28-09.47.24:756][700]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.11.28-09.47.24:756][700]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.11.28-09.47.24:756][700]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.11.28-09.47.24:756][700]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.11.28-09.47.24:756][700]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.11.28-09.47.24:756][700]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.11.28-09.47.24:756][700]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.11.28-09.47.24:756][700]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.11.28-09.47.24:756][700]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.11.28-09.47.24:757][700]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.11.28-09.47.24:757][700]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.11.28-09.47.24:757][700]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.11.28-09.47.24:758][700]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.11.28-09.47.24:758][700]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.11.28-09.47.24:758][700]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.11.28-09.47.24:758][700]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.11.28-09.47.24:758][700]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.11.28-09.47.24:758][700]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.11.28-09.47.24:859][700]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.11.28-09.47.24:960][700]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.11.28-09.47.24:960][700]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.11.28-09.47.24:960][700]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.11.28-09.47.24:960][700]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.11.28-09.47.24:960][700]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.11.28-09.47.24:960][700]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.11.28-09.47.24:963][700]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.11.28-09.47.24:963][700]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.11.28-09.47.24:963][700]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.11.28-09.47.24:963][700]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.11.28-09.47.24:971][700]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.11.28-09.47.24:972][700]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.11.28-09.47.24:972][700]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.11.28-09.47.24:972][700]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.11.28-09.47.24:972][700]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.11.28-09.47.24:972][700]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.11.28-09.47.24:972][700]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.11.28-09.47.24:972][700]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.11.28-09.47.24:972][700]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.11.28-09.47.24:972][700]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.11.28-09.47.24:972][700]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.11.28-09.47.24:972][700]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.11.28-09.47.24:972][700]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.11.28-09.47.24:973][700]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.11.28-09.47.24:973][700]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.11.28-09.47.24:973][700]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.11.28-09.47.24:973][700]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.11.28-09.47.24:973][700]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.11.28-09.47.24:973][700]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.11.28-09.47.24:981][700]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.11.28-09.47.24:982][700]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.11.28-09.47.24:982][700]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.11.28-09.47.24:982][700]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.11.28-09.47.24:982][700]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.11.28-09.47.24:982][700]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.11.28-09.47.25:130][700]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.11.28-09.47.25:130][700]LogDirectoryWatcher: A directory notification for 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/' was aborted.
+[2017.11.28-09.47.25:130][700]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.11.28-09.47.25:130][700]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.11.28-09.47.25:134][700]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.11.28-09.47.25:135][700]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.11.28-09.47.25:135][700]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.11.28-09.47.25:135][700]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.11.28-09.47.25:135][700]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.11.28-09.47.25:136][700]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.11.28-09.47.25:136][700]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.11.28-09.47.25:136][700]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.11.28-09.47.25:136][700]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.11.28-09.47.25:217][700]LogDerivedDataCache: Shutdown
+[2017.11.28-09.47.25:217][700]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.11.28-09.47.25:217][700]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.11.28-09.47.25:217][700]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.11.28-09.47.25:217][700]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.11.28-09.47.25:217][700]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.11.28-09.47.25:217][700]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.11.28-09.47.25:217][700]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.11.28-09.47.25:217][700]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.11.28-09.47.25:217][700]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.11.28-09.47.25:217][700]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.11.28-09.47.25:218][700]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.11.28-09.47.25:218][700]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.11.28-09.47.25:218][700]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.11.28-09.47.25:218][700]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.11.28-09.47.25:218][700]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.11.28-09.47.25:218][700]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.11.28-09.47.25:218][700]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.11.28-09.47.25:218][700]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.11.28-09.47.25:218][700]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.11.28-09.47.25:218][700]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.11.28-09.47.25:218][700]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.11.28-09.47.25:218][700]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.11.28-09.47.25:218][700]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.11.28-09.47.25:218][700]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.11.28-09.47.25:218][700]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.11.28-09.47.25:218][700]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.11.28-09.47.25:218][700]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.11.28-09.47.25:218][700]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.11.28-09.47.25:218][700]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.11.28-09.47.25:218][700]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.11.28-09.47.25:218][700]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.11.28-09.47.25:218][700]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.11.28-09.47.25:218][700]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.11.28-09.47.25:218][700]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.11.28-09.47.25:218][700]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.11.28-09.47.25:218][700]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.11.28-09.47.25:218][700]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.11.28-09.47.25:218][700]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.11.28-09.47.25:218][700]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.11.28-09.47.25:218][700]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.11.28-09.47.25:218][700]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.11.28-09.47.25:218][700]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.11.28-09.47.25:218][700]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.11.28-09.47.25:218][700]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.11.28-09.47.25:218][700]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.11.28-09.47.25:218][700]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.11.28-09.47.25:218][700]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.11.28-09.47.25:218][700]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.11.28-09.47.25:218][700]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.11.28-09.47.25:218][700]LogOnline:Display: Unloading online subsystem: NULL
+[2017.11.28-09.47.25:218][700]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.11.28-09.47.25:219][700]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.11.28-09.47.25:219][700]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.11.28-09.47.25:219][700]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5253C8DB-41C5-9280-F9F7-328634CCC5FA%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=0f8f66764a1c83dea0feb0b712ac468d%7C0d784cb4b3e04b1e8f4cee780c294af6%7Cd8c87322-aa14-41c7-9f35-993d49f270f7&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.11.28-09.47.25:242][700]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.11.28-09.47.25:245][700]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.11.28-09.47.25:245][700]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.11.28-09.47.25:246][700]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.11.28-09.47.25:246][700]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.11.28-09.47.25:246][700]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.11.28-09.47.25:246][700]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.11.28-09.47.25:246][700]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.11.28-09.47.25:246][700]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.11.28-09.47.25:248][700]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.11.28-09.47.25:248][700]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.11.28-09.47.25:248][700]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.11.28-09.47.25:248][700]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.11.28-09.47.25:248][700]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.11.28-09.47.25:248][700]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.11.28-09.47.25:248][700]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.11.28-09.47.25:248][700]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.11.28-09.47.25:248][700]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.11.28-09.47.25:248][700]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.11.28-09.47.25:252][700]LogExit: Exiting.
+[2017.11.28-09.47.25:283][700]Log file closed, 11/28/17 10:47:25
