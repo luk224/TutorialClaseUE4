@@ -1,0 +1,1347 @@
+﻿Log file open, 12/03/17 12:17:26
+LogInit:Display: Running engine for game: Project1
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1157466121) SRandInit(1157466121).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.093325
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.12.03-11.17.28:092][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.03-11.17.28:092][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.12.03-11.17.28:155][  0]LogInit: Computer: MSI-ANDRES
+[2017.12.03-11.17.28:155][  0]LogInit: User: lukin
+[2017.12.03-11.17.28:155][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.12.03-11.17.28:155][  0]LogInit: High frequency timer resolution =2.630631 MHz
+[2017.12.03-11.17.28:155][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.12.03-11.17.28:155][  0]LogMemory: Platform Memory Stats for Windows
+[2017.12.03-11.17.28:155][  0]LogMemory: Process Physical Memory: 276.16 MB used, 276.16 MB peak
+[2017.12.03-11.17.28:155][  0]LogMemory: Process Virtual Memory: 260.94 MB used, 260.94 MB peak
+[2017.12.03-11.17.28:155][  0]LogMemory: Physical Memory: 5809.50 MB used,  10489.36 MB free, 16298.87 MB total
+[2017.12.03-11.17.28:155][  0]LogMemory: Virtual Memory: 677.18 MB used,  10489.36 MB free, 134217728.00 MB total
+[2017.12.03-11.17.28:229][  0]LogInit: Overriding language with editor language configuration option (en).
+[2017.12.03-11.17.28:229][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2017.12.03-11.17.29:275][  0]LogD3D11RHI: D3D11 adapters:
+[2017.12.03-11.17.29:358][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970M' (Feature Level 11_0)
+[2017.12.03-11.17.29:358][  0]LogD3D11RHI:       3040/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.12.03-11.17.29:364][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 5600' (Feature Level 11_0)
+[2017.12.03-11.17.29:364][  0]LogD3D11RHI:       128/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.12.03-11.17.29:366][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.12.03-11.17.29:366][  0]LogD3D11RHI:       0/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.12.03-11.17.29:366][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.12.03-11.17.29:374][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.12.03-11.17.29:374][  0]LogD3D11RHI:     GPU DeviceId: 0x13d8 (for the marketing name, search the web for "GPU Device Id")
+[2017.12.03-11.17.29:374][  0]LogWindows: EnumDisplayDevices:
+[2017.12.03-11.17.29:374][  0]LogWindows:    0. 'Intel(R) HD Graphics 5600' (P:1 D:1)
+[2017.12.03-11.17.29:374][  0]LogWindows:    1. 'Intel(R) HD Graphics 5600' (P:0 D:1)
+[2017.12.03-11.17.29:374][  0]LogWindows:    2. 'Intel(R) HD Graphics 5600' (P:0 D:0)
+[2017.12.03-11.17.29:374][  0]LogWindows:    3. 'Intel(R) HD Graphics 5600' (P:0 D:0)
+[2017.12.03-11.17.29:374][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.12.03-11.17.29:374][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970M
+[2017.12.03-11.17.29:374][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.12.03-11.17.29:374][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.12.03-11.17.29:374][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.12.03-11.17.29:395][  0]LogD3D11RHI: Async texture creation enabled
+[2017.12.03-11.17.29:409][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.12.03-11.17.29:410][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Intermediate/Shaders/WorkingDirectory/12300/).
+[2017.12.03-11.17.29:410][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/lukin/AppData/Local/Temp/UnrealShaderWorkingDir/032BD9E1438597FC3F0A80BB18696A96/'.
+[2017.12.03-11.17.29:410][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.12.03-11.17.30:465][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.12.03-11.17.30:518][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.12.03-11.17.30:571][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.12.03-11.17.30:625][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.12.03-11.17.30:680][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.12.03-11.17.30:734][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.12.03-11.17.30:842][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.12.03-11.17.30:897][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.12.03-11.17.30:942][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.12.03-11.17.30:992][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.12.03-11.17.31:043][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.12.03-11.17.31:093][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.12.03-11.17.31:144][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.12.03-11.17.31:195][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.12.03-11.17.31:248][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.12.03-11.17.31:351][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.12.03-11.17.31:351][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.12.03-11.17.31:393][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.12.03-11.17.31:487][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.12.03-11.17.31:517][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.12.03-11.17.31:567][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.12.03-11.17.31:615][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.12.03-11.17.31:664][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.12.03-11.17.31:716][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.12.03-11.17.31:716][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.12.03-11.17.32:234][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.12.03-11.17.32:320][  0]LogDerivedDataCache: Loaded boot cache 0.09s 90MB C:/Users/lukin/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.12.03-11.17.32:320][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/lukin/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.12.03-11.17.32:320][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.12.03-11.17.32:320][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.12.03-11.17.32:320][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.12.03-11.17.32:320][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.12.03-11.17.32:336][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.12.03-11.17.32:348][  0]LogDerivedDataCache: Using Local data cache path C:/Users/lukin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.12.03-11.17.32:358][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.12.03-11.17.32:358][  0]LogSlate: Using Freetype 2.6.0
+[2017.12.03-11.17.32:359][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.03-11.17.32:359][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.03-11.17.32:668][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.03-11.17.32:738][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.12.03-11.17.32:894][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.12.03-11.17.32:939][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.12.03-11.17.32:990][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.12.03-11.17.32:990][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.12.03-11.17.32:990][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.12.03-11.17.33:690][  0]LogNetVersion: Project1 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3220768879)
+[2017.12.03-11.17.33:755][  0]LogAssetRegistry: FAssetRegistry took 0.0259 seconds to start up
+[2017.12.03-11.17.33:808][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.021414 seconds
+[2017.12.03-11.17.33:814][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.12.03-11.17.33:814][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.12.03-11.17.33:814][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.12.03-11.17.33:883][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.12.03-11.17.36:466][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.12.03-11.17.36:510][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.12.03-11.17.37:086][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.12.03-11.17.37:573][  0]SourceControl: Info Source control is disabled
+[2017.12.03-11.17.37:613][  0]SourceControl: Info Source control is disabled
+[2017.12.03-11.17.38:639][  0]SourceControl: Info Source control is disabled
+[2017.12.03-11.17.38:737][  0]SourceControl: Info Source control is disabled
+[2017.12.03-11.17.39:545][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.12.03-11.17.40:191][  0]LogEngine: Initializing Engine...
+[2017.12.03-11.17.40:192][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.12.03-11.17.40:380][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.12.03-11.17.40:380][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.12.03-11.17.40:509][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.12.03-11.17.40:517][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.03-11.17.40:554][  0]LogInit: FAudioDevice initialized.
+[2017.12.03-11.17.40:600][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/lukin/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.12.03-11.17.40:615][  0]LogInit: Texture streaming: Enabled
+[2017.12.03-11.17.40:719][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.12.03-11.17.41:043][  0]LogInit: Transaction tracking system initialized
+[2017.12.03-11.17.41:371][  0]BlueprintLog: New page: Editor Load
+[2017.12.03-11.17.42:379][  0]LocalizationService: Info Localization service is disabled
+[2017.12.03-11.17.43:111][  0]LogConsoleResponse:Display: 
+[2017.12.03-11.17.43:389][  0]LogFileCache: Scanning file cache for directory 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/' took 0.02s
+[2017.12.03-11.17.43:389][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.12.03-11.17.43:389][  0]LogCook:Display: Mobile HDR setting 1
+[2017.12.03-11.17.44:520][  0]SourceControl: Info Source control is disabled
+[2017.12.03-11.17.44:521][  0]Cmd: MAP LOAD FILE="D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.03-11.17.44:521][  0]LightingResults: New page: Lighting Build
+[2017.12.03-11.17.44:566][  0]MapCheck: New page: Map Check
+[2017.12.03-11.17.44:566][  0]LightingResults: New page: Lighting Build
+[2017.12.03-11.18.11:030][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.12.03-11.18.11:341][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.03-11.18.11:364][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.03-11.18.11:428][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 64.582ms to complete.
+[2017.12.03-11.18.11:428][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 26.908
+[2017.12.03-11.18.11:547][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.12.03-11.18.12:426][  0]LogCollectionManager: Loaded 0 collections in 0.002503 seconds
+[2017.12.03-11.18.12:768][  0]LogFileCache: Scanning file cache for directory 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/Collections/' took 0.01s
+[2017.12.03-11.18.12:768][  0]LogFileCache: Scanning file cache for directory 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/Developers/lukin/Collections/' took 0.01s
+[2017.12.03-11.18.12:768][  0]LogFileCache: Scanning file cache for directory 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/Collections/' took 0.01s
+[2017.12.03-11.18.12:768][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2017.12.03-11.18.12:796][  0]LogContentBrowser: Native class hierarchy populated in 0.0256 seconds. Added 2329 classes and 491 folders.
+[2017.12.03-11.18.12:927][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.12.03-11.18.17:780][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.12.03-11.18.18:125][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.12.03-11.18.18:379][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.12.03-11.18.18:533][  0]LogSlate: Took 0.000249 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.03-11.18.18:535][  0]LogSlate: Took 0.000264 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.12.03-11.18.18:632][  0]LogSlate: Took 0.071374 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.12.03-11.18.19:300][  0]LogRenderer: Reallocating scene render targets to support 1224x592 NumSamples 1 (Frame:1).
+[2017.12.03-11.18.20:635][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.12.03-11.18.20:707][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.12.03-11.18.20:707][  0]LogLoad: (Engine Initialization) Total time: 55.85 seconds
+[2017.12.03-11.18.20:708][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.83 seconds
+[2017.12.03-11.18.20:708][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.12.03-11.18.20:708][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.12.03-11.18.20:725][  0]LogOcInput: OculusInput pre-init called
+[2017.12.03-11.18.20:725][  0]LogHMD: Starting GearVRController plugin
+[2017.12.03-11.18.20:792][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.12.03-11.18.21:146][  0]LogSlate: Took 0.073619 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.03-11.18.21:222][  1]LogAssetRegistry: Asset discovery search completed in 47.4891 seconds
+[2017.12.03-11.18.21:224][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.12.03-11.18.21:224][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000028 seconds (updated 0 objects)
+[2017.12.03-11.19.29:816][489]LogRenderer: Reallocating scene render targets to support 1224x596 NumSamples 1 (Frame:3469).
+[2017.12.03-11.19.29:872][490]LogRenderer: Reallocating scene render targets to support 1224x616 NumSamples 1 (Frame:3471).
+[2017.12.03-11.19.29:932][491]LogRenderer: Reallocating scene render targets to support 1224x640 NumSamples 1 (Frame:3473).
+[2017.12.03-11.19.29:997][492]LogRenderer: Reallocating scene render targets to support 1224x660 NumSamples 1 (Frame:3475).
+[2017.12.03-11.19.30:063][493]LogRenderer: Reallocating scene render targets to support 1224x688 NumSamples 1 (Frame:3477).
+[2017.12.03-11.19.30:122][494]LogRenderer: Reallocating scene render targets to support 1224x712 NumSamples 1 (Frame:3479).
+[2017.12.03-11.19.30:188][495]LogRenderer: Reallocating scene render targets to support 1224x728 NumSamples 1 (Frame:3481).
+[2017.12.03-11.19.30:246][496]LogRenderer: Reallocating scene render targets to support 1224x752 NumSamples 1 (Frame:3483).
+[2017.12.03-11.19.30:304][497]LogRenderer: Reallocating scene render targets to support 1224x776 NumSamples 1 (Frame:3485).
+[2017.12.03-11.19.30:363][498]LogRenderer: Reallocating scene render targets to support 1224x792 NumSamples 1 (Frame:3487).
+[2017.12.03-11.19.30:422][499]LogRenderer: Reallocating scene render targets to support 1224x800 NumSamples 1 (Frame:3489).
+[2017.12.03-11.19.30:538][501]LogRenderer: Reallocating scene render targets to support 1224x804 NumSamples 1 (Frame:3493).
+[2017.12.03-11.19.31:927][579]LogRenderer: Reallocating scene render targets to support 1228x804 NumSamples 1 (Frame:3567).
+[2017.12.03-11.19.31:985][580]LogRenderer: Reallocating scene render targets to support 1240x804 NumSamples 1 (Frame:3569).
+[2017.12.03-11.19.32:054][581]LogRenderer: Reallocating scene render targets to support 1288x804 NumSamples 1 (Frame:3571).
+[2017.12.03-11.19.32:155][582]LogRenderer: Reallocating scene render targets to support 1340x804 NumSamples 1 (Frame:3573).
+[2017.12.03-11.19.32:229][583]LogRenderer: Reallocating scene render targets to support 1352x804 NumSamples 1 (Frame:3575).
+[2017.12.03-11.19.32:293][584]LogRenderer: Reallocating scene render targets to support 1356x804 NumSamples 1 (Frame:3577).
+[2017.12.03-11.20.11:782][431]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallWithWindwowIV)
+[2017.12.03-11.20.15:148][434]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2017.12.03-11.20.16:406][482]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallWithWindwowIV)
+[2017.12.03-11.21.56:425][899]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.12.03-11.21.56:478][899]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.03-11.21.56:809][899]PIE: New page: SIE session: ThirdPersonExampleMap (Dec 3, 2017, 1:21:56 PM)
+[2017.12.03-11.21.56:832][899]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.12.03-11.21.57:781][899]LogPlayLevel: PIE: StaticDuplicateObject took: (0.948538s)
+[2017.12.03-11.21.57:782][899]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.12.03-11.21.57:782][899]LogPlayLevel: PIE: World Init took: (0.000964s)
+[2017.12.03-11.21.57:808][899]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.975847s)
+[2017.12.03-11.21.58:011][899]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.03-11.21.58:048][899]LogInit: FAudioDevice initialized.
+[2017.12.03-11.21.58:309][899]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.12.03-11.21.58:886][899]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.12.03-12.21.58
+[2017.12.03-11.21.59:335][899]LogWorld: Bringing up level for play took: 0.558285
+[2017.12.03-11.22.04:656][899]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
+[2017.12.03-11.22.05:551][899]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 9.913
+[2017.12.03-11.22.06:088][899]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.12.03-11.22.07:817][900]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (wallIV49)
+[2017.12.03-11.22.09:130][900]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallIV70)
+[2017.12.03-11.22.29:012][408]LogEditorViewport: Clicking on Actor (LMB): Obstáculo_C (Obstáculo)
+[2017.12.03-11.22.30:796][435]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.12.03-11.22.31:303][435]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.12.03-11.22.36:573][685]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorIV73)
+[2017.12.03-11.22.49:820][385]Cmd: TRANSACTION UNDO
+[2017.12.03-11.22.49:820][385]LogEditorTransaction: Undo Scale Actors
+[2017.12.03-11.22.50:055][385]LogSlate: Took 0.067672 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.03-11.22.57:619][824]Cmd: TRANSACTION UNDO
+[2017.12.03-11.22.57:619][824]LogEditorTransaction: Undo Move Actors
+[2017.12.03-11.23.07:398][399]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorIV72)
+[2017.12.03-11.23.09:673][531]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorIV71)
+[2017.12.03-11.23.15:194][838]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Linear_Stair_StaticMesh2)
+[2017.12.03-11.23.16:044][880]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorIV71)
+[2017.12.03-11.23.31:017][729]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorIV35)
+[2017.12.03-11.23.38:580][132]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorIV13)
+[2017.12.03-11.23.47:352][632]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallIV25)
+[2017.12.03-11.23.58:120][197]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallWithDoorIV)
+[2017.12.03-11.24.08:461][799]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallWithWindwowIV)
+[2017.12.03-11.24.46:665][ 43]LogEditorViewport: Clicking on Actor (LMB): Obstáculo_C (Obstáculo4)
+[2017.12.03-11.24.47:368][ 80]LogEditorViewport: Clicking on Actor (LMB): Obstáculo_C (Obstáculo3)
+[2017.12.03-11.24.52:827][324]LogEditorViewport: Clicking on Actor (LMB): Obstáculo_C (Obstáculo4)
+[2017.12.03-11.24.54:764][396]LogSlate: Took 0.145283 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.12.03-11.25.14:901][340]LogEditorViewport: Clicking on Actor (LMB): Obstáculo_C (Obstáculo2)
+[2017.12.03-11.25.30:932][220]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube9)
+[2017.12.03-11.25.31:955][273]Cmd: DELETE
+[2017.12.03-11.25.31:955][273]Cmd: ACTOR DELETE
+[2017.12.03-11.25.32:375][273]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.03-11.25.32:412][273]LogEditorActor: Deleted 1 Actors (0.087 secs)
+[2017.12.03-11.25.45:569][ 37]LogEditorViewport: Clicking on Actor (LMB): BP_HealingCube_C (BP_HealingCube3)
+[2017.12.03-11.25.46:516][ 85]Cmd: DELETE
+[2017.12.03-11.25.46:516][ 85]Cmd: ACTOR DELETE
+[2017.12.03-11.25.46:518][ 85]LogEditorActor: Deleted Actor: BP_HealingCube_C
+[2017.12.03-11.25.46:532][ 85]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2017.12.03-11.25.56:914][671]LogTemp: Repeting last play command: Simulate
+[2017.12.03-11.25.56:987][671]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.12.03-11.25.56:987][671]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.03-11.25.56:987][671]PIE: New page: SIE session: ThirdPersonExampleMap (Dec 3, 2017, 1:25:56 PM)
+[2017.12.03-11.25.56:987][671]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.12.03-11.25.57:842][671]LogPlayLevel: PIE: StaticDuplicateObject took: (0.854723s)
+[2017.12.03-11.25.57:843][671]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.12.03-11.25.57:843][671]LogPlayLevel: PIE: World Init took: (0.001001s)
+[2017.12.03-11.25.57:844][671]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.856288s)
+[2017.12.03-11.25.57:861][671]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.03-11.25.57:902][671]LogInit: FAudioDevice initialized.
+[2017.12.03-11.25.57:952][671]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.12.03-11.25.57:970][671]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.12.03-12.25.57
+[2017.12.03-11.25.57:972][671]LogWorld: Bringing up level for play took: 0.018846
+[2017.12.03-11.25.57:983][671]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.431
+[2017.12.03-11.25.57:986][671]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.12.03-11.26.11:839][405]LogEditorViewport: Clicking on Actor (LMB): BP_HealingCube_C (BP_HealingCube2)
+[2017.12.03-11.26.14:105][486]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.12.03-11.26.14:163][486]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.12.03-11.26.18:419][713]LogSlate: Took 0.086492 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.03-11.26.20:677][713]LogSlate: Took 0.267062 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.03-11.26.21:399][713]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 112 classes and 0 folders.
+[2017.12.03-11.26.27:389][713]LogSlate: Took 0.242792 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.12.03-11.29.07:832][566]BlueprintLog: New page: Compile BP_HealingCube
+[2017.12.03-11.29.10:752][664]LogTemp: Repeting last play command: Simulate
+[2017.12.03-11.29.10:785][664]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.12.03-11.29.10:785][664]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.03-11.29.10:785][664]PIE: New page: SIE session: ThirdPersonExampleMap (Dec 3, 2017, 1:29:10 PM)
+[2017.12.03-11.29.10:785][664]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.12.03-11.29.10:905][664]LogPlayLevel: PIE: StaticDuplicateObject took: (0.119790s)
+[2017.12.03-11.29.10:906][664]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.12.03-11.29.10:906][664]LogPlayLevel: PIE: World Init took: (0.000898s)
+[2017.12.03-11.29.10:907][664]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.121117s)
+[2017.12.03-11.29.10:926][664]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.03-11.29.10:960][664]LogInit: FAudioDevice initialized.
+[2017.12.03-11.29.10:998][664]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.12.03-11.29.11:016][664]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.12.03-12.29.11
+[2017.12.03-11.29.11:017][664]LogWorld: Bringing up level for play took: 0.017573
+[2017.12.03-11.29.11:027][664]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.526
+[2017.12.03-11.29.11:036][664]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.12.03-11.29.31:004][626]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.12.03-11.29.31:050][626]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.12.03-11.29.32:369][701]LogEditorViewport: Clicking on Actor (LMB): BP_HealingCube_C (BP_HealingCube2)
+[2017.12.03-11.29.39:610][ 28]BlueprintLog: New page: Compile BP_HealingCube
+[2017.12.03-11.29.43:359][108]LogTemp: Repeting last play command: Simulate
+[2017.12.03-11.29.43:387][108]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.12.03-11.29.43:387][108]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.03-11.29.43:388][108]PIE: New page: SIE session: ThirdPersonExampleMap (Dec 3, 2017, 1:29:43 PM)
+[2017.12.03-11.29.43:388][108]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.12.03-11.29.43:450][108]LogPlayLevel: PIE: StaticDuplicateObject took: (0.061881s)
+[2017.12.03-11.29.43:451][108]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.12.03-11.29.43:451][108]LogPlayLevel: PIE: World Init took: (0.001716s)
+[2017.12.03-11.29.43:452][108]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.064436s)
+[2017.12.03-11.29.43:488][108]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.03-11.29.43:531][108]LogInit: FAudioDevice initialized.
+[2017.12.03-11.29.43:568][108]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.12.03-11.29.43:594][108]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.12.03-12.29.43
+[2017.12.03-11.29.43:596][108]LogWorld: Bringing up level for play took: 0.026414
+[2017.12.03-11.29.43:607][108]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.055
+[2017.12.03-11.29.43:616][108]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.12.03-11.29.49:566][420]LogEditorViewport: Clicking on Actor (LMB): BP_HealingCube_C (BP_HealingCube2)
+[2017.12.03-11.29.52:131][537]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.12.03-11.29.52:184][537]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.12.03-11.29.53:574][610]LogTemp: Repeting last play command: Simulate
+[2017.12.03-11.29.53:605][610]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.12.03-11.29.53:605][610]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.03-11.29.53:605][610]PIE: New page: SIE session: ThirdPersonExampleMap (Dec 3, 2017, 1:29:53 PM)
+[2017.12.03-11.29.53:605][610]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.12.03-11.29.53:668][610]LogPlayLevel: PIE: StaticDuplicateObject took: (0.063039s)
+[2017.12.03-11.29.53:669][610]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.12.03-11.29.53:669][610]LogPlayLevel: PIE: World Init took: (0.001261s)
+[2017.12.03-11.29.53:670][610]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.064907s)
+[2017.12.03-11.29.53:704][610]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.03-11.29.53:745][610]LogInit: FAudioDevice initialized.
+[2017.12.03-11.29.53:783][610]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.12.03-11.29.53:808][610]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.12.03-12.29.53
+[2017.12.03-11.29.53:811][610]LogWorld: Bringing up level for play took: 0.025975
+[2017.12.03-11.29.53:822][610]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.269
+[2017.12.03-11.29.53:831][610]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.12.03-11.30.01:561][815]LogEditorViewport: Clicking on Actor (LMB): Vehiculo_BP_C (Vehiculo_BP)
+[2017.12.03-11.30.09:602][  4]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.12.03-11.30.09:666][  4]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.12.03-11.33.26:965][537]LogSavePackage: Save=1445.04ms
+[2017.12.03-11.33.26:965][537]LogSavePackage: Moving 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/ThirdPersonExampleMap_Auto153617A7442756F200B24D18E1533C5DC.tmp' to 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2017.12.03-11.33.26:966][537]LogSavePackage:Display: Finished SavePackage D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap
+[2017.12.03-11.33.26:997][537]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 1.826
+[2017.12.03-11.33.26:997][537]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.826
+[2017.12.03-11.33.27:002][537]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MisBP/BP_HealingCube] ([1] browsable assets)...
+[2017.12.03-11.33.27:110][537]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MisBP/BP_HealingCube.BP_HealingCube]
+[2017.12.03-11.33.27:110][537]OBJ SavePackage: Finished generating thumbnails for package [/Game/MisBP/BP_HealingCube]
+[2017.12.03-11.33.27:110][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MisBP/BP_HealingCube" FILE="D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/Autosaves/Game/MisBP/BP_HealingCube_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.12.03-11.33.27:244][537]LogSavePackage: Save=125.55ms
+[2017.12.03-11.33.27:245][537]LogSavePackage: Moving 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/BP_HealingCube_Auto1627A1B414C33E7944682EBBB2A8A44C1.tmp' to 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/Autosaves/Game/MisBP/BP_HealingCube_Auto1.uasset'
+[2017.12.03-11.33.27:268][537]LogSavePackage:Display: Finished SavePackage D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/Autosaves/Game/MisBP/BP_HealingCube_Auto1.uasset
+[2017.12.03-11.33.27:268][537]LogFileHelpers: Auto-saving content packages took 0.267
+[2017.12.03-11.33.36:005][689]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MisBP/BP_HealingCube" FILE="D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/BP_HealingCube.uasset" SILENT=true
+[2017.12.03-11.33.36:050][689]LogSavePackage: Save=41.08ms
+[2017.12.03-11.33.36:050][689]LogSavePackage: Moving 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/BP_HealingCubeE4388C3D48383154132C19B85A3DBC0B.tmp' to 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/BP_HealingCube.uasset'
+[2017.12.03-11.33.36:070][689]LogSavePackage:Display: Finished SavePackage D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/BP_HealingCube.uasset
+[2017.12.03-11.33.37:491][689]LogSavePackage: Save=1323.27ms
+[2017.12.03-11.33.37:491][689]LogSavePackage: Moving 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/ThirdPersonExampleMapC5297559415D114A504058B7094878DB.tmp' to 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.12.03-11.33.37:497][689]LogSavePackage:Display: Finished SavePackage D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.12.03-11.33.37:540][689]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 1.466
+[2017.12.03-11.36.31:112][562]LogMaterial: Missing cached shader map for material Mast, compiling. 
+[2017.12.03-11.36.31:597][562]LogMaterial: Missing cached shader map for material Mast, compiling. 
+[2017.12.03-11.36.31:707][562]LogMaterial: Missing cached shader map for material Mast, compiling. 
+[2017.12.03-11.36.31:810][562]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.03-11.36.37:918][708]LogMaterial: Missing cached shader map for material Mast, compiling. 
+[2017.12.03-11.36.38:013][708]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.03-11.36.39:754][760]LogMaterialEditor: Saving and Compiling material Mast
+[2017.12.03-11.36.44:311][760]LogMaterial: Missing cached shader map for material Mast, compiling. 
+[2017.12.03-11.36.44:460][760]LogMaterial: Missing cached shader map for material Mast, compiling. 
+[2017.12.03-11.36.44:579][760]LogMaterial: Missing cached shader map for material Mast, compiling. 
+[2017.12.03-11.36.44:767][760]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Mast, compiling. 
+[2017.12.03-11.36.48:182][760]TextureStreamingBuild:Display: Compiling optional shaders took 3.459 seconds.
+[2017.12.03-11.36.53:781][760]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MisBP/Mast" FILE="D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/Mast.uasset" SILENT=true
+[2017.12.03-11.36.53:857][760]LogSavePackage: Save=65.29ms
+[2017.12.03-11.36.53:857][760]LogSavePackage: Moving 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/Mast1D0130C64C0EDAF43C3481B82DB5BC94.tmp' to 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/Mast.uasset'
+[2017.12.03-11.36.53:859][760]LogSavePackage:Display: Finished SavePackage D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/Mast.uasset
+[2017.12.03-11.36.53:869][760]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.12.03-11.36.53:870][760]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.12.03-11.36.53:870][760]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.12.03-11.37.30:947][206]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\lukin\Desktop\maps\mast.png)
+[2017.12.03-11.37.31:051][206]LogTexture:Display: Building textures: mast (AutoDXT, 1024X1024)
+[2017.12.03-11.37.32:366][214]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.12.03-11.37.32:541][214]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.12.03-11.37.32:577][214]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.12.03-11.37.32:673][214]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.03-11.37.34:705][274]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.12.03-11.37.40:612][438]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.12.03-11.37.40:685][438]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.12.03-11.37.40:736][438]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.12.03-11.37.43:355][517]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.12.03-11.37.43:433][517]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.12.03-11.37.45:361][578]LogMaterialEditor: Saving and Compiling material Mast
+[2017.12.03-11.37.46:948][578]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.12.03-11.37.47:154][578]LogMaterial: Missing cached shader map for material Mast, compiling. 
+[2017.12.03-11.37.47:257][578]LogMaterial: Missing cached shader map for material Mast, compiling. 
+[2017.12.03-11.37.47:433][578]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Mast, compiling. 
+[2017.12.03-11.37.51:013][578]TextureStreamingBuild:Display: Compiling optional shaders took 3.618 seconds.
+[2017.12.03-11.37.56:586][578]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MisBP/Mast" FILE="D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/Mast.uasset" SILENT=true
+[2017.12.03-11.37.56:612][578]LogSavePackage: Save=21.74ms
+[2017.12.03-11.37.56:612][578]LogSavePackage: Moving 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/MastC5E875E045197206ADF90EAB703B5E3C.tmp' to 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/Mast.uasset'
+[2017.12.03-11.37.56:615][578]LogSavePackage:Display: Finished SavePackage D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/Mast.uasset
+[2017.12.03-11.37.56:631][578]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2017.12.03-11.37.56:631][578]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.12.03-11.37.56:631][578]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.12.03-11.37.56:631][578]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.03-11.38.07:091][ 70]LogMaterial: Missing cached shader map for material Pivot, compiling. 
+[2017.12.03-11.38.07:244][ 70]LogMaterial: Missing cached shader map for material Pivot, compiling. 
+[2017.12.03-11.38.07:284][ 70]LogMaterial: Missing cached shader map for material Pivot, compiling. 
+[2017.12.03-11.38.07:353][ 70]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.03-11.38.11:455][187]LogMaterial: Missing cached shader map for material Pivot, compiling. 
+[2017.12.03-11.38.11:550][187]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.03-11.38.14:671][268]LogMaterialEditor: Saving and Compiling material Pivot
+[2017.12.03-11.38.16:288][268]LogMaterial: Missing cached shader map for material Pivot, compiling. 
+[2017.12.03-11.38.16:494][268]LogMaterial: Missing cached shader map for material Pivot, compiling. 
+[2017.12.03-11.38.16:587][268]LogMaterial: Missing cached shader map for material Pivot, compiling. 
+[2017.12.03-11.38.16:740][268]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Pivot, compiling. 
+[2017.12.03-11.38.20:216][268]TextureStreamingBuild:Display: Compiling optional shaders took 3.497 seconds.
+[2017.12.03-11.38.25:445][268]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MisBP/Pivot" FILE="D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/Pivot.uasset" SILENT=true
+[2017.12.03-11.38.25:473][268]LogSavePackage: Save=19.55ms
+[2017.12.03-11.38.25:473][268]LogSavePackage: Moving 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/Pivot9F95011F49CD1A93A432A68AFEB60C7A.tmp' to 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/Pivot.uasset'
+[2017.12.03-11.38.25:476][268]LogSavePackage:Display: Finished SavePackage D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/Pivot.uasset
+[2017.12.03-11.38.25:489][268]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.12.03-11.38.25:489][268]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.12.03-11.38.25:489][268]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.12.03-11.38.48:616][511]LogMaterial: Missing cached shader map for material Metal, compiling. 
+[2017.12.03-11.38.48:791][511]LogMaterial: Missing cached shader map for material Metal, compiling. 
+[2017.12.03-11.38.48:827][511]LogMaterial: Missing cached shader map for material Metal, compiling. 
+[2017.12.03-11.38.48:893][511]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.03-11.38.53:999][669]LogMaterial: Missing cached shader map for material Metal, compiling. 
+[2017.12.03-11.38.54:073][669]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.03-11.38.56:034][728]LogMaterialEditor: Saving and Compiling material Metal
+[2017.12.03-11.38.57:664][728]LogMaterial: Missing cached shader map for material Metal, compiling. 
+[2017.12.03-11.38.57:863][728]LogMaterial: Missing cached shader map for material Metal, compiling. 
+[2017.12.03-11.38.57:976][728]LogMaterial: Missing cached shader map for material Metal, compiling. 
+[2017.12.03-11.38.58:120][728]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Metal, compiling. 
+[2017.12.03-11.39.01:634][728]TextureStreamingBuild:Display: Compiling optional shaders took 3.532 seconds.
+[2017.12.03-11.39.07:424][728]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MisBP/Metal" FILE="D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/Metal.uasset" SILENT=true
+[2017.12.03-11.39.07:461][728]LogSavePackage: Save=20.22ms
+[2017.12.03-11.39.07:461][728]LogSavePackage: Moving 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/MetalE9F202024F494F30CFF635BB799E1292.tmp' to 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/Metal.uasset'
+[2017.12.03-11.39.07:463][728]LogSavePackage:Display: Finished SavePackage D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/Metal.uasset
+[2017.12.03-11.39.07:472][728]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.12.03-11.39.07:472][728]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.12.03-11.39.07:472][728]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.12.03-11.39.34:234][196]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.12.03-11.39.34:406][196]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.12.03-11.39.34:444][196]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.12.03-11.39.34:529][196]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.03-11.39.41:138][388]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\lukin\Desktop\maps\battery_wheel.png)
+[2017.12.03-11.39.41:300][388]LogTexture:Display: Building textures: battery_wheel (AutoDXT, 1024X1024)
+[2017.12.03-11.39.41:764][389]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.12.03-11.39.41:764][389]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.12.03-11.39.41:764][389]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.12.03-11.39.43:590][469]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.12.03-11.39.43:630][469]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.12.03-11.39.43:671][469]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.03-11.39.43:690][469]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.12.03-11.39.45:556][523]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.12.03-11.39.45:664][523]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.12.03-11.39.46:843][556]LogMaterialEditor: Saving and Compiling material Pivot
+[2017.12.03-11.39.48:612][556]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.12.03-11.39.48:810][556]LogMaterial: Missing cached shader map for material Pivot, compiling. 
+[2017.12.03-11.39.48:898][556]LogMaterial: Missing cached shader map for material Pivot, compiling. 
+[2017.12.03-11.39.49:058][556]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Pivot, compiling. 
+[2017.12.03-11.39.52:922][556]TextureStreamingBuild:Display: Compiling optional shaders took 3.888 seconds.
+[2017.12.03-11.39.58:618][556]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MisBP/Pivot" FILE="D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/Pivot.uasset" SILENT=true
+[2017.12.03-11.39.58:643][556]LogSavePackage: Save=20.26ms
+[2017.12.03-11.39.58:643][556]LogSavePackage: Moving 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/PivotD9E60E884F5D5292FA7D799BB6C699A1.tmp' to 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/Pivot.uasset'
+[2017.12.03-11.39.58:645][556]LogSavePackage:Display: Finished SavePackage D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/Pivot.uasset
+[2017.12.03-11.39.58:654][556]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2017.12.03-11.39.58:654][556]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.12.03-11.39.58:654][556]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.12.03-11.39.58:654][556]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.03-11.40.11:410][272]LogMaterial: Missing cached shader map for material Forks, compiling. 
+[2017.12.03-11.40.11:594][272]LogMaterial: Missing cached shader map for material Forks, compiling. 
+[2017.12.03-11.40.11:646][272]LogMaterial: Missing cached shader map for material Forks, compiling. 
+[2017.12.03-11.40.11:720][272]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.03-11.40.16:502][413]LogMaterial: Missing cached shader map for material Forks, compiling. 
+[2017.12.03-11.40.16:585][413]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.03-11.40.18:563][475]LogMaterialEditor: Saving and Compiling material Forks
+[2017.12.03-11.40.20:174][475]LogMaterial: Missing cached shader map for material Forks, compiling. 
+[2017.12.03-11.40.20:370][475]LogMaterial: Missing cached shader map for material Forks, compiling. 
+[2017.12.03-11.40.20:481][475]LogMaterial: Missing cached shader map for material Forks, compiling. 
+[2017.12.03-11.40.20:639][475]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Forks, compiling. 
+[2017.12.03-11.40.24:113][475]TextureStreamingBuild:Display: Compiling optional shaders took 3.497 seconds.
+[2017.12.03-11.40.29:438][475]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MisBP/Forks" FILE="D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/Forks.uasset" SILENT=true
+[2017.12.03-11.40.29:465][475]LogSavePackage: Save=17.43ms
+[2017.12.03-11.40.29:465][475]LogSavePackage: Moving 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/ForksE24C170E459A055A6B077D8A0A01D822.tmp' to 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/Forks.uasset'
+[2017.12.03-11.40.29:467][475]LogSavePackage:Display: Finished SavePackage D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/Forks.uasset
+[2017.12.03-11.40.29:478][475]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.12.03-11.40.29:478][475]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.12.03-11.40.29:478][475]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.12.03-11.40.33:589][611]LogMaterial: Missing cached shader map for material Forks, compiling. 
+[2017.12.03-11.40.39:652][807]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.12.03-11.40.39:652][807]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.12.03-11.40.39:652][807]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.12.03-11.40.40:326][840]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\lukin\Desktop\maps\forks.png)
+[2017.12.03-11.40.40:406][840]LogTexture:Display: Building textures: forks (AutoDXT, 1024X1024)
+[2017.12.03-11.40.44:205][ 18]LogMaterial: Missing cached shader map for material Forks, compiling. 
+[2017.12.03-11.40.44:260][ 18]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.12.03-11.40.44:311][ 18]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.12.03-11.40.46:048][ 70]LogMaterial: Missing cached shader map for material Forks, compiling. 
+[2017.12.03-11.40.46:122][ 70]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.12.03-11.40.46:988][ 97]LogMaterialEditor: Saving and Compiling material Forks
+[2017.12.03-11.40.48:605][ 97]LogMaterial: Missing cached shader map for material Forks, compiling. 
+[2017.12.03-11.40.48:796][ 97]LogMaterial: Missing cached shader map for material Forks, compiling. 
+[2017.12.03-11.40.48:899][ 97]LogMaterial: Missing cached shader map for material Forks, compiling. 
+[2017.12.03-11.40.49:069][ 97]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Forks, compiling. 
+[2017.12.03-11.40.52:786][ 97]TextureStreamingBuild:Display: Compiling optional shaders took 3.766 seconds.
+[2017.12.03-11.40.58:249][ 97]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MisBP/Forks" FILE="D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/Forks.uasset" SILENT=true
+[2017.12.03-11.40.58:275][ 97]LogSavePackage: Save=22.26ms
+[2017.12.03-11.40.58:275][ 97]LogSavePackage: Moving 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/Forks23FA49484D5EF3BA56C7228514D7C135.tmp' to 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/Forks.uasset'
+[2017.12.03-11.40.58:277][ 97]LogSavePackage:Display: Finished SavePackage D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/Forks.uasset
+[2017.12.03-11.40.58:287][ 97]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2017.12.03-11.40.58:287][ 97]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.12.03-11.40.58:287][ 97]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.12.03-11.40.58:287][ 97]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.03-11.41.03:289][344]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2017.12.03-11.41.03:467][344]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2017.12.03-11.41.03:518][344]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2017.12.03-11.41.03:614][344]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.03-11.41.09:864][538]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.12.03-11.41.09:864][538]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.12.03-11.41.09:864][538]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.12.03-11.41.12:502][676]LogMaterial: Missing cached shader map for material Body, compiling. 
+[2017.12.03-11.41.12:735][676]LogMaterial: Missing cached shader map for material Body, compiling. 
+[2017.12.03-11.41.12:777][676]LogMaterial: Missing cached shader map for material Body, compiling. 
+[2017.12.03-11.41.12:873][676]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.03-11.41.15:883][766]LogMaterial: Missing cached shader map for material Body, compiling. 
+[2017.12.03-11.41.21:911][853]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.12.03-11.41.21:911][853]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.12.03-11.41.21:911][853]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.12.03-11.41.34:328][890]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\lukin\Desktop\maps\forklift_body.png)
+[2017.12.03-11.41.34:414][890]LogTexture:Display: Building textures: forklift_body (AutoDXT, 1024X1024)
+[2017.12.03-11.41.34:822][890]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\lukin\Desktop\maps\forklift_body-b.png)
+[2017.12.03-11.41.34:889][890]LogTexture:Display: Building textures: forklift_body-b (AutoDXT, 1024X1024)
+[2017.12.03-11.41.36:689][917]LogMaterial: Missing cached shader map for material Body, compiling. 
+[2017.12.03-11.41.36:716][917]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.12.03-11.41.36:801][917]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.12.03-11.41.36:828][917]LogMaterial: Missing cached shader map for material Body, compiling. 
+[2017.12.03-11.41.36:907][917]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.12.03-11.41.36:962][917]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.12.03-11.41.36:984][917]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.12.03-11.41.42:456][ 86]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.12.03-11.41.42:457][ 86]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.12.03-11.41.42:457][ 86]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.12.03-11.41.44:675][198]LogMaterial: Missing cached shader map for material Body, compiling. 
+[2017.12.03-11.41.44:710][198]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.12.03-11.41.46:894][268]LogMaterial: Missing cached shader map for material Body, compiling. 
+[2017.12.03-11.41.46:959][268]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.12.03-11.41.48:249][309]LogMaterialEditor: Saving and Compiling material Body
+[2017.12.03-11.41.49:774][309]LogMaterial: Missing cached shader map for material Body, compiling. 
+[2017.12.03-11.41.49:947][309]LogMaterial: Missing cached shader map for material Body, compiling. 
+[2017.12.03-11.41.50:043][309]LogMaterial: Missing cached shader map for material Body, compiling. 
+[2017.12.03-11.41.50:182][309]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Body, compiling. 
+[2017.12.03-11.41.54:022][309]TextureStreamingBuild:Display: Compiling optional shaders took 3.851 seconds.
+[2017.12.03-11.41.59:426][309]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MisBP/Body" FILE="D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/Body.uasset" SILENT=true
+[2017.12.03-11.41.59:454][309]LogSavePackage: Save=18.96ms
+[2017.12.03-11.41.59:454][309]LogSavePackage: Moving 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/BodyD67227D54247FA892F01A48193D2978E.tmp' to 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/Body.uasset'
+[2017.12.03-11.41.59:456][309]LogSavePackage:Display: Finished SavePackage D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/Body.uasset
+[2017.12.03-11.41.59:469][309]MaterialEditorStats: Info Base pass shader: 83 instructions
+[2017.12.03-11.41.59:469][309]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.12.03-11.41.59:469][309]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.12.03-11.41.59:469][309]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.03-11.42.01:566][399]LogEditorViewport: Clicking on Actor (LMB): Liquido_BP_C (Liquido_BP)
+[2017.12.03-11.42.08:755][803]LogEditorViewport: Clicking on Actor (LMB): Vehiculo_BP_C (Vehiculo_BP)
+[2017.12.03-11.42.13:391][985]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling. 
+[2017.12.03-11.42.13:562][985]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling. 
+[2017.12.03-11.42.13:694][985]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling. 
+[2017.12.03-11.42.13:826][985]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.12.03-11.42.13:838][985]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.12.03-11.42.15:396][ 33]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling. 
+[2017.12.03-11.42.19:775][180]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling. 
+[2017.12.03-11.42.19:863][180]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.12.03-11.42.21:174][218]LogMaterialEditor: Saving and Compiling material Body
+[2017.12.03-11.42.22:937][218]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling. 
+[2017.12.03-11.42.23:130][218]LogMaterial: Missing cached shader map for material Body, compiling. 
+[2017.12.03-11.42.23:256][218]LogMaterial: Missing cached shader map for material Body, compiling. 
+[2017.12.03-11.42.23:418][218]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Body, compiling. 
+[2017.12.03-11.42.27:904][218]TextureStreamingBuild:Display: Compiling optional shaders took 4.510 seconds.
+[2017.12.03-11.42.33:513][218]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MisBP/Body" FILE="D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/Body.uasset" SILENT=true
+[2017.12.03-11.42.33:539][218]LogSavePackage: Save=20.23ms
+[2017.12.03-11.42.33:539][218]LogSavePackage: Moving 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/BodyCFFCEB2643776E3BA048259E463FD9D2.tmp' to 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/Body.uasset'
+[2017.12.03-11.42.33:541][218]LogSavePackage:Display: Finished SavePackage D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/Body.uasset
+[2017.12.03-11.42.33:547][218]MaterialEditorStats: Info Base pass shader: 87 instructions
+[2017.12.03-11.42.33:547][218]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.12.03-11.42.33:547][218]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.12.03-11.42.33:547][218]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.03-11.42.40:949][576]LogMaterial: Missing cached shader map for material Battery, compiling. 
+[2017.12.03-11.42.41:112][576]LogMaterial: Missing cached shader map for material Battery, compiling. 
+[2017.12.03-11.42.41:168][576]LogMaterial: Missing cached shader map for material Battery, compiling. 
+[2017.12.03-11.42.41:243][576]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.03-11.42.44:523][676]LogMaterial: Missing cached shader map for material Battery, compiling. 
+[2017.12.03-11.42.50:290][746]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.12.03-11.42.50:290][746]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.12.03-11.42.50:290][746]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.12.03-11.43.03:129][ 17]LogMaterial: Missing cached shader map for material Battery, compiling. 
+[2017.12.03-11.43.03:167][ 17]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.12.03-11.43.03:209][ 17]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.12.03-11.43.05:081][ 76]LogMaterial: Missing cached shader map for material Battery, compiling. 
+[2017.12.03-11.43.05:163][ 76]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.12.03-11.43.08:682][173]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\lukin\Desktop\maps\battery_wheel-s.png)
+[2017.12.03-11.43.08:802][173]LogTexture:Display: Building textures: battery_wheel-s (AutoDXT, 1024X1024)
+[2017.12.03-11.43.10:367][210]LogMaterial: Missing cached shader map for material Battery, compiling. 
+[2017.12.03-11.43.10:435][210]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2017.12.03-11.43.10:491][210]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.12.03-11.43.10:503][210]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2017.12.03-11.43.15:790][371]LogMaterial: Missing cached shader map for material Battery, compiling. 
+[2017.12.03-11.43.15:879][371]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2017.12.03-11.43.17:028][408]LogMaterialEditor: Saving and Compiling material Battery
+[2017.12.03-11.43.18:563][408]LogMaterial: Missing cached shader map for material Battery, compiling. 
+[2017.12.03-11.43.18:742][408]LogMaterial: Missing cached shader map for material Battery, compiling. 
+[2017.12.03-11.43.18:831][408]LogMaterial: Missing cached shader map for material Battery, compiling. 
+[2017.12.03-11.43.18:977][408]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Battery, compiling. 
+[2017.12.03-11.43.22:588][408]TextureStreamingBuild:Display: Compiling optional shaders took 3.639 seconds.
+[2017.12.03-11.43.27:813][408]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MisBP/Battery" FILE="D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/Battery.uasset" SILENT=true
+[2017.12.03-11.43.27:840][408]LogSavePackage: Save=19.41ms
+[2017.12.03-11.43.27:840][408]LogSavePackage: Moving 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/BatteryF98E15364BEA7F381669269F5592F24D.tmp' to 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/Battery.uasset'
+[2017.12.03-11.43.27:843][408]LogSavePackage:Display: Finished SavePackage D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/Battery.uasset
+[2017.12.03-11.43.27:859][408]MaterialEditorStats: Info Base pass shader: 87 instructions
+[2017.12.03-11.43.27:859][408]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.12.03-11.43.27:859][408]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.12.03-11.43.27:859][408]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.03-11.43.39:725][904]LogMaterialEditor: Saving and Compiling material Battery
+[2017.12.03-11.43.40:508][904]LogMaterial: Missing cached shader map for material Battery, compiling. 
+[2017.12.03-11.43.40:624][904]LogMaterial: Missing cached shader map for material Battery, compiling. 
+[2017.12.03-11.43.40:709][904]LogMaterial: Missing cached shader map for material Battery, compiling. 
+[2017.12.03-11.43.40:845][904]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Battery, compiling. 
+[2017.12.03-11.43.44:294][904]TextureStreamingBuild:Display: Compiling optional shaders took 3.461 seconds.
+[2017.12.03-11.43.49:686][904]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MisBP/Battery" FILE="D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/Battery.uasset" SILENT=true
+[2017.12.03-11.43.49:708][904]LogSavePackage: Save=18.09ms
+[2017.12.03-11.43.49:708][904]LogSavePackage: Moving 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/Battery3E2441C147261768850C5081999EB6E8.tmp' to 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/Battery.uasset'
+[2017.12.03-11.43.49:710][904]LogSavePackage:Display: Finished SavePackage D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/Battery.uasset
+[2017.12.03-11.43.52:841][ 60]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.025
+[2017.12.03-11.43.52:861][ 60]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyAssets/ForkitMaterials/mast] ([1] browsable assets)...
+[2017.12.03-11.43.52:869][ 60]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/MyAssets/ForkitMaterials/mast.mast]
+[2017.12.03-11.43.52:869][ 60]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyAssets/ForkitMaterials/mast]
+[2017.12.03-11.43.52:883][ 60]LogSavePackage: Save=12.94ms
+[2017.12.03-11.43.52:883][ 60]LogSavePackage: Moving 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/mast_Auto286EF8F05408584EC74E76E95D5ED73A1.tmp' to 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/Autosaves/Game/MyAssets/ForkitMaterials/mast_Auto2.uasset'
+[2017.12.03-11.43.52:884][ 60]LogSavePackage:Display: Finished SavePackage D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/Autosaves/Game/MyAssets/ForkitMaterials/mast_Auto2.uasset
+[2017.12.03-11.43.52:884][ 60]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyAssets/ForkitMaterials/battery_wheel] ([1] browsable assets)...
+[2017.12.03-11.43.52:891][ 60]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/MyAssets/ForkitMaterials/battery_wheel.battery_wheel]
+[2017.12.03-11.43.52:891][ 60]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyAssets/ForkitMaterials/battery_wheel]
+[2017.12.03-11.43.52:908][ 60]LogSavePackage: Save=14.83ms
+[2017.12.03-11.43.52:908][ 60]LogSavePackage: Moving 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/battery_wheel_Auto2F1B5CF304CCB4ED3D9565387FF9D5400.tmp' to 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/Autosaves/Game/MyAssets/ForkitMaterials/battery_wheel_Auto2.uasset'
+[2017.12.03-11.43.52:908][ 60]LogSavePackage:Display: Finished SavePackage D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/Autosaves/Game/MyAssets/ForkitMaterials/battery_wheel_Auto2.uasset
+[2017.12.03-11.43.52:909][ 60]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyAssets/ForkitMaterials/forks] ([1] browsable assets)...
+[2017.12.03-11.43.52:915][ 60]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/MyAssets/ForkitMaterials/forks.forks]
+[2017.12.03-11.43.52:915][ 60]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyAssets/ForkitMaterials/forks]
+[2017.12.03-11.43.52:932][ 60]LogSavePackage: Save=14.06ms
+[2017.12.03-11.43.52:932][ 60]LogSavePackage: Moving 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/forks_Auto2A66DB25A4ED7FC1F7230D7BEC9CA25E3.tmp' to 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/Autosaves/Game/MyAssets/ForkitMaterials/forks_Auto2.uasset'
+[2017.12.03-11.43.52:932][ 60]LogSavePackage:Display: Finished SavePackage D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/Autosaves/Game/MyAssets/ForkitMaterials/forks_Auto2.uasset
+[2017.12.03-11.43.52:932][ 60]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyAssets/ForkitMaterials/forklift_body] ([1] browsable assets)...
+[2017.12.03-11.43.52:939][ 60]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/MyAssets/ForkitMaterials/forklift_body.forklift_body]
+[2017.12.03-11.43.52:939][ 60]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyAssets/ForkitMaterials/forklift_body]
+[2017.12.03-11.43.52:954][ 60]LogSavePackage: Save=13.08ms
+[2017.12.03-11.43.52:954][ 60]LogSavePackage: Moving 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/forklift_body_Auto28F39BA704CB5FD7F551E988619FBD648.tmp' to 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/Autosaves/Game/MyAssets/ForkitMaterials/forklift_body_Auto2.uasset'
+[2017.12.03-11.43.52:955][ 60]LogSavePackage:Display: Finished SavePackage D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/Autosaves/Game/MyAssets/ForkitMaterials/forklift_body_Auto2.uasset
+[2017.12.03-11.43.52:955][ 60]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyAssets/ForkitMaterials/forklift_body-b] ([1] browsable assets)...
+[2017.12.03-11.43.52:961][ 60]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/MyAssets/ForkitMaterials/forklift_body-b.forklift_body-b]
+[2017.12.03-11.43.52:961][ 60]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyAssets/ForkitMaterials/forklift_body-b]
+[2017.12.03-11.43.52:974][ 60]LogSavePackage: Save=11.31ms
+[2017.12.03-11.43.52:974][ 60]LogSavePackage: Moving 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/forklift_body-b_Auto2D051C1A14C1323DAB4229B9D6CC26507.tmp' to 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/Autosaves/Game/MyAssets/ForkitMaterials/forklift_body-b_Auto2.uasset'
+[2017.12.03-11.43.52:974][ 60]LogSavePackage:Display: Finished SavePackage D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/Autosaves/Game/MyAssets/ForkitMaterials/forklift_body-b_Auto2.uasset
+[2017.12.03-11.43.52:975][ 60]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyAssets/ForkitMaterials/battery_wheel-s] ([1] browsable assets)...
+[2017.12.03-11.43.52:979][ 60]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/MyAssets/ForkitMaterials/battery_wheel-s.battery_wheel-s]
+[2017.12.03-11.43.52:979][ 60]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyAssets/ForkitMaterials/battery_wheel-s]
+[2017.12.03-11.43.52:990][ 60]LogSavePackage: Save=9.46ms
+[2017.12.03-11.43.52:990][ 60]LogSavePackage: Moving 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/battery_wheel-s_Auto2D5805CA1440B1B9F2026A5B276F81EDA.tmp' to 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/Autosaves/Game/MyAssets/ForkitMaterials/battery_wheel-s_Auto2.uasset'
+[2017.12.03-11.43.52:991][ 60]LogSavePackage:Display: Finished SavePackage D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/Autosaves/Game/MyAssets/ForkitMaterials/battery_wheel-s_Auto2.uasset
+[2017.12.03-11.43.52:991][ 60]LogFileHelpers: Auto-saving content packages took 0.149
+[2017.12.03-11.44.02:953][651]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (Raymond_Forklift_Mast)
+[2017.12.03-11.44.07:230][895]LogMaterial: Missing cached shader map for material Padding, compiling. 
+[2017.12.03-11.44.07:457][895]LogMaterial: Missing cached shader map for material Padding, compiling. 
+[2017.12.03-11.44.07:499][895]LogMaterial: Missing cached shader map for material Padding, compiling. 
+[2017.12.03-11.44.07:567][895]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.03-11.44.10:960][  8]LogMaterial: Missing cached shader map for material Padding, compiling. 
+[2017.12.03-11.44.16:526][166]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.12.03-11.44.16:526][166]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.12.03-11.44.16:526][166]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.12.03-11.44.24:562][248]LogEditorTransaction: Undo Move Node
+[2017.12.03-11.44.24:586][248]LogMaterial: Missing cached shader map for material Padding, compiling. 
+[2017.12.03-11.44.25:127][260]LogEditorTransaction: Undo Move Node
+[2017.12.03-11.44.25:170][260]LogMaterial: Missing cached shader map for material Padding, compiling. 
+[2017.12.03-11.44.25:856][279]LogEditorTransaction: Undo Material Editor: Delete
+[2017.12.03-11.44.25:871][279]LogMaterial: Missing cached shader map for material Padding, compiling. 
+[2017.12.03-11.44.25:934][279]LogMaterial: Missing cached shader map for material Padding, compiling. 
+[2017.12.03-11.44.26:024][279]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.03-11.44.28:889][364]LogMaterial: Missing cached shader map for material Padding, compiling. 
+[2017.12.03-11.44.28:961][364]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.03-11.44.30:692][418]LogMaterial: Missing cached shader map for material Padding, compiling. 
+[2017.12.03-11.44.30:769][418]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.03-11.44.34:248][506]LogMaterialEditor: Saving and Compiling material Padding
+[2017.12.03-11.44.35:784][506]LogMaterial: Missing cached shader map for material Padding, compiling. 
+[2017.12.03-11.44.35:964][506]LogMaterial: Missing cached shader map for material Padding, compiling. 
+[2017.12.03-11.44.36:058][506]LogMaterial: Missing cached shader map for material Padding, compiling. 
+[2017.12.03-11.44.36:191][506]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Padding, compiling. 
+[2017.12.03-11.44.39:504][506]TextureStreamingBuild:Display: Compiling optional shaders took 3.326 seconds.
+[2017.12.03-11.44.44:867][506]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MisBP/Padding" FILE="D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/Padding.uasset" SILENT=true
+[2017.12.03-11.44.44:900][506]LogSavePackage: Save=19.03ms
+[2017.12.03-11.44.44:900][506]LogSavePackage: Moving 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/PaddingDAF9528D40E6A34F4002A49E0C8C2755.tmp' to 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/Padding.uasset'
+[2017.12.03-11.44.44:908][506]LogSavePackage:Display: Finished SavePackage D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/Padding.uasset
+[2017.12.03-11.44.44:921][506]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.12.03-11.44.44:921][506]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.12.03-11.44.44:921][506]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.12.03-11.45.10:482][871]LogMaterial: Missing cached shader map for material black_shiny, compiling. 
+[2017.12.03-11.45.10:663][871]LogMaterial: Missing cached shader map for material black_shiny, compiling. 
+[2017.12.03-11.45.10:707][871]LogMaterial: Missing cached shader map for material black_shiny, compiling. 
+[2017.12.03-11.45.10:802][871]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.03-11.45.16:441][ 28]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.12.03-11.45.16:441][ 28]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.12.03-11.45.16:441][ 28]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.12.03-11.45.20:350][239]LogMaterial: Missing cached shader map for material black_shiny, compiling. 
+[2017.12.03-11.45.20:417][239]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.03-11.45.21:971][291]LogMaterial: Missing cached shader map for material black_shiny, compiling. 
+[2017.12.03-11.45.22:094][291]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.03-11.45.22:899][313]LogMaterialEditor: Saving and Compiling material black_shiny
+[2017.12.03-11.45.24:398][313]LogMaterial: Missing cached shader map for material black_shiny, compiling. 
+[2017.12.03-11.45.24:579][313]LogMaterial: Missing cached shader map for material black_shiny, compiling. 
+[2017.12.03-11.45.24:669][313]LogMaterial: Missing cached shader map for material black_shiny, compiling. 
+[2017.12.03-11.45.24:817][313]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy black_shiny, compiling. 
+[2017.12.03-11.45.28:072][313]TextureStreamingBuild:Display: Compiling optional shaders took 3.275 seconds.
+[2017.12.03-11.45.33:208][313]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MisBP/black_shiny" FILE="D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/black_shiny.uasset" SILENT=true
+[2017.12.03-11.45.33:236][313]LogSavePackage: Save=19.00ms
+[2017.12.03-11.45.33:236][313]LogSavePackage: Moving 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/black_shiny8F98452249A700317356C6B2FFA2E6C7.tmp' to 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/black_shiny.uasset'
+[2017.12.03-11.45.33:238][313]LogSavePackage:Display: Finished SavePackage D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/black_shiny.uasset
+[2017.12.03-11.45.33:250][313]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.12.03-11.45.33:250][313]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.12.03-11.45.33:250][313]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.12.03-11.45.42:028][700]LogMaterial: Missing cached shader map for material Dashboard, compiling. 
+[2017.12.03-11.45.42:167][700]LogMaterial: Missing cached shader map for material Dashboard, compiling. 
+[2017.12.03-11.45.42:198][700]LogMaterial: Missing cached shader map for material Dashboard, compiling. 
+[2017.12.03-11.45.42:290][700]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.03-11.45.48:110][877]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.12.03-11.45.48:110][877]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.12.03-11.45.48:110][877]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.12.03-11.45.58:475][114]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\lukin\Desktop\maps\control_panel-s.png)
+[2017.12.03-11.45.58:592][114]LogTexture:Display: Building textures: control_panel-s (AutoDXT, 1024X1024)
+[2017.12.03-11.45.58:922][114]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\lukin\Desktop\maps\control_panel.png)
+[2017.12.03-11.45.58:988][114]LogTexture:Display: Building textures: control_panel (AutoDXT, 1024X1024)
+[2017.12.03-11.46.01:326][145]LogMaterial: Missing cached shader map for material Dashboard, compiling. 
+[2017.12.03-11.46.01:376][145]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2017.12.03-11.46.01:446][145]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.03-11.46.01:500][145]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2017.12.03-11.46.01:545][145]LogMaterial: Missing cached shader map for material Dashboard, compiling. 
+[2017.12.03-11.46.01:615][145]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2017.12.03-11.46.01:654][145]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.03-11.46.01:661][145]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2017.12.03-11.46.01:686][145]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2017.12.03-11.46.03:408][197]LogMaterial: Missing cached shader map for material Dashboard, compiling. 
+[2017.12.03-11.46.07:411][323]LogMaterial: Missing cached shader map for material Dashboard, compiling. 
+[2017.12.03-11.46.07:479][323]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2017.12.03-11.46.09:579][390]LogMaterial: Missing cached shader map for material Dashboard, compiling. 
+[2017.12.03-11.46.09:651][390]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2017.12.03-11.46.10:547][417]LogMaterialEditor: Saving and Compiling material Dashboard
+[2017.12.03-11.46.12:056][417]LogMaterial: Missing cached shader map for material Dashboard, compiling. 
+[2017.12.03-11.46.12:238][417]LogMaterial: Missing cached shader map for material Dashboard, compiling. 
+[2017.12.03-11.46.12:358][417]LogMaterial: Missing cached shader map for material Dashboard, compiling. 
+[2017.12.03-11.46.12:532][417]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Dashboard, compiling. 
+[2017.12.03-11.46.15:900][417]TextureStreamingBuild:Display: Compiling optional shaders took 3.411 seconds.
+[2017.12.03-11.46.21:570][417]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MisBP/Dashboard" FILE="D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/Dashboard.uasset" SILENT=true
+[2017.12.03-11.46.21:627][417]LogSavePackage: Save=35.59ms
+[2017.12.03-11.46.21:627][417]LogSavePackage: Moving 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/Dashboard627B55494BE1BC8ABCFF2581C43D015A.tmp' to 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/Dashboard.uasset'
+[2017.12.03-11.46.21:640][417]LogSavePackage:Display: Finished SavePackage D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/Dashboard.uasset
+[2017.12.03-11.46.21:652][417]MaterialEditorStats: Info Base pass shader: 87 instructions
+[2017.12.03-11.46.21:652][417]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.12.03-11.46.21:652][417]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.12.03-11.46.21:652][417]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.03-11.46.30:278][838]LogMaterial: Missing cached shader map for material OverheadGuard, compiling. 
+[2017.12.03-11.46.30:456][838]LogMaterial: Missing cached shader map for material OverheadGuard, compiling. 
+[2017.12.03-11.46.30:506][838]LogMaterial: Missing cached shader map for material OverheadGuard, compiling. 
+[2017.12.03-11.46.30:610][838]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.03-11.46.35:987][898]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.12.03-11.46.35:987][898]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.12.03-11.46.35:987][898]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.12.03-11.46.54:482][298]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\lukin\Desktop\maps\overhead_guard.png)
+[2017.12.03-11.46.54:525][298]LogTexture:Display: Building textures: overhead_guard (AutoDXT, 512X512)
+[2017.12.03-11.46.54:662][298]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\lukin\Desktop\maps\overhead_guard-s.png)
+[2017.12.03-11.46.54:715][298]LogTexture:Display: Building textures: overhead_guard-s (AutoDXT, 512X512)
+[2017.12.03-11.46.56:644][314]LogMaterial: Missing cached shader map for material OverheadGuard, compiling. 
+[2017.12.03-11.46.56:676][314]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2017.12.03-11.46.56:745][314]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.03-11.46.56:755][314]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2017.12.03-11.46.56:785][314]LogMaterial: Missing cached shader map for material OverheadGuard, compiling. 
+[2017.12.03-11.46.56:872][314]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2017.12.03-11.46.56:917][314]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.03-11.46.56:926][314]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2017.12.03-11.46.56:933][314]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2017.12.03-11.47.04:256][520]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.12.03-11.47.04:256][520]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.12.03-11.47.04:256][520]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.12.03-11.47.05:210][557]LogMaterial: Missing cached shader map for material OverheadGuard, compiling. 
+[2017.12.03-11.47.09:919][687]LogMaterial: Missing cached shader map for material OverheadGuard, compiling. 
+[2017.12.03-11.47.10:001][687]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2017.12.03-11.47.12:452][758]LogMaterial: Missing cached shader map for material OverheadGuard, compiling. 
+[2017.12.03-11.47.12:533][758]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2017.12.03-11.47.14:790][821]LogMaterialEditor: Saving and Compiling material OverheadGuard
+[2017.12.03-11.47.16:468][821]LogMaterial: Missing cached shader map for material OverheadGuard, compiling. 
+[2017.12.03-11.47.16:666][821]LogMaterial: Missing cached shader map for material OverheadGuard, compiling. 
+[2017.12.03-11.47.16:761][821]LogMaterial: Missing cached shader map for material OverheadGuard, compiling. 
+[2017.12.03-11.47.16:901][821]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy OverheadGuard, compiling. 
+[2017.12.03-11.47.20:758][821]TextureStreamingBuild:Display: Compiling optional shaders took 3.869 seconds.
+[2017.12.03-11.47.26:443][821]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MisBP/OverheadGuard" FILE="D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/OverheadGuard.uasset" SILENT=true
+[2017.12.03-11.47.26:478][821]LogSavePackage: Save=21.86ms
+[2017.12.03-11.47.26:478][821]LogSavePackage: Moving 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/OverheadGuardB25B57124235BEBCB9F9278D8BBC73F1.tmp' to 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/OverheadGuard.uasset'
+[2017.12.03-11.47.26:486][821]LogSavePackage:Display: Finished SavePackage D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/OverheadGuard.uasset
+[2017.12.03-11.47.26:498][821]MaterialEditorStats: Info Base pass shader: 87 instructions
+[2017.12.03-11.47.26:498][821]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.12.03-11.47.26:498][821]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.12.03-11.47.26:498][821]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.03-11.47.36:755][307]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (Raymond_Forklift_Mast)
+[2017.12.03-11.47.47:162][850]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling. 
+[2017.12.03-11.47.47:336][850]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling. 
+[2017.12.03-11.47.47:426][850]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling. 
+[2017.12.03-11.47.47:489][850]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.03-11.47.52:538][992]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling. 
+[2017.12.03-11.47.52:610][992]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.03-11.47.53:462][ 15]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling. 
+[2017.12.03-11.47.53:567][ 15]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.03-11.47.54:063][ 24]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling. 
+[2017.12.03-11.47.54:155][ 24]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.03-11.47.54:364][ 26]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling. 
+[2017.12.03-11.47.54:448][ 26]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.03-11.48.00:418][194]LogMaterialEditor: Saving and Compiling material black_shiny
+[2017.12.03-11.48.02:021][194]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling. 
+[2017.12.03-11.48.02:157][194]LogMaterial: Missing cached shader map for material black_shiny, compiling. 
+[2017.12.03-11.48.02:255][194]LogMaterial: Missing cached shader map for material black_shiny, compiling. 
+[2017.12.03-11.48.02:428][194]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy black_shiny, compiling. 
+[2017.12.03-11.48.06:031][194]TextureStreamingBuild:Display: Compiling optional shaders took 3.636 seconds.
+[2017.12.03-11.48.11:806][194]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MisBP/black_shiny" FILE="D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/black_shiny.uasset" SILENT=true
+[2017.12.03-11.48.11:828][194]LogSavePackage: Save=17.86ms
+[2017.12.03-11.48.11:828][194]LogSavePackage: Moving 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/black_shiny556BC4CC4EFC39B1F0056CA7B678FBE8.tmp' to 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/black_shiny.uasset'
+[2017.12.03-11.48.11:830][194]LogSavePackage:Display: Finished SavePackage D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/black_shiny.uasset
+[2017.12.03-11.48.11:842][194]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.12.03-11.48.11:842][194]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.12.03-11.48.11:842][194]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.12.03-11.48.15:921][389]LogMaterial: Missing cached shader map for material PreviewMaterial_5, compiling. 
+[2017.12.03-11.48.16:104][389]LogMaterial: Missing cached shader map for material PreviewMaterial_5, compiling. 
+[2017.12.03-11.48.16:149][389]LogMaterial: Missing cached shader map for material PreviewMaterial_5, compiling. 
+[2017.12.03-11.48.16:237][389]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.03-11.48.19:777][484]LogMaterial: Missing cached shader map for material PreviewMaterial_5, compiling. 
+[2017.12.03-11.48.19:866][484]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.03-11.48.23:060][580]LogMaterial: Missing cached shader map for material PreviewMaterial_5, compiling. 
+[2017.12.03-11.48.23:131][580]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.03-11.48.24:876][631]LogMaterialEditor: Saving and Compiling material Padding
+[2017.12.03-11.48.26:514][631]LogMaterial: Missing cached shader map for material PreviewMaterial_5, compiling. 
+[2017.12.03-11.48.26:722][631]LogMaterial: Missing cached shader map for material Padding, compiling. 
+[2017.12.03-11.48.26:820][631]LogMaterial: Missing cached shader map for material Padding, compiling. 
+[2017.12.03-11.48.26:971][631]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Padding, compiling. 
+[2017.12.03-11.48.30:415][631]TextureStreamingBuild:Display: Compiling optional shaders took 3.458 seconds.
+[2017.12.03-11.48.35:925][631]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MisBP/Padding" FILE="D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/Padding.uasset" SILENT=true
+[2017.12.03-11.48.35:950][631]LogSavePackage: Save=19.85ms
+[2017.12.03-11.48.35:950][631]LogSavePackage: Moving 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/Padding28784281425F5BD97F17BEBF7050C00D.tmp' to 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/Padding.uasset'
+[2017.12.03-11.48.35:952][631]LogSavePackage:Display: Finished SavePackage D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/Padding.uasset
+[2017.12.03-11.48.35:964][631]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.12.03-11.48.35:964][631]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.12.03-11.48.35:964][631]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.12.03-11.48.51:250][484]LogMaterial: Missing cached shader map for material PreviewMaterial_6, compiling. 
+[2017.12.03-11.48.51:415][484]LogMaterial: Missing cached shader map for material PreviewMaterial_6, compiling. 
+[2017.12.03-11.48.51:479][484]LogMaterial: Missing cached shader map for material PreviewMaterial_6, compiling. 
+[2017.12.03-11.48.51:543][484]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.03-11.48.54:396][561]LogMaterial: Missing cached shader map for material PreviewMaterial_6, compiling. 
+[2017.12.03-11.48.54:489][561]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.03-11.48.55:678][596]LogMaterial: Missing cached shader map for material PreviewMaterial_6, compiling. 
+[2017.12.03-11.48.55:748][596]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.03-11.48.57:853][659]LogMaterialEditor: Saving and Compiling material Metal
+[2017.12.03-11.48.59:477][659]LogMaterial: Missing cached shader map for material PreviewMaterial_6, compiling. 
+[2017.12.03-11.48.59:667][659]LogMaterial: Missing cached shader map for material Metal, compiling. 
+[2017.12.03-11.48.59:802][659]LogMaterial: Missing cached shader map for material Metal, compiling. 
+[2017.12.03-11.48.59:957][659]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Metal, compiling. 
+[2017.12.03-11.49.03:375][659]TextureStreamingBuild:Display: Compiling optional shaders took 3.441 seconds.
+[2017.12.03-11.49.08:848][659]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MisBP/Metal" FILE="D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/Metal.uasset" SILENT=true
+[2017.12.03-11.49.08:900][659]LogSavePackage: Save=28.43ms
+[2017.12.03-11.49.08:900][659]LogSavePackage: Moving 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/MetalAE473C3C40D17E224104228935B58E1C.tmp' to 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/Metal.uasset'
+[2017.12.03-11.49.08:903][659]LogSavePackage:Display: Finished SavePackage D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/Metal.uasset
+[2017.12.03-11.49.08:920][659]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.12.03-11.49.08:920][659]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.12.03-11.49.08:920][659]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.12.03-11.49.30:677][856]LogEditorViewport: Clicking on Actor (LMB): Máquina_BP_C (Máquina_BP)
+[2017.12.03-11.49.33:550][  9]LogMaterial: Missing cached shader map for material _Oil_and_Gas_rig_equipment_partdefault, compiling. 
+[2017.12.03-11.49.33:706][  9]LogMaterial: Missing cached shader map for material _Oil_and_Gas_rig_equipment_partdefault, compiling. 
+[2017.12.03-11.49.33:736][  9]LogMaterial: Missing cached shader map for material _Oil_and_Gas_rig_equipment_partdefault, compiling. 
+[2017.12.03-11.49.33:808][  9]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.03-11.49.36:518][ 79]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.12.03-11.49.36:518][ 79]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.12.03-11.49.36:518][ 79]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.12.03-11.49.36:603][ 82]LogMaterial: Missing cached shader map for material _Oil_and_Gas_rig_equipment_partdefault, compiling. 
+[2017.12.03-11.49.36:640][ 82]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.03-11.49.38:347][132]LogMaterial: Missing cached shader map for material _Oil_and_Gas_rig_equipment_partdefault, compiling. 
+[2017.12.03-11.49.38:382][132]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.03-11.49.40:809][202]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.12.03-11.49.40:809][202]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.12.03-11.49.40:809][202]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.12.03-11.49.46:201][465]LogMaterialEditor: Saving and Compiling material _Oil_and_Gas_rig_equipment_partdefault
+[2017.12.03-11.49.47:121][465]LogMaterial: Missing cached shader map for material _Oil_and_Gas_rig_equipment_partdefault, compiling. 
+[2017.12.03-11.49.47:270][465]LogMaterial: Missing cached shader map for material _Oil_and_Gas_rig_equipment_partdefault, compiling. 
+[2017.12.03-11.49.47:332][465]LogMaterial: Missing cached shader map for material _Oil_and_Gas_rig_equipment_partdefault, compiling. 
+[2017.12.03-11.49.47:453][465]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy _Oil_and_Gas_rig_equipment_partdefault, compiling. 
+[2017.12.03-11.49.48:448][465]TextureStreamingBuild:Display: Compiling optional shaders took 1.020 seconds.
+[2017.12.03-11.49.50:825][465]LogSavePackage: Save=18.28ms
+[2017.12.03-11.49.50:825][465]LogSavePackage: Moving 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/_Oil_and_Gas_rig_equipment_partdefault5913888D48C78E609D6C3E85F862489F.tmp' to 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MyAssets/MaquinaRara/_Oil_and_Gas_rig_equipment_partdefault.uasset'
+[2017.12.03-11.49.50:827][465]LogSavePackage:Display: Finished SavePackage D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MyAssets/MaquinaRara/_Oil_and_Gas_rig_equipment_partdefault.uasset
+[2017.12.03-11.49.50:839][465]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.12.03-11.49.50:839][465]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.12.03-11.49.50:839][465]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.12.03-11.49.59:637][896]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight13)
+[2017.12.03-11.50.38:041][  4]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight14)
+[2017.12.03-11.51.21:642][419]Cmd: SELECT NONE
+[2017.12.03-11.51.25:498][638]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight13)
+[2017.12.03-11.51.34:713][155]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight14)
+[2017.12.03-11.51.44:989][744]Cmd: SELECT NONE
+[2017.12.03-11.51.49:205][959]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight25)
+[2017.12.03-11.51.54:769][259]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight23)
+[2017.12.03-11.51.56:902][369]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight15)
+[2017.12.03-11.52.10:653][994]LogSavePackage: Save=1840.40ms
+[2017.12.03-11.52.10:653][994]LogSavePackage: Moving 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/ThirdPersonExampleMapDB9B1AF54549AC9E07AAE5934C273192.tmp' to 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.12.03-11.52.10:658][994]LogSavePackage:Display: Finished SavePackage D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.12.03-11.52.10:713][994]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 2.078
+[2017.12.03-11.52.11:955][ 64]MapCheck: New page: Map Check
+[2017.12.03-11.52.12:071][ 64]Cmd: MAP REBUILD ALLVISIBLE
+[2017.12.03-11.52.12:078][ 64]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.12.03-11.52.12:674][ 64]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.12.03-11.52.12:688][ 64]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_1, compiling. 
+[2017.12.03-11.52.12:705][ 64]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy HelpActorMaterial, compiling. 
+[2017.12.03-11.52.12:720][ 64]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy RampMaterial, compiling. 
+[2017.12.03-11.52.12:750][ 64]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy CubeMaterial, compiling. 
+[2017.12.03-11.52.12:766][ 64]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultTextMaterialOpaque, compiling. 
+[2017.12.03-11.52.12:783][ 64]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Chair, compiling. 
+[2017.12.03-11.52.12:823][ 64]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2017.12.03-11.52.12:845][ 64]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2017.12.03-11.52.12:873][ 64]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Concrete_Panels, compiling. 
+[2017.12.03-11.52.12:884][ 64]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Pine, compiling. 
+[2017.12.03-11.52.12:895][ 64]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Metal_Steel, compiling. 
+[2017.12.03-11.52.12:919][ 64]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Rock_Basalt, compiling. 
+[2017.12.03-11.52.12:950][ 64]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Tech_Panel, compiling. 
+[2017.12.03-11.52.12:988][ 64]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Brick_Clay_New, compiling. 
+[2017.12.03-11.52.13:004][ 64]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_brickWall, compiling. 
+[2017.12.03-11.52.13:018][ 64]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Frame, compiling. 
+[2017.12.03-11.52.13:029][ 64]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Door, compiling. 
+[2017.12.03-11.52.13:061][ 64]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Glass, compiling. 
+[2017.12.03-11.52.13:115][ 64]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_metalBarrel, compiling. 
+[2017.12.03-11.52.13:132][ 64]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Container_MAT, compiling. 
+[2017.12.03-11.52.13:152][ 64]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy sign01_MAT, compiling. 
+[2017.12.03-11.52.13:167][ 64]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Container_rods_MAT, compiling. 
+[2017.12.03-11.52.13:195][ 64]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Default_Material, compiling. 
+[2017.12.03-11.52.13:217][ 64]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Metal_Gold, compiling. 
+[2017.12.03-11.52.13:236][ 64]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Mast, compiling. 
+[2017.12.03-11.52.13:251][ 64]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Pivot, compiling. 
+[2017.12.03-11.52.13:269][ 64]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Metal, compiling. 
+[2017.12.03-11.52.13:291][ 64]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Forks, compiling. 
+[2017.12.03-11.52.13:309][ 64]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Body, compiling. 
+[2017.12.03-11.52.13:329][ 64]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Battery, compiling. 
+[2017.12.03-11.52.13:350][ 64]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Padding, compiling. 
+[2017.12.03-11.52.13:371][ 64]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy black_shiny, compiling. 
+[2017.12.03-11.52.13:386][ 64]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy RedPlastic, compiling. 
+[2017.12.03-11.52.13:409][ 64]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Dashboard, compiling. 
+[2017.12.03-11.52.13:429][ 64]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy OverheadGuard, compiling. 
+[2017.12.03-11.52.13:450][ 64]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy _Oil_and_Gas_rig_equipment_partdefault, compiling. 
+[2017.12.03-11.52.13:470][ 64]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy aquaMant, compiling. 
+[2017.12.03-11.52.13:504][ 64]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_FloorIV, compiling. 
+[2017.12.03-11.52.13:530][ 64]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy first_aid_kit_1, compiling. 
+[2017.12.03-11.52.13:561][ 64]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_Body, compiling. 
+[2017.12.03-11.52.13:598][ 64]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_ChestLogo, compiling. 
+[2017.12.03-11.52.13:625][ 64]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2017.12.03-11.52.18:370][ 64]TextureStreamingBuild:Display: Compiling optional shaders took 5.749 seconds.
+[2017.12.03-11.52.18:589][ 64]LogLevel:Display: Export Material TexCoord Scales took 0.219 seconds.
+[2017.12.03-11.52.18:702][ 64]TextureStreamingBuild:Display: Build Texture Streaming took 0.111 seconds.
+[2017.12.03-11.52.18:747][ 64]LightingResults: New page: Lighting Build - Dec 3, 2017, 1:52:18 PM
+[2017.12.03-11.52.19:507][ 64]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.12.03-11.52.19:683][ 64]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.12.03-11.52.19:894][ 64]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.12.03-11.52.22:437][ 64]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.12.03-11.52.22:437][ 64]LogSwarmInterface: [TryOpenConnection] Local Process ID is 12300
+[2017.12.03-11.52.32:463][ 64]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.12.03-11.52.32:463][ 64]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.12.03-11.52.32:463][ 64]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.12.03-11.52.32:463][ 64]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.12.03-11.52.32:463][ 64]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.12.03-11.52.33:056][ 64]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.12.03-11.52.33:056][ 64]MapCheck: New page: ThirdPersonExampleMap - Dec 3, 2017, 1:52:33 PM
+[2017.12.03-11.52.33:131][ 64]MapCheck:Warning: Performance Warning Liquido_BP Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2017.12.03-11.52.33:131][ 64]MapCheck:Error: Error WorldInfo_0 Maps need lighting rebuilt 
+[2017.12.03-11.52.33:132][ 64]MapCheck:Warning: Warning BP_HealingCube2 Static mesh actor has NULL StaticMesh property 
+[2017.12.03-11.52.33:132][ 64]MapCheck:Warning: Warning BP_HealingCube2 Static mesh actor has NULL StaticMesh property 
+[2017.12.03-11.52.33:132][ 64]MapCheck:Warning: Warning BP_HealingCube_479 Static mesh actor has NULL StaticMesh property 
+[2017.12.03-11.52.33:132][ 64]MapCheck:Warning: Warning BP_HealingCube_479 Static mesh actor has NULL StaticMesh property 
+[2017.12.03-11.52.33:220][ 64]MapCheck: Info Map check complete: 1 Error(s), 5 Warning(s), took 164.735ms to complete.
+[2017.12.03-11.52.33:243][ 64]LogEditorBuildUtils: Build time 0:21
+[2017.12.03-11.52.56:281][135]Job is a success!
+[2017.12.03-11.53.00:160][136]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2017.12.03-11.53.00:161][136]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT, 1024X512)
+[2017.12.03-11.53.00:161][136]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2017.12.03-11.53.00:161][136]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2017.12.03-11.53.00:161][136]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2017.12.03-11.53.00:161][136]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2017.12.03-11.53.00:161][136]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT, 256X128)
+[2017.12.03-11.53.00:161][136]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 256X256)
+[2017.12.03-11.53.00:161][136]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 256X256)
+[2017.12.03-11.53.00:161][136]LogTexture:Display: Building textures: SkyOcclusion0_4 (AutoDXT, 1024X512)
+[2017.12.03-11.53.00:161][136]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 1024X1024)
+[2017.12.03-11.53.00:161][136]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1, 1024X1024)
+[2017.12.03-11.53.00:161][136]LogTexture:Display: Building textures: SkyOcclusion0_5 (AutoDXT, 64X32)
+[2017.12.03-11.53.00:161][136]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 64X64)
+[2017.12.03-11.53.00:161][136]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1, 64X64)
+[2017.12.03-11.53.00:209][136]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X64)
+[2017.12.03-11.53.09:981][136]Lightmass on MSI-ANDRES: 24.1 sec total, 740 ms importing, 88 ms setup, 2.37 sec photons, 19.9 sec processing, 0 ms extra exporting [201/201 mappings]. Threads: 2:19 min total, 1:33 min processing.
+[2017.12.03-11.53.10:029][136]LogStaticLightingSystem: Illumination: 50.9 sec (2.64 sec encoding lightmaps, 44 ms encoding shadowmaps)
+[2017.12.03-11.53.10:029][136]LogStaticLightingSystem: Lightmap texture memory:  8.2 MB (8.2 MB streaming, 0.0 MB non-streaming), 10 textures
+[2017.12.03-11.53.10:029][136]LogStaticLightingSystem: Shadowmap texture memory: 0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 1 textures
+[2017.12.03-11.53.10:489][136]DumpUnbuiltLightIteractions
+[2017.12.03-11.53.10:489][136]Lights with unbuilt interactions: 0
+[2017.12.03-11.53.10:489][136]
+[2017.12.03-11.53.10:489][136]Primitives with unbuilt interactions: 0
+[2017.12.03-11.53.10:514][137]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.12.03-11.53.10:514][137]MapCheck: New page: ThirdPersonExampleMap - Dec 3, 2017, 1:53:10 PM
+[2017.12.03-11.53.10:517][137]MapCheck:Warning: Performance Warning Liquido_BP Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2017.12.03-11.53.10:518][137]MapCheck:Warning: Warning BP_HealingCube2 Static mesh actor has NULL StaticMesh property 
+[2017.12.03-11.53.10:518][137]MapCheck:Warning: Warning BP_HealingCube2 Static mesh actor has NULL StaticMesh property 
+[2017.12.03-11.53.10:518][137]MapCheck:Warning: Warning BP_HealingCube_479 Static mesh actor has NULL StaticMesh property 
+[2017.12.03-11.53.10:518][137]MapCheck:Warning: Warning BP_HealingCube_479 Static mesh actor has NULL StaticMesh property 
+[2017.12.03-11.53.10:610][137]MapCheck: Info Map check complete: 0 Error(s), 5 Warning(s), took 95.923ms to complete.
+[2017.12.03-11.55.05:502][100]LogEditorViewport: Clicking on Actor (LMB): Máquina_BP_C (Máquina_BP)
+[2017.12.03-11.55.09:816][335]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight37)
+[2017.12.03-11.55.35:787][803]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight44)
+[2017.12.03-11.55.46:650][415]MapCheck: New page: Map Check
+[2017.12.03-11.55.46:696][415]Cmd: MAP REBUILD ALLVISIBLE
+[2017.12.03-11.55.46:696][415]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.12.03-11.55.47:084][415]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.12.03-11.55.47:093][415]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, compiling. 
+[2017.12.03-11.55.47:100][415]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy HelpActorMaterial, compiling. 
+[2017.12.03-11.55.47:110][415]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy RampMaterial, compiling. 
+[2017.12.03-11.55.47:122][415]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy CubeMaterial, compiling. 
+[2017.12.03-11.55.47:135][415]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultTextMaterialOpaque, compiling. 
+[2017.12.03-11.55.47:150][415]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Chair, compiling. 
+[2017.12.03-11.55.47:169][415]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2017.12.03-11.55.47:180][415]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2017.12.03-11.55.47:195][415]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Concrete_Panels, compiling. 
+[2017.12.03-11.55.47:211][415]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Pine, compiling. 
+[2017.12.03-11.55.47:227][415]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Metal_Steel, compiling. 
+[2017.12.03-11.55.47:242][415]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Rock_Basalt, compiling. 
+[2017.12.03-11.55.47:252][415]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Tech_Panel, compiling. 
+[2017.12.03-11.55.47:260][415]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Brick_Clay_New, compiling. 
+[2017.12.03-11.55.47:272][415]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_brickWall, compiling. 
+[2017.12.03-11.55.47:284][415]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Frame, compiling. 
+[2017.12.03-11.55.47:295][415]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Door, compiling. 
+[2017.12.03-11.55.47:305][415]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Glass, compiling. 
+[2017.12.03-11.55.47:314][415]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_metalBarrel, compiling. 
+[2017.12.03-11.55.47:325][415]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Container_MAT, compiling. 
+[2017.12.03-11.55.47:336][415]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy sign01_MAT, compiling. 
+[2017.12.03-11.55.47:347][415]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Container_rods_MAT, compiling. 
+[2017.12.03-11.55.47:361][415]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Default_Material, compiling. 
+[2017.12.03-11.55.47:371][415]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Metal_Gold, compiling. 
+[2017.12.03-11.55.47:382][415]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Mast, compiling. 
+[2017.12.03-11.55.47:396][415]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Pivot, compiling. 
+[2017.12.03-11.55.47:411][415]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Metal, compiling. 
+[2017.12.03-11.55.47:426][415]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Forks, compiling. 
+[2017.12.03-11.55.47:439][415]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Body, compiling. 
+[2017.12.03-11.55.47:450][415]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Battery, compiling. 
+[2017.12.03-11.55.47:465][415]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Padding, compiling. 
+[2017.12.03-11.55.47:478][415]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy black_shiny, compiling. 
+[2017.12.03-11.55.47:494][415]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy RedPlastic, compiling. 
+[2017.12.03-11.55.47:508][415]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Dashboard, compiling. 
+[2017.12.03-11.55.47:520][415]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy OverheadGuard, compiling. 
+[2017.12.03-11.55.47:534][415]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy _Oil_and_Gas_rig_equipment_partdefault, compiling. 
+[2017.12.03-11.55.47:547][415]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy aquaMant, compiling. 
+[2017.12.03-11.55.47:561][415]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_FloorIV, compiling. 
+[2017.12.03-11.55.47:576][415]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy first_aid_kit_1, compiling. 
+[2017.12.03-11.55.47:590][415]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_Body, compiling. 
+[2017.12.03-11.55.47:613][415]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_ChestLogo, compiling. 
+[2017.12.03-11.55.47:635][415]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2017.12.03-11.55.51:587][415]TextureStreamingBuild:Display: Compiling optional shaders took 4.509 seconds.
+[2017.12.03-11.55.51:638][415]LogLevel:Display: Export Material TexCoord Scales took 0.051 seconds.
+[2017.12.03-11.55.51:720][415]TextureStreamingBuild:Display: Build Texture Streaming took 0.081 seconds.
+[2017.12.03-11.55.51:749][415]LightingResults: New page: Lighting Build - Dec 3, 2017, 1:55:51 PM
+[2017.12.03-11.55.51:768][415]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.12.03-11.55.51:806][415]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.12.03-11.55.51:807][415]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.12.03-11.55.51:808][415]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.12.03-11.55.51:808][415]LogSwarmInterface: [TryOpenConnection] Local Process ID is 12300
+[2017.12.03-11.56.00:844][415]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.12.03-11.56.00:844][415]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.12.03-11.56.00:844][415]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.12.03-11.56.00:844][415]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.12.03-11.56.00:844][415]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.12.03-11.56.00:955][415]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.12.03-11.56.00:956][415]MapCheck: New page: ThirdPersonExampleMap - Dec 3, 2017, 1:56:00 PM
+[2017.12.03-11.56.00:958][415]MapCheck:Warning: Performance Warning Liquido_BP Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2017.12.03-11.56.00:958][415]MapCheck:Error: Error WorldInfo_0 Maps need lighting rebuilt 
+[2017.12.03-11.56.00:959][415]MapCheck:Warning: Warning BP_HealingCube2 Static mesh actor has NULL StaticMesh property 
+[2017.12.03-11.56.00:959][415]MapCheck:Warning: Warning BP_HealingCube2 Static mesh actor has NULL StaticMesh property 
+[2017.12.03-11.56.00:959][415]MapCheck:Warning: Warning BP_HealingCube_479 Static mesh actor has NULL StaticMesh property 
+[2017.12.03-11.56.00:959][415]MapCheck:Warning: Warning BP_HealingCube_479 Static mesh actor has NULL StaticMesh property 
+[2017.12.03-11.56.01:043][415]MapCheck: Info Map check complete: 1 Error(s), 5 Warning(s), took 87.744ms to complete.
+[2017.12.03-11.56.01:065][415]LogEditorBuildUtils: Build time 0:14
+[2017.12.03-11.56.22:808][826]Job is a success!
+[2017.12.03-11.56.25:565][827]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2017.12.03-11.56.25:565][827]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT, 1024X512)
+[2017.12.03-11.56.25:565][827]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
+[2017.12.03-11.56.25:565][827]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2017.12.03-11.56.25:565][827]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
+[2017.12.03-11.56.25:565][827]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2017.12.03-11.56.25:565][827]LogTexture:Display: Building textures: SkyOcclusion1_3 (AutoDXT, 256X128)
+[2017.12.03-11.56.25:566][827]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 256X256)
+[2017.12.03-11.56.25:566][827]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1, 256X256)
+[2017.12.03-11.56.25:566][827]LogTexture:Display: Building textures: SkyOcclusion1_4 (AutoDXT, 1024X512)
+[2017.12.03-11.56.25:566][827]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 1024X1024)
+[2017.12.03-11.56.25:566][827]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1, 1024X1024)
+[2017.12.03-11.56.25:566][827]LogTexture:Display: Building textures: SkyOcclusion1_5 (AutoDXT, 64X32)
+[2017.12.03-11.56.25:566][827]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 64X64)
+[2017.12.03-11.56.25:566][827]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1, 64X64)
+[2017.12.03-11.56.25:653][827]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8, 1024X64)
+[2017.12.03-11.56.25:705][827]Lightmass on MSI-ANDRES: 23.3 sec total, 230 ms importing, 73 ms setup, 3.28 sec photons, 19.6 sec processing, 0 ms extra exporting [201/201 mappings]. Threads: 2:17 min total, 1:39 min processing.
+[2017.12.03-11.56.25:724][827]LogStaticLightingSystem: Illumination: 33.9 sec (2.37 sec encoding lightmaps, 81 ms encoding shadowmaps)
+[2017.12.03-11.56.25:724][827]LogStaticLightingSystem: Lightmap texture memory:  8.2 MB (8.2 MB streaming, 0.0 MB non-streaming), 10 textures
+[2017.12.03-11.56.25:724][827]LogStaticLightingSystem: Shadowmap texture memory: 0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 1 textures
+[2017.12.03-11.56.25:863][827]DumpUnbuiltLightIteractions
+[2017.12.03-11.56.25:863][827]Lights with unbuilt interactions: 0
+[2017.12.03-11.56.25:863][827]
+[2017.12.03-11.56.25:863][827]Primitives with unbuilt interactions: 0
+[2017.12.03-11.56.25:886][828]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.12.03-11.56.25:886][828]MapCheck: New page: ThirdPersonExampleMap - Dec 3, 2017, 1:56:25 PM
+[2017.12.03-11.56.25:893][828]MapCheck:Warning: Performance Warning Liquido_BP Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2017.12.03-11.56.25:894][828]MapCheck:Warning: Warning BP_HealingCube2 Static mesh actor has NULL StaticMesh property 
+[2017.12.03-11.56.25:894][828]MapCheck:Warning: Warning BP_HealingCube2 Static mesh actor has NULL StaticMesh property 
+[2017.12.03-11.56.25:894][828]MapCheck:Warning: Warning BP_HealingCube_479 Static mesh actor has NULL StaticMesh property 
+[2017.12.03-11.56.25:894][828]MapCheck:Warning: Warning BP_HealingCube_479 Static mesh actor has NULL StaticMesh property 
+[2017.12.03-11.56.26:217][828]MapCheck: Info Map check complete: 0 Error(s), 5 Warning(s), took 331.141ms to complete.
+[2017.12.03-11.56.27:563][887]LogEditorViewport: Clicking on Actor (LMB): Interruptor_C (Interruptor)
+[2017.12.03-11.56.37:891][330]LogActorFactory: Actor Factory created Cylinder
+[2017.12.03-11.56.46:379][739]LogEditorTransaction: Undo Modify Component(s)
+[2017.12.03-11.57.03:164][547]BlueprintLog: New page: Compile Interruptor
+[2017.12.03-11.57.11:556][889]LogMaterial: Missing cached shader map for material DefaultMaterial, compiling. 
+[2017.12.03-11.57.11:734][889]LogMaterial: Missing cached shader map for material DefaultMaterial, compiling. 
+[2017.12.03-11.57.11:778][889]LogMaterial: Missing cached shader map for material DefaultMaterial, compiling. 
+[2017.12.03-11.57.11:843][889]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_14, compiling. 
+[2017.12.03-11.57.11:893][889]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_15, compiling. 
+[2017.12.03-11.57.11:905][889]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_16, compiling. 
+[2017.12.03-11.57.11:932][889]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling. 
+[2017.12.03-11.57.11:938][889]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_17, compiling. 
+[2017.12.03-11.57.19:530][ 51]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2017.12.03-11.57.19:531][ 51]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Material_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.03-11.57.19:531][ 51]LogMaterial:Warning: 	SceneTexture expressions cannot be used in opaque materials
+[2017.12.03-11.57.21:148][ 84]MaterialEditorStats: Info Base pass shader: 113 instructions
+[2017.12.03-11.57.21:148][ 84]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.12.03-11.57.21:148][ 84]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.12.03-11.57.21:148][ 84]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.03-11.57.28:613][361]LogMaterial: Missing cached shader map for material DefaultMaterial, compiling. 
+[2017.12.03-11.57.32:578][449]LogMaterial: Missing cached shader map for material DefaultMaterial, compiling. 
+[2017.12.03-11.57.32:653][449]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.12.03-11.57.36:153][527]LogMaterial: Missing cached shader map for material DefaultMaterial, compiling. 
+[2017.12.03-11.57.36:240][527]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.12.03-11.57.38:053][565]LogMaterial: Missing cached shader map for material DefaultMaterial, compiling. 
+[2017.12.03-11.57.38:142][565]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.12.03-11.57.39:202][590]LogMaterial: Missing cached shader map for material DefaultMaterial, compiling. 
+[2017.12.03-11.57.39:289][590]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.12.03-11.57.42:192][660]LogMaterial: Missing cached shader map for material DefaultMaterial, compiling. 
+[2017.12.03-11.57.42:282][660]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.12.03-11.57.42:862][673]LogMaterial: Missing cached shader map for material DefaultMaterial, compiling. 
+[2017.12.03-11.57.43:024][673]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.12.03-11.57.43:611][686]LogMaterial: Missing cached shader map for material DefaultMaterial, compiling. 
+[2017.12.03-11.57.43:726][686]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.12.03-11.57.46:764][763]LogMaterialEditor: Saving and Compiling material DefaultMaterial
+[2017.12.03-11.57.51:340][763]LogMaterial: Missing cached shader map for material DefaultMaterial, compiling. 
+[2017.12.03-11.57.51:557][763]LogMaterial: Missing cached shader map for material DefaultMaterial, compiling. 
+[2017.12.03-11.57.51:776][763]LogMaterial: Missing cached shader map for material DefaultMaterial, compiling. 
+[2017.12.03-11.57.52:041][763]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultMaterial, compiling. 
+[2017.12.03-11.57.56:214][763]TextureStreamingBuild:Display: Compiling optional shaders took 4.213 seconds.
+[2017.12.03-11.58.07:723][763]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/EngineMaterials/DefaultMaterial" FILE="../../../Engine/Content/EngineMaterials/DefaultMaterial.uasset" SILENT=true
+[2017.12.03-11.58.07:768][763]LogSavePackage: Save=32.40ms
+[2017.12.03-11.58.07:768][763]LogSavePackage: Moving 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/DefaultMaterial423B8A6843AE19DDC3C3BFBA7CA0C48A.tmp' to '../../../Engine/Content/EngineMaterials/DefaultMaterial.uasset'
+[2017.12.03-11.58.07:781][763]LogSavePackage:Display: Finished SavePackage ../../../Engine/Content/EngineMaterials/DefaultMaterial.uasset
+[2017.12.03-11.58.07:804][763]MaterialEditorStats: Info Base pass shader: 100 instructions
+[2017.12.03-11.58.07:804][763]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.12.03-11.58.07:804][763]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.12.03-11.58.07:805][763]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.03-11.58.21:334][460]LogEditorViewport: Clicking on Actor (LMB): Contenedor_BP_C (Contenedor_BP34)
+[2017.12.03-11.58.22:116][500]LogEditorViewport: Clicking on Actor (LMB): Interruptor_C (Interruptor)
+[2017.12.03-11.58.24:860][645]LogActorFactory: Actor Factory created Cylinder
+[2017.12.03-11.58.25:952][700]LogActorFactory: Actor Factory created Cylinder
+[2017.12.03-11.58.28:901][867]Cmd: TRANSACTION UNDO
+[2017.12.03-11.58.28:901][867]LogEditorTransaction: Undo Rotate Actors
+[2017.12.03-11.58.37:887][368]LogEditorViewport: Clicking on Actor (LMB): Interruptor_C (Interruptor)
+[2017.12.03-11.58.45:655][807]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder)
+[2017.12.03-11.59.27:803][128]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.12.03-11.59.28:018][128]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.12.03-11.59.28:041][128]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.12.03-11.59.28:131][128]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.03-11.59.31:027][190]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.12.03-11.59.31:083][190]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.03-11.59.31:795][206]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.12.03-11.59.31:857][206]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.03-11.59.33:475][246]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.12.03-11.59.33:539][246]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.03-11.59.34:151][259]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.12.03-11.59.34:200][259]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.03-11.59.37:292][335]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2017.12.03-11.59.37:292][335]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.12.03-11.59.37:292][335]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.12.03-11.59.37:454][338]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.12.03-11.59.37:488][338]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.03-11.59.39:022][373]LogMaterialEditor: Saving and Compiling material BasicShapeMaterial
+[2017.12.03-11.59.40:631][373]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.12.03-11.59.40:754][373]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.12.03-11.59.40:900][373]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.12.03-11.59.41:091][373]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2017.12.03-11.59.42:356][373]TextureStreamingBuild:Display: Compiling optional shaders took 1.278 seconds.
+[2017.12.03-11.59.49:487][373]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/BasicShapes/BasicShapeMaterial" FILE="../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset" SILENT=true
+[2017.12.03-11.59.49:530][373]LogSavePackage: Save=23.21ms
+[2017.12.03-11.59.49:530][373]LogSavePackage: Moving 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/BasicShapeMaterial1E447BF34E2D582948215B8158356877.tmp' to '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'
+[2017.12.03-11.59.49:535][373]LogSavePackage:Display: Finished SavePackage ../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset
+[2017.12.03-11.59.49:561][373]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2017.12.03-11.59.49:561][373]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.12.03-11.59.49:561][373]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.12.03-11.59.55:278][662]LogEditorViewport: Clicking on Actor (LMB): Máquina_BP_C (Máquina_BP)
+[2017.12.03-12.00.00:547][937]LogMaterial: Missing cached shader map for material _Oil_and_Gas_rig_equipment_partdefault, compiling. 
+[2017.12.03-12.00.00:801][937]LogMaterial: Missing cached shader map for material _Oil_and_Gas_rig_equipment_partdefault, compiling. 
+[2017.12.03-12.00.00:827][937]LogMaterial: Missing cached shader map for material _Oil_and_Gas_rig_equipment_partdefault, compiling. 
+[2017.12.03-12.00.00:879][937]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.03-12.00.03:675][  5]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.12.03-12.00.03:675][  5]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.12.03-12.00.03:675][  5]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.12.03-12.00.05:012][ 73]LogMaterial: Missing cached shader map for material _Oil_and_Gas_rig_equipment_partdefault, compiling. 
+[2017.12.03-12.00.06:758][129]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.12.03-12.00.06:758][129]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.12.03-12.00.06:758][129]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.12.03-12.00.10:305][315]LogMaterial: Missing cached shader map for material _Oil_and_Gas_rig_equipment_partdefault, compiling. 
+[2017.12.03-12.00.12:068][371]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.12.03-12.00.12:068][371]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.12.03-12.00.12:068][371]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.12.03-12.00.15:160][514]LogMaterial: Missing cached shader map for material _Oil_and_Gas_rig_equipment_partdefault, compiling. 
+[2017.12.03-12.00.15:201][514]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.03-12.00.17:077][566]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.12.03-12.00.17:077][566]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.12.03-12.00.17:077][566]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.12.03-12.00.17:769][597]LogMaterialEditor: Saving and Compiling material _Oil_and_Gas_rig_equipment_partdefault
+[2017.12.03-12.00.18:650][597]LogMaterial: Missing cached shader map for material _Oil_and_Gas_rig_equipment_partdefault, compiling. 
+[2017.12.03-12.00.18:753][597]LogMaterial: Missing cached shader map for material _Oil_and_Gas_rig_equipment_partdefault, compiling. 
+[2017.12.03-12.00.18:802][597]LogMaterial: Missing cached shader map for material _Oil_and_Gas_rig_equipment_partdefault, compiling. 
+[2017.12.03-12.00.18:914][597]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy _Oil_and_Gas_rig_equipment_partdefault, compiling. 
+[2017.12.03-12.00.19:943][597]TextureStreamingBuild:Display: Compiling optional shaders took 1.041 seconds.
+[2017.12.03-12.00.22:593][597]LogSavePackage: Save=27.23ms
+[2017.12.03-12.00.22:593][597]LogSavePackage: Moving 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/_Oil_and_Gas_rig_equipment_partdefault3739FD5A4645FC0E3180B48510BD94F3.tmp' to 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MyAssets/MaquinaRara/_Oil_and_Gas_rig_equipment_partdefault.uasset'
+[2017.12.03-12.00.22:599][597]LogSavePackage:Display: Finished SavePackage D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MyAssets/MaquinaRara/_Oil_and_Gas_rig_equipment_partdefault.uasset
+[2017.12.03-12.00.22:613][597]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.12.03-12.00.22:613][597]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.12.03-12.00.22:613][597]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.12.03-12.00.26:315][780]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallIV34)
+[2017.12.03-12.00.33:975][198]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight14)
+[2017.12.03-12.01.04:282][910]LogEditorViewport: Clicking on Actor (LMB): Interruptor_C (Interruptor)
+[2017.12.03-12.01.15:874][389]BlueprintLog: New page: Compile Interruptor
+[2017.12.03-12.01.24:825][816]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder)
+[2017.12.03-12.01.39:369][520]LogSavePackage: Save=1886.80ms
+[2017.12.03-12.01.39:369][520]LogSavePackage: Moving 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/ThirdPersonExampleMap03DC384A4B817209BC816187C98583A8.tmp' to 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.12.03-12.01.39:373][520]LogSavePackage:Display: Finished SavePackage D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.12.03-12.01.40:393][520]LogSavePackage: Save=760.74ms
+[2017.12.03-12.01.40:393][520]LogSavePackage: Moving 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/ThirdPersonExampleMap_BuiltData399AC4B940476C20D2817098034BEFDF.tmp' to 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2017.12.03-12.01.40:400][520]LogSavePackage:Display: Finished SavePackage D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2017.12.03-12.01.46:768][865]LogContentBrowser: Native class hierarchy updated for 'Matinee' in 0.0010 seconds. Added 15 classes and 2 folders.
+[2017.12.03-12.01.46:779][865]LogInit: Transaction tracking system initialized
+[2017.12.03-12.01.46:794][865]EditorErrors: New page: Matinee Initialization
+[2017.12.03-12.02.03:001][475]LogEditorViewport: Clicking on Actor (LMB): Interruptor_C (Interruptor)
+[2017.12.03-12.02.03:814][512]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder)
+[2017.12.03-12.02.31:728][652]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder)
+[2017.12.03-12.03.16:142][816]LogEditorViewport: Clicking on Actor (LMB): Interruptor_C (Interruptor)
+[2017.12.03-12.03.20:337][ 57]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (MatineeActor)
+[2017.12.03-12.03.25:257][266]LogInit: Transaction tracking system initialized
+[2017.12.03-12.03.25:257][266]EditorErrors: New page: Matinee Initialization
+[2017.12.03-12.03.40:459][ 80]LogEditorViewport: Clicking on Actor (LMB): Interruptor_C (Interruptor)
+[2017.12.03-12.03.45:980][297]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (MatineeInterruptor)
+[2017.12.03-12.03.53:383][572]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (MatineeInterruptor)
+[2017.12.03-12.04.25:035][713]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x300)
+[2017.12.03-12.04.26:343][782]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2017.12.03-12.04.27:097][820]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x300)
+[2017.12.03-12.04.27:893][860]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x300)
+[2017.12.03-12.04.30:124][961]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorIV91)
+[2017.12.03-12.04.31:041][  5]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorIV91)
+[2017.12.03-12.04.31:518][ 26]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorIV91)
+[2017.12.03-12.04.32:070][ 53]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorIV91)
+[2017.12.03-12.04.36:650][282]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x300)
+[2017.12.03-12.04.37:270][313]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x300)
+[2017.12.03-12.04.37:749][339]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x300)
+[2017.12.03-12.04.41:945][552]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorIV91)
+[2017.12.03-12.04.43:496][637]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2017.12.03-12.05.30:047][ 95]LogEditorViewport: Clicking on Actor (LMB): Ascensor_C (Ascensor)
+[2017.12.03-12.07.00:193][333]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.849 s
+[2017.12.03-12.07.00:193][333]LogOutputDevice:Error: === Handled ensure: ===
+[2017.12.03-12.07.00:193][333]LogOutputDevice:Error: 
+[2017.12.03-12.07.00:193][333]LogOutputDevice:Error: Ensure condition failed: ToPin->LinkedTo.Contains(this) [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Runtime\Engine\Private\EdGraph\EdGraphPin.cpp] [Line: 333]
+[2017.12.03-12.07.00:193][333]LogOutputDevice:Error: UEdGraphPin::BreakLinkTo Pin 'Delegate' on node 'Bind Event to MiSuceso' not reciprocally linked with pin 'OutputDelegate' on node 'Evento_MiSuceso'
+[2017.12.03-12.07.00:193][333]LogOutputDevice:Error: Stack: 
+[2017.12.03-12.07.00:193][333]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000004F68E2B6
+[2017.12.03-12.07.00:193][333]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000004F43B8C2
+[2017.12.03-12.07.00:193][333]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000004F451E86
+[2017.12.03-12.07.00:193][333]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000032DAFFB3
+[2017.12.03-12.07.00:193][333]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000032DAFDF4
+[2017.12.03-12.07.00:193][333]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000032DAF985
+[2017.12.03-12.07.00:193][333]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000003BF31FDF
+[2017.12.03-12.07.00:193][333]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000003C10D029
+[2017.12.03-12.07.00:193][333]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000003BF1A603
+[2017.12.03-12.07.00:193][333]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000315945FD
+[2017.12.03-12.07.00:193][333]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000315943DF
+[2017.12.03-12.07.00:193][333]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x0000000031520991
+[2017.12.03-12.07.00:193][333]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000315255D6
+[2017.12.03-12.07.00:193][333]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000048D8EB50
+[2017.12.03-12.07.00:193][333]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000048DD3D60
+[2017.12.03-12.07.00:193][333]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000303EFD7D
+[2017.12.03-12.07.00:193][333]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000048D79021
+[2017.12.03-12.07.00:193][333]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000048D4840E
+[2017.12.03-12.07.00:193][333]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000048D4A006
+[2017.12.03-12.07.00:193][333]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000048DD55AD
+[2017.12.03-12.07.00:193][333]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000048DC6518
+[2017.12.03-12.07.00:193][333]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000004F68149C
+[2017.12.03-12.07.00:193][333]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000004F66B7D1
+[2017.12.03-12.07.00:193][333]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000004F6833DB
+[2017.12.03-12.07.00:193][333]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000004F667B22
+[2017.12.03-12.07.00:193][333]LogOutputDevice:Error: USER32.dll!0x0000000080F2B85D
+[2017.12.03-12.07.00:193][333]LogOutputDevice:Error: USER32.dll!0x0000000080F2B1EF
+[2017.12.03-12.07.00:193][333]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000004F683CE6
+[2017.12.03-12.07.00:193][333]LogOutputDevice:Error: UE4Editor.exe!0x000000003073DB44
+[2017.12.03-12.07.00:193][333]LogOutputDevice:Error: UE4Editor.exe!0x000000003072F0B0
+[2017.12.03-12.07.00:193][333]LogOutputDevice:Error: UE4Editor.exe!0x000000003072F12A
+[2017.12.03-12.07.00:193][333]LogOutputDevice:Error: UE4Editor.exe!0x0000000030740CF9
+[2017.12.03-12.07.00:193][333]LogOutputDevice:Error: UE4Editor.exe!0x00000000307425F7
+[2017.12.03-12.07.00:193][333]LogOutputDevice:Error: KERNEL32.DLL!0x0000000083851FE4
+[2017.12.03-12.07.00:193][333]LogOutputDevice:Error: ntdll.dll!0x0000000083A4EF91
+[2017.12.03-12.07.00:193][333]LogOutputDevice:Error: 
+[2017.12.03-12.07.00:201][333]LogStats:                SubmitErrorReport -  0.000 s
