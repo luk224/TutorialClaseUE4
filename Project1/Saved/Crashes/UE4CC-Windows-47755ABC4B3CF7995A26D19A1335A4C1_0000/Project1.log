@@ -1,0 +1,371 @@
+﻿Log file open, 12/07/17 12:08:21
+LogInit:Display: Running engine for game: Project1
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-253906412) SRandInit(-253906412).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.137282
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.12.07-11.08.21:794][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.07-11.08.21:794][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.12.07-11.08.21:843][  0]LogInit: Computer: MSI-ANDRES
+[2017.12.07-11.08.21:843][  0]LogInit: User: lukin
+[2017.12.07-11.08.21:843][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.12.07-11.08.21:843][  0]LogInit: High frequency timer resolution =2.630631 MHz
+[2017.12.07-11.08.21:843][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.12.07-11.08.21:844][  0]LogMemory: Platform Memory Stats for Windows
+[2017.12.07-11.08.21:844][  0]LogMemory: Process Physical Memory: 279.02 MB used, 279.02 MB peak
+[2017.12.07-11.08.21:844][  0]LogMemory: Process Virtual Memory: 260.86 MB used, 260.86 MB peak
+[2017.12.07-11.08.21:844][  0]LogMemory: Physical Memory: 6146.38 MB used,  10152.49 MB free, 16298.87 MB total
+[2017.12.07-11.08.21:844][  0]LogMemory: Virtual Memory: 677.16 MB used,  10152.49 MB free, 134217728.00 MB total
+[2017.12.07-11.08.21:919][  0]LogInit: Overriding language with editor language configuration option (en).
+[2017.12.07-11.08.21:919][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2017.12.07-11.08.22:885][  0]LogD3D11RHI: D3D11 adapters:
+[2017.12.07-11.08.22:930][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970M' (Feature Level 11_0)
+[2017.12.07-11.08.22:930][  0]LogD3D11RHI:       3040/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.12.07-11.08.22:936][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 5600' (Feature Level 11_0)
+[2017.12.07-11.08.22:936][  0]LogD3D11RHI:       128/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.12.07-11.08.22:938][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.12.07-11.08.22:938][  0]LogD3D11RHI:       0/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.12.07-11.08.22:938][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.12.07-11.08.22:944][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.12.07-11.08.22:944][  0]LogD3D11RHI:     GPU DeviceId: 0x13d8 (for the marketing name, search the web for "GPU Device Id")
+[2017.12.07-11.08.22:944][  0]LogWindows: EnumDisplayDevices:
+[2017.12.07-11.08.22:944][  0]LogWindows:    0. 'Intel(R) HD Graphics 5600' (P:1 D:1)
+[2017.12.07-11.08.22:944][  0]LogWindows:    1. 'Intel(R) HD Graphics 5600' (P:0 D:0)
+[2017.12.07-11.08.22:944][  0]LogWindows:    2. 'Intel(R) HD Graphics 5600' (P:0 D:0)
+[2017.12.07-11.08.22:945][  0]LogWindows:    3. 'Intel(R) HD Graphics 5600' (P:0 D:0)
+[2017.12.07-11.08.22:945][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.12.07-11.08.22:945][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970M
+[2017.12.07-11.08.22:945][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.12.07-11.08.22:945][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.12.07-11.08.22:945][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.12.07-11.08.22:967][  0]LogD3D11RHI: Async texture creation enabled
+[2017.12.07-11.08.22:982][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.12.07-11.08.22:983][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Intermediate/Shaders/WorkingDirectory/2420/).
+[2017.12.07-11.08.22:983][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/lukin/AppData/Local/Temp/UnrealShaderWorkingDir/04814FC64C9EDB69F7306E8CAAF9EA8B/'.
+[2017.12.07-11.08.22:983][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.12.07-11.08.24:387][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.12.07-11.08.24:454][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.12.07-11.08.24:510][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.12.07-11.08.24:604][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.12.07-11.08.24:731][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.12.07-11.08.24:787][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.12.07-11.08.24:841][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.12.07-11.08.24:901][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.12.07-11.08.24:972][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.12.07-11.08.25:320][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.12.07-11.08.25:387][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.12.07-11.08.25:453][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.12.07-11.08.25:521][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.12.07-11.08.25:592][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.12.07-11.08.25:648][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.12.07-11.08.25:766][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.12.07-11.08.25:766][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.12.07-11.08.25:811][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.12.07-11.08.25:912][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.12.07-11.08.25:945][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.12.07-11.08.26:006][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.12.07-11.08.26:060][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.12.07-11.08.26:112][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.12.07-11.08.26:167][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.12.07-11.08.26:167][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.12.07-11.08.26:780][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.12.07-11.08.26:868][  0]LogDerivedDataCache: Loaded boot cache 0.09s 90MB C:/Users/lukin/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.12.07-11.08.26:868][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/lukin/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.12.07-11.08.26:868][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.12.07-11.08.26:868][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.12.07-11.08.26:868][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.12.07-11.08.26:868][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.12.07-11.08.26:883][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.12.07-11.08.26:895][  0]LogDerivedDataCache: Using Local data cache path C:/Users/lukin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.12.07-11.08.26:905][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.12.07-11.08.26:906][  0]LogSlate: Using Freetype 2.6.0
+[2017.12.07-11.08.26:906][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.07-11.08.26:906][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.07-11.08.27:258][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.07-11.08.27:356][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.12.07-11.08.27:528][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.12.07-11.08.27:587][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.12.07-11.08.27:644][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.12.07-11.08.27:644][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.12.07-11.08.27:644][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.12.07-11.08.28:333][  0]LogNetVersion: Project1 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3220768879)
+[2017.12.07-11.08.28:410][  0]LogAssetRegistry: FAssetRegistry took 0.0268 seconds to start up
+[2017.12.07-11.08.28:539][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.099983 seconds
+[2017.12.07-11.08.28:547][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.12.07-11.08.28:547][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.12.07-11.08.28:547][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.12.07-11.08.28:622][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.12.07-11.08.31:251][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.12.07-11.08.31:312][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.12.07-11.08.31:921][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.12.07-11.08.32:394][  0]SourceControl: Info Source control is disabled
+[2017.12.07-11.08.32:559][  0]SourceControl: Info Source control is disabled
+[2017.12.07-11.08.32:625][  0]SourceControl: Info Source control is disabled
+[2017.12.07-11.08.32:691][  0]SourceControl: Info Source control is disabled
+[2017.12.07-11.08.33:492][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.12.07-11.08.34:214][  0]LogEngine: Initializing Engine...
+[2017.12.07-11.08.34:214][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.12.07-11.08.34:432][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.12.07-11.08.34:432][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.12.07-11.08.34:585][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.12.07-11.08.34:593][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.07-11.08.34:649][  0]LogInit: FAudioDevice initialized.
+[2017.12.07-11.08.34:694][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/lukin/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.12.07-11.08.34:706][  0]LogInit: Texture streaming: Enabled
+[2017.12.07-11.08.34:825][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.12.07-11.08.35:081][  0]LogInit: Transaction tracking system initialized
+[2017.12.07-11.08.35:457][  0]BlueprintLog: New page: Editor Load
+[2017.12.07-11.08.36:577][  0]LocalizationService: Info Localization service is disabled
+[2017.12.07-11.08.37:395][  0]LogConsoleResponse:Display: 
+[2017.12.07-11.08.37:688][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.12.07-11.08.37:688][  0]LogCook:Display: Mobile HDR setting 1
+[2017.12.07-11.08.38:696][  0]LogFileCache: Scanning file cache for directory 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/' took 0.02s
+[2017.12.07-11.08.39:185][  0]SourceControl: Info Source control is disabled
+[2017.12.07-11.08.39:185][  0]Cmd: MAP LOAD FILE="D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.07-11.08.39:185][  0]LightingResults: New page: Lighting Build
+[2017.12.07-11.08.39:229][  0]MapCheck: New page: Map Check
+[2017.12.07-11.08.39:229][  0]LightingResults: New page: Lighting Build
+[2017.12.07-11.08.57:309][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.12.07-11.08.57:704][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.07-11.08.57:729][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.07-11.08.57:801][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 71.373ms to complete.
+[2017.12.07-11.08.57:801][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 18.616
+[2017.12.07-11.08.58:584][  0]LogCollectionManager: Loaded 0 collections in 0.002045 seconds
+[2017.12.07-11.08.58:803][  0]LogFileCache: Scanning file cache for directory 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/Collections/' took 0.01s
+[2017.12.07-11.08.58:803][  0]LogFileCache: Scanning file cache for directory 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/Developers/lukin/Collections/' took 0.01s
+[2017.12.07-11.08.58:803][  0]LogFileCache: Scanning file cache for directory 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/Collections/' took 0.01s
+[2017.12.07-11.08.58:803][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.12.07-11.08.58:839][  0]LogContentBrowser: Native class hierarchy populated in 0.0337 seconds. Added 2329 classes and 491 folders.
+[2017.12.07-11.08.59:004][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0083 seconds. Added 0 classes and 0 folders.
+[2017.12.07-11.09.00:776][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.12.07-11.09.00:909][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.12.07-11.09.01:308][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.12.07-11.09.01:375][  0]LogSlate: Took 0.000350 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.07-11.09.01:378][  0]LogSlate: Took 0.000330 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.12.07-11.09.01:422][  0]LogSlate: Took 0.038343 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.12.07-11.09.01:825][  0]LogRenderer: Reallocating scene render targets to support 1048x408 NumSamples 1 (Frame:1).
+[2017.12.07-11.09.02:299][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.12.07-11.09.02:375][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.12.07-11.09.02:375][  0]LogLoad: (Engine Initialization) Total time: 43.50 seconds
+[2017.12.07-11.09.02:375][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.53 seconds
+[2017.12.07-11.09.02:375][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.12.07-11.09.02:375][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.12.07-11.09.02:715][  0]LogOcInput: OculusInput pre-init called
+[2017.12.07-11.09.02:715][  0]LogHMD: Starting GearVRController plugin
+[2017.12.07-11.09.02:796][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.12.07-11.09.02:930][  0]LogSlate: Took 0.019478 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.07-11.09.03:229][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.12.07-11.09.03:410][  2]LogAssetRegistry: Asset discovery search completed in 35.0220 seconds
+[2017.12.07-11.09.03:412][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000000 seconds (updated 0 objects)
+[2017.12.07-11.09.03:755][  3]LogSlate: Took 0.000346 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.07-11.10.47:786][356]LogSlate: Took 0.000203 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.07-11.10.48:374][356]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 112 classes and 0 folders.
+[2017.12.07-11.10.50:041][356]LogSlate: Took 0.013087 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.12.07-11.11.17:164][628]LogRenderer: Reallocating scene render targets to support 1048x412 NumSamples 1 (Frame:1006).
+[2017.12.07-11.11.17:242][629]LogRenderer: Reallocating scene render targets to support 1048x440 NumSamples 1 (Frame:1008).
+[2017.12.07-11.11.17:317][630]LogRenderer: Reallocating scene render targets to support 1048x488 NumSamples 1 (Frame:1010).
+[2017.12.07-11.11.17:432][631]LogRenderer: Reallocating scene render targets to support 1048x516 NumSamples 1 (Frame:1012).
+[2017.12.07-11.11.17:510][632]LogRenderer: Reallocating scene render targets to support 1048x560 NumSamples 1 (Frame:1014).
+[2017.12.07-11.11.17:581][633]LogRenderer: Reallocating scene render targets to support 1048x572 NumSamples 1 (Frame:1016).
+[2017.12.07-11.11.47:107][213]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (botonRojo)
+[2017.12.07-11.11.49:685][280]LogEditorViewport: Clicking on Actor (LMB): Interruptor_C (Interruptor)
+[2017.12.07-11.11.51:276][352]LogSlate: Took 0.021639 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.12.07-11.12.40:031][414]LogEditorViewport: Clicking on Actor (LMB): plataformaInterfaceada_C (plataformaInterfaceada)
+[2017.12.07-11.13.07:572][ 56]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (botonRojo)
+[2017.12.07-11.13.08:492][111]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallIV29)
+[2017.12.07-11.13.09:288][161]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallIV29)
+[2017.12.07-11.13.09:956][196]LogEditorViewport: Clicking on Actor (LMB): Interruptor_C (Interruptor)
+[2017.12.07-11.13.21:631][954]LogEditorViewport: Clicking on Actor (LMB): plataformaInterfaceada_C (plataformaInterfaceada)
+[2017.12.07-11.14.07:398][812]LogEditorViewport: Clicking on Actor (LMB): Interruptor_C (Interruptor)
+[2017.12.07-11.14.39:660][888]LogEditorTransaction: Undo Delete current selection
+[2017.12.07-11.14.39:878][904]LogEditorTransaction: Undo Paste clipboard contents
+[2017.12.07-11.14.40:092][920]LogEditorTransaction: Undo Move Node
+[2017.12.07-11.14.40:303][939]LogEditorTransaction: Undo Paste clipboard contents
+[2017.12.07-11.14.40:557][964]LogEditorTransaction: Undo Paste clipboard contents
+[2017.12.07-11.14.40:806][989]LogEditorTransaction: Undo Paste clipboard contents
+[2017.12.07-11.14.41:519][ 70]LogEditorTransaction: Undo Move Nodes
+[2017.12.07-11.14.42:251][153]LogEditorTransaction: Undo Move Nodes
+[2017.12.07-11.14.43:104][251]LogEditorTransaction: Undo Paste clipboard contents
+[2017.12.07-11.14.53:493][419]BlueprintLog: New page: Compile Interruptor
+[2017.12.07-11.15.17:028][637]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.12.07-11.15.17:284][637]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.12.07-11.15.17:285][637]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.07-11.15.17:434][637]PIE: New page: PIE session: ThirdPersonExampleMap (Dec 7, 2017, 1:15:17 PM)
+[2017.12.07-11.15.17:466][637]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.12.07-11.15.17:546][637]LogPlayLevel: PIE: StaticDuplicateObject took: (0.079646s)
+[2017.12.07-11.15.17:547][637]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.12.07-11.15.17:547][637]LogPlayLevel: PIE: World Init took: (0.001373s)
+[2017.12.07-11.15.17:548][637]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.081544s)
+[2017.12.07-11.15.17:603][637]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.07-11.15.17:644][637]LogInit: FAudioDevice initialized.
+[2017.12.07-11.15.17:831][637]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.12.07-11.15.17:893][637]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.12.07-12.15.17
+[2017.12.07-11.15.17:914][637]LogWorld: Bringing up level for play took: 0.050468
+[2017.12.07-11.15.18:110][637]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2017.12.07-11.15.18:273][637]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.395
+[2017.12.07-11.15.18:274][637]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.12.07-11.15.18:361][637]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:1).
+[2017.12.07-11.15.27:454][ 24]LogBlueprintUserMessages: [ThirdPersonCharacter_167] 1
+[2017.12.07-11.15.37:647][458]LogBlueprintUserMessages: [Liquido_BP] 0.0
+[2017.12.07-11.15.38:196][482]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.12.07-11.15.38:313][482]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.12.07-11.15.54:128][333]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint2)
+[2017.12.07-11.15.55:477][399]LogEditorViewport: Clicking on Actor (CTRL LMB): plataformaInterfaceada_C (plataformaInterfaceada)
+[2017.12.07-11.15.56:530][453]Cmd: TRANSACTION UNDO
+[2017.12.07-11.15.56:530][453]LogEditorTransaction: Undo Clicking on Actors
+[2017.12.07-11.15.58:843][532]LogEditorViewport: Clicking on Actor (CTRL LMB): TargetPoint (TargetPLataformaInterfaceada)
+[2017.12.07-11.16.05:761][833]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint2)
+[2017.12.07-11.16.09:774][ 22]LogEditorViewport: Clicking on Actor (LMB): plataformaInterfaceada_C (plataformaInterfaceada)
+[2017.12.07-11.16.12:398][124]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPLataformaInterfaceada)
+[2017.12.07-11.16.17:721][366]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.12.07-11.16.17:761][366]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.12.07-11.16.17:761][366]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.07-11.16.17:761][366]PIE: New page: PIE session: ThirdPersonExampleMap (Dec 7, 2017, 1:16:17 PM)
+[2017.12.07-11.16.17:762][366]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.12.07-11.16.17:830][366]LogPlayLevel: PIE: StaticDuplicateObject took: (0.068455s)
+[2017.12.07-11.16.17:831][366]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.12.07-11.16.17:832][366]LogPlayLevel: PIE: World Init took: (0.001557s)
+[2017.12.07-11.16.17:832][366]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.070579s)
+[2017.12.07-11.16.17:871][366]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.07-11.16.17:946][366]LogInit: FAudioDevice initialized.
+[2017.12.07-11.16.18:060][366]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.12.07-11.16.18:111][366]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.12.07-12.16.18
+[2017.12.07-11.16.18:114][366]LogWorld: Bringing up level for play took: 0.050047
+[2017.12.07-11.16.18:140][366]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.262
+[2017.12.07-11.16.18:141][366]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.12.07-11.16.20:633][461]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.12.07-11.16.20:743][461]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.12.07-11.16.22:763][544]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint2)
+[2017.12.07-11.16.25:037][648]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.12.07-11.16.25:070][648]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.12.07-11.16.25:070][648]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.07-11.16.25:070][648]PIE: New page: PIE session: ThirdPersonExampleMap (Dec 7, 2017, 1:16:25 PM)
+[2017.12.07-11.16.25:070][648]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.12.07-11.16.25:145][648]LogPlayLevel: PIE: StaticDuplicateObject took: (0.074855s)
+[2017.12.07-11.16.25:147][648]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.12.07-11.16.25:148][648]LogPlayLevel: PIE: World Init took: (0.002662s)
+[2017.12.07-11.16.25:149][648]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.078415s)
+[2017.12.07-11.16.25:201][648]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.07-11.16.25:280][648]LogInit: FAudioDevice initialized.
+[2017.12.07-11.16.25:396][648]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.12.07-11.16.25:444][648]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.12.07-12.16.25
+[2017.12.07-11.16.25:446][648]LogWorld: Bringing up level for play took: 0.046204
+[2017.12.07-11.16.25:473][648]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.405
+[2017.12.07-11.16.25:474][648]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.12.07-11.16.33:994][ 15]LogBlueprintUserMessages: [ThirdPersonCharacter_167] 1
+[2017.12.07-11.16.46:519][552]LogBlueprintUserMessages: [ThirdPersonCharacter_167] 2
+[2017.12.07-11.16.46:864][565]LogBlueprintUserMessages: [Liquido_BP] 0.0
+[2017.12.07-11.16.47:687][598]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.12.07-11.16.47:818][598]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.12.07-11.16.52:409][799]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPLataformaInterfaceada)
+[2017.12.07-11.16.59:160][ 29]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MisBP/Interruptor" FILE="D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/Interruptor.uasset" SILENT=true
+[2017.12.07-11.16.59:367][ 29]LogSavePackage: Save=91.80ms
+[2017.12.07-11.16.59:367][ 29]LogSavePackage: Moving 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/InterruptorEF2AD51A4200691B293755A09907D325.tmp' to 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/Interruptor.uasset'
+[2017.12.07-11.16.59:394][ 29]LogSavePackage:Display: Finished SavePackage D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/Interruptor.uasset
+[2017.12.07-11.16.59:442][ 29]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MisBP/plataformaInterfaceada" FILE="D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/plataformaInterfaceada.uasset" SILENT=true
+[2017.12.07-11.16.59:580][ 29]LogSavePackage: Save=125.27ms
+[2017.12.07-11.16.59:580][ 29]LogSavePackage: Moving 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/plataformaInterfaceada51032F10450284719D6A06ADFAF05E7B.tmp' to 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/plataformaInterfaceada.uasset'
+[2017.12.07-11.16.59:583][ 29]LogSavePackage:Display: Finished SavePackage D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/MisBP/plataformaInterfaceada.uasset
+[2017.12.07-11.17.01:946][ 29]LogSavePackage: Save=2114.64ms
+[2017.12.07-11.17.01:946][ 29]LogSavePackage: Moving 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Saved/ThirdPersonExampleMapC3ED99654D729FCCB87C4CA24DDF6341.tmp' to 'D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.12.07-11.17.01:952][ 29]LogSavePackage:Display: Finished SavePackage D:/Univerdad/3o/iv/Repository/TutorialClaseUE4/Project1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.12.07-11.17.02:019][ 29]LogSlate: Took 0.000315 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.07-11.17.02:028][ 29]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 2.437
+[2017.12.07-11.19.11:065][906]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wallIV61)
+[2017.12.07-11.19.11:864][947]LogEditorViewport: Clicking on Actor (LMB): TargetLimSup_Blueprint_C (TargetLimSup_Blueprint10)
+[2017.12.07-11.19.12:405][972]LogEditorViewport: Clicking on Actor (CTRL LMB): Obstáculo_C (Obstáculo6)
+[2017.12.07-11.19.14:814][ 76]LogEditorViewport: Clicking on Actor (CTRL LMB): TargetLimInf_Blueprint_C (TargetLimInf_Blueprint10)
+[2017.12.07-11.19.16:039][138]Cmd: DELETE
+[2017.12.07-11.19.16:039][138]Cmd: ACTOR DELETE
+[2017.12.07-11.19.31:755][138]LogEditorActor: Deleted Actor: TargetLimSup_Blueprint_C
+[2017.12.07-11.19.31:758][138]LogEditorActor: Deleted Actor: Obstáculo_C
+[2017.12.07-11.19.31:760][138]LogEditorActor: Deleted Actor: TargetLimInf_Blueprint_C
+[2017.12.07-11.19.31:800][138]LogEditorActor: Deleted 3 Actors (15.706 secs)
+[2017.12.07-11.19.34:554][262]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorIV94)
+[2017.12.07-11.20.02:069][601]LogEditorViewport: Clicking on Actor (LMB): Interruptor_C (Interruptor)
+[2017.12.07-11.21.37:540][551]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.12.07-11.23.07:165][847]LogEditorViewport: Clicking on Actor (LMB): Obstáculo_C (Obstáculo)
+[2017.12.07-11.23.21:753][341]LogUObjectBase:Warning: Object is not registered
+[2017.12.07-11.23.22:286][341]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.533 s
+[2017.12.07-11.23.22:286][341]LogOutputDevice:Error: === Handled ensure: ===
+[2017.12.07-11.23.22:286][341]LogOutputDevice:Error: 
+[2017.12.07-11.23.22:286][341]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1037]
+[2017.12.07-11.23.22:286][341]LogOutputDevice:Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2017.12.07-11.23.22:286][341]LogOutputDevice:Error: Stack: 
+[2017.12.07-11.23.22:286][341]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000507CE2B6
+[2017.12.07-11.23.22:286][341]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000005057B8C2
+[2017.12.07-11.23.22:286][341]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000050591E86
+[2017.12.07-11.23.22:286][341]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000004AC27556
+[2017.12.07-11.23.22:286][341]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x000000004879D27B
+[2017.12.07-11.23.22:286][341]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x0000000047E424AA
+[2017.12.07-11.23.22:286][341]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x0000000047CE72CC
+[2017.12.07-11.23.22:286][341]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x0000000047CEA6D9
+[2017.12.07-11.23.22:286][341]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x0000000047E08035
+[2017.12.07-11.23.22:286][341]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000004FEEDB57
+[2017.12.07-11.23.22:286][341]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000004FEF4B61
+[2017.12.07-11.23.22:286][341]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000501148D3
+[2017.12.07-11.23.22:286][341]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000004FF4F604
+[2017.12.07-11.23.22:286][341]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000004FF277FC
+[2017.12.07-11.23.22:286][341]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000004FF1814C
+[2017.12.07-11.23.22:286][341]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000507C15B0
+[2017.12.07-11.23.22:286][341]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000507AB7D1
+[2017.12.07-11.23.22:286][341]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000507C33DB
+[2017.12.07-11.23.22:286][341]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000507A7B22
+[2017.12.07-11.23.22:286][341]LogOutputDevice:Error: USER32.dll!0x0000000089CFB85D
+[2017.12.07-11.23.22:286][341]LogOutputDevice:Error: USER32.dll!0x0000000089CFB1EF
+[2017.12.07-11.23.22:286][341]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000507C3CE6
+[2017.12.07-11.23.22:286][341]LogOutputDevice:Error: UE4Editor.exe!0x00000000953ADB44
+[2017.12.07-11.23.22:286][341]LogOutputDevice:Error: UE4Editor.exe!0x000000009539F0B0
+[2017.12.07-11.23.22:286][341]LogOutputDevice:Error: UE4Editor.exe!0x000000009539F12A
+[2017.12.07-11.23.22:286][341]LogOutputDevice:Error: UE4Editor.exe!0x00000000953B0CF9
+[2017.12.07-11.23.22:286][341]LogOutputDevice:Error: UE4Editor.exe!0x00000000953B25F7
+[2017.12.07-11.23.22:286][341]LogOutputDevice:Error: KERNEL32.DLL!0x000000008A1B1FE4
+[2017.12.07-11.23.22:286][341]LogOutputDevice:Error: ntdll.dll!0x000000008B9EEF91
+[2017.12.07-11.23.22:286][341]LogOutputDevice:Error: 
+[2017.12.07-11.23.22:288][341]LogStats:                SubmitErrorReport -  0.000 s
